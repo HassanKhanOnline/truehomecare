@@ -1,0 +1,10 @@
+{
+  "name": "truehomecare",
+  "private": true,
+  "description": "Root proxy so hosts that build from the repo root build the Astro app in site/.",
+  "scripts": {
+    "build": "npm install --prefix site && npm run build --prefix site",
+    "dev": "npm run dev --prefix site",
+    "preview": "npm run preview --prefix site"
+  }
+}
