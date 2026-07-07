@@ -1,0 +1,7 @@
+# Cloudflare Workers static-assets deploy config.
+# `npm run build` outputs the Astro site to site/dist, which is served as static assets.
+name = "truehomecare"
+compatibility_date = "2025-06-01"
+
+[assets]
+directory = "./site/dist"
