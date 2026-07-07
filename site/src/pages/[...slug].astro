@@ -27,6 +27,7 @@ const body = bodies['../mirror/pages/' + page.file];
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>{page.title}</title>
     {page.description && <meta name="description" content={page.description} />}
     {cssList.map((href: string) => <link rel="stylesheet" href={href} />)}
