@@ -12,7 +12,7 @@ def set_text(el, text):
 
 def set_html(el, html):
     el.clear()
-    for node in BeautifulSoup(html, 'html.parser').contents:
+    for node in list(BeautifulSoup(html, 'html.parser').contents):
         el.append(node)
 
 def sel1(css):

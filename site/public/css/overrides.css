@@ -1,0 +1,19 @@
+/* True Homecare — small overrides layered on top of the mirrored theme CSS. */
+
+/* Equal-height images for the "Related / Complementary" care-option cards
+   (e.g. under "Dementia Related Services Available"). */
+.care-option-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+}
+.care-option-image img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  border-radius: 18px;
+}
+@media (max-width: 576px) {
+  .care-option-image img { height: 200px; }
+}

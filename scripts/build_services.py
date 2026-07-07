@@ -22,7 +22,7 @@ def build(cfg):
     def set_text(el, t): el.clear(); el.append(t)
     def set_html(el, html):
         el.clear()
-        for n in BeautifulSoup(html, 'html.parser').contents: el.append(n)
+        for n in list(BeautifulSoup(html, 'html.parser').contents): el.append(n)
     def one(css):
         e = soup.select_one(css); assert e, 'missing ' + css; return e
     def many(css, n):

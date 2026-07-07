@@ -31,6 +31,7 @@ const body = bodies['../mirror/pages/' + page.file];
     <title>{page.title}</title>
     {page.description && <meta name="description" content={page.description} />}
     {cssList.map((href: string) => <link rel="stylesheet" href={href} />)}
+    <link rel="stylesheet" href="/css/overrides.css" />
   </head>
   <body class="page wp-theme-understrap wp-child-theme-understrap-child understrap-has-sidebar">
     <Fragment set:html={body} />
