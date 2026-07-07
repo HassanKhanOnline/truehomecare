@@ -1,0 +1,40 @@
+---
+// Catch-all route: renders every mirrored live page from the manifest.
+import manifest from '../data/mirror-manifest.json';
+import cssList from '../data/mirror-css.json';
+
+const bodies = import.meta.glob('../mirror/pages/*.html', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+}) as Record<string, string>;
+
+export function getStaticPaths() {
+  const manifest = (import.meta.glob('../data/mirror-manifest.json', { eager: true }) as any)[
+    '../data/mirror-manifest.json'
+  ].default;
+  return manifest.map((p: any) => ({
+    params: { slug: p.route.replace(/^\/|\/$/g, '') },
+    props: { page: p },
+  }));
+}
+
+const { page } = Astro.props as { page: { route: string; title: string; description: string; file: string } };
+const body = bodies['../mirror/pages/' + page.file];
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{page.title}</title>
+    {page.description && <meta name="description" content={page.description} />}
+    {cssList.map((href: string) => <link rel="stylesheet" href={href} />)}
+  </head>
+  <body class="page wp-theme-understrap wp-child-theme-understrap-child understrap-has-sidebar">
+    <Fragment set:html={body} />
+    <script is:inline src="/js/bootstrap.bundle.min.js"></script>
+    <script is:inline src="/js/swiper-bundle.min.js"></script>
+    <script is:inline src="/js/site-interactions.js"></script>
+  </body>
+</html>

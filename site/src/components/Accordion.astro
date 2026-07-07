@@ -1,0 +1,27 @@
+---
+interface Props { items: { q: string; a: string }[] }
+const { items } = Astro.props;
+---
+<div class="accordion">
+  {items.map((item, i) => (
+    <details class="accordion__item" open={i === 0}>
+      <summary>{item.q}<span class="accordion__icon">▾</span></summary>
+      <div class="accordion__body"><p>{item.a}</p></div>
+    </details>
+  ))}
+</div>
+<style>
+  .accordion { max-width: 860px; margin: 0 auto; }
+  .accordion__item { background: var(--cream); border-radius: 6px; margin-bottom: 12px; overflow: hidden; }
+  summary {
+    list-style: none; cursor: pointer; padding: 16px 20px; font-weight: 600; color: var(--ink);
+    display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 0.98rem;
+  }
+  summary::-webkit-details-marker { display: none; }
+  .accordion__icon { color: var(--green); transition: transform 0.2s; flex-shrink: 0; }
+  details[open] .accordion__icon { transform: rotate(180deg); }
+  .accordion__body { padding: 0 20px 18px; }
+  .accordion__body p { margin: 0; color: var(--body); font-size: 0.94rem; }
+  details[open] summary { background: var(--green); color: #fff; }
+  details[open] summary .accordion__icon { color: #fff; }
+</style>

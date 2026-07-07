@@ -1,0 +1,21 @@
+---
+interface Props { title: string; slug: string; blurb: string; light?: boolean }
+const { title, slug, blurb, light = false } = Astro.props;
+---
+<a href={`/services/${slug}/`} class={`scard ${light ? 'scard--light' : ''}`}>
+  <div class="scard__img" aria-hidden="true"></div>
+  <h3 class="scard__title">{title}</h3>
+  <p class="scard__blurb">{blurb}</p>
+</a>
+<style>
+  .scard { display: block; color: inherit; }
+  .scard__img {
+    aspect-ratio: 16 / 10; border-radius: 8px; margin-bottom: 16px;
+    background: linear-gradient(135deg, #d7e6dd, #bcd6c6);
+  }
+  .scard--light .scard__img { background: linear-gradient(135deg, rgba(255,255,255,0.22), rgba(255,255,255,0.08)); }
+  .scard__title { color: #fff; font-size: 1.15rem; margin-bottom: 8px; }
+  .scard--light .scard__title { color: #fff; }
+  .scard__blurb { color: rgba(255,255,255,0.82); font-size: 0.9rem; margin: 0; }
+  .scard:hover .scard__title { color: var(--orange); }
+</style>

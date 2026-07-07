@@ -1,0 +1,6 @@
+---
+// Embeds a Trustindex review widget by its loader id.
+interface Props { id: string }
+const { id } = Astro.props;
+---
+<div class="trustindex" set:html={`<script defer async src='https://cdn.trustindex.io/loader.js?${id}'></script>`}></div>

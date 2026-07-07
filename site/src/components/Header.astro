@@ -1,0 +1,100 @@
+---
+import Logo from './Logo.astro';
+import { site, nav } from '../data/site';
+---
+<div class="topbar">
+  <div class="container topbar__inner">
+    <a href={site.phoneHref} class="topbar__phone">📞 {site.phone}</a>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <Logo />
+
+    <nav class="nav" aria-label="Primary">
+      {nav.map((item) => (
+        <div class={`nav__item ${item.children ? 'has-children' : ''}`}>
+          <a href={item.href} class="nav__link">
+            {item.label}{item.children && <span class="caret">▾</span>}
+          </a>
+          {item.children && (
+            <div class="nav__dropdown">
+              {item.children.map((c) => (
+                <a href={c.href}>{c.label}</a>
+              ))}
+            </div>
+          )}
+        </div>
+      ))}
+    </nav>
+
+    <a href={site.ctaHref} class="btn btn--primary header__cta">{site.ctaLabel}</a>
+
+    <button class="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" hidden>
+    {nav.map((item) => (
+      <div class="mobile-menu__group">
+        <a href={item.href}>{item.label}</a>
+        {item.children && item.children.map((c) => <a class="sub" href={c.href}>{c.label}</a>)}
+      </div>
+    ))}
+    <a href={site.ctaHref} class="btn btn--primary" style="margin-top:12px;">{site.ctaLabel}</a>
+  </div>
+</header>
+
+<style>
+  .topbar { background: var(--green-deep); color: rgba(255,255,255,0.9); font-size: 0.82rem; }
+  .topbar__inner { display: flex; justify-content: flex-end; padding-top: 7px; padding-bottom: 7px; }
+  .topbar__phone { color: #fff; font-weight: 500; }
+  .topbar__phone:hover { color: var(--orange); }
+
+  .header { position: sticky; top: 0; z-index: 50; background: #fff; box-shadow: 0 2px 14px rgba(20,45,35,0.06); }
+  .header__inner { display: flex; align-items: center; gap: 24px; padding-top: 14px; padding-bottom: 14px; }
+
+  .nav { display: flex; gap: 4px; margin-left: auto; }
+  .nav__item { position: relative; }
+  .nav__link { display: inline-flex; align-items: center; gap: 4px; padding: 10px 14px; color: var(--ink); font-weight: 500; font-size: 0.95rem; }
+  .nav__link:hover { color: var(--orange); }
+  .caret { font-size: 0.65rem; opacity: 0.7; }
+
+  .nav__dropdown {
+    position: absolute; top: 100%; left: 0; min-width: 250px; background: #fff;
+    box-shadow: var(--shadow); border-radius: 8px; padding: 8px; opacity: 0; visibility: hidden;
+    transform: translateY(6px); transition: all 0.16s ease; border-top: 3px solid var(--green-logo);
+  }
+  .nav__item.has-children:hover .nav__dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
+  .nav__dropdown a { display: block; padding: 9px 12px; border-radius: 6px; color: var(--body); font-size: 0.9rem; }
+  .nav__dropdown a:hover { background: var(--cream); color: var(--green); }
+
+  .header__cta { margin-left: 4px; }
+
+  .burger { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; margin-left: auto; padding: 6px; }
+  .burger span { width: 26px; height: 3px; background: var(--green); border-radius: 3px; }
+
+  .mobile-menu { display: none; flex-direction: column; padding: 16px 20px 24px; border-top: 1px solid var(--line); }
+  .mobile-menu__group { display: flex; flex-direction: column; }
+  .mobile-menu__group > a { padding: 10px 0; font-weight: 600; color: var(--ink); border-bottom: 1px solid var(--line); }
+  .mobile-menu__group a.sub { padding: 8px 0 8px 16px; font-weight: 400; font-size: 0.9rem; color: var(--body); border: 0; }
+
+  @media (max-width: 1024px) {
+    .nav, .header__cta { display: none; }
+    .burger { display: flex; }
+    .mobile-menu[data-open] { display: flex; }
+  }
+</style>
+
+<script>
+  const burger = document.querySelector('.burger');
+  const menu = document.querySelector('.mobile-menu');
+  burger?.addEventListener('click', () => {
+    const open = menu?.hasAttribute('data-open');
+    if (open) { menu?.removeAttribute('data-open'); menu?.setAttribute('hidden', ''); }
+    else { menu?.setAttribute('data-open', ''); menu?.removeAttribute('hidden'); }
+    burger.setAttribute('aria-expanded', String(!open));
+  });
+</script>

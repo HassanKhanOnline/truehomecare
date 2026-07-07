@@ -1,0 +1,22 @@
+---
+// Text-based brand logo (placeholder until the real logo asset is pulled from the live site).
+interface Props { light?: boolean }
+const { light = false } = Astro.props;
+const top = light ? '#ffffff' : '#2b3a34';
+const bottom = light ? '#ffffff' : 'var(--green-logo)';
+const tag = light ? 'rgba(255,255,255,0.75)' : 'var(--muted)';
+---
+<a href="/" class="logo" aria-label="True Homecare home">
+  <span class="logo__mark" style={`color:var(--green-logo)`}>✓</span>
+  <span class="logo__text">
+    <span style={`color:${top}`}>True</span><span style={`color:${bottom}`}>Homecare</span>
+    <em style={`color:${tag}`}>care you can trust</em>
+  </span>
+</a>
+<style>
+  .logo { display: inline-flex; align-items: center; gap: 6px; }
+  .logo__mark { font-size: 1.4rem; font-weight: 800; line-height: 1; }
+  .logo__text { display: inline-flex; flex-direction: column; line-height: 1.05; }
+  .logo__text > span:first-of-type { font-weight: 700; font-size: 1.35rem; letter-spacing: -0.01em; }
+  .logo__text em { font-style: italic; font-size: 0.62rem; letter-spacing: 0.02em; margin-top: 1px; }
+</style>

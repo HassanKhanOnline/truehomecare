@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- This site is optimized with the Yoast SEO Premium plugin v23.8 (Yoast SEO v26.0) - https://yoast.com/wordpress/plugins/seo/ -->
+<title>True Homecare: In Home Care Services UK | Care You Can Trust</title>
+<meta name="description" content="Experience trustworthy home care services with True Homecare. Our professional team offers personalized support, ensuring comfort &amp; quality care for your loved ones across the UK." />
+<link rel="canonical" href="https://www.truehomecare.co.uk/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Homepage" />
+<meta property="og:description" content="Experience trustworthy home care services with True Homecare. Our professional team offers personalized support, ensuring comfort &amp; quality care for your loved ones across the UK." />
+<meta property="og:url" content="https://www.truehomecare.co.uk/" />
+<meta property="og:site_name" content="True Homecare" />
+<meta property="article:publisher" content="https://www.facebook.com/Truehomecare/" />
+<meta property="article:modified_time" content="2025-10-17T06:49:33+00:00" />
+<meta property="og:image" content="https://www.truehomecare.co.uk/wp-content/uploads/2025/08/truehomecare-logo-1.png" />
+<meta property="og:image:width" content="416" />
+<meta property="og:image:height" content="175" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@truehomecare" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.truehomecare.co.uk/","url":"https://www.truehomecare.co.uk/","name":"True Homecare: In Home Care Services UK | Care You Can Trust","isPartOf":{"@id":"https://www.truehomecare.co.uk/#website"},"about":{"@id":"https://www.truehomecare.co.uk/#organization"},"datePublished":"2024-04-29T12:54:59+00:00","dateModified":"2025-10-17T06:49:33+00:00","description":"Experience trustworthy home care services with True Homecare. Our professional team offers personalized support, ensuring comfort & quality care for your loved ones across the UK.","breadcrumb":{"@id":"https://www.truehomecare.co.uk/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.truehomecare.co.uk/"]}]},{"@type":"BreadcrumbList","@id":"https://www.truehomecare.co.uk/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.truehomecare.co.uk/#website","url":"https://www.truehomecare.co.uk/","name":"True Homecare","description":"In-Home Care Company","publisher":{"@id":"https://www.truehomecare.co.uk/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.truehomecare.co.uk/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.truehomecare.co.uk/#organization","name":"True Homecare","url":"https://www.truehomecare.co.uk/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.truehomecare.co.uk/#/schema/logo/image/","url":"https://www.truehomecare.co.uk/wp-content/uploads/2025/08/truehomecare-logo-1.png","contentUrl":"https://www.truehomecare.co.uk/wp-content/uploads/2025/08/truehomecare-logo-1.png","width":416,"height":175,"caption":"True Homecare"},"image":{"@id":"https://www.truehomecare.co.uk/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Truehomecare/","https://x.com/truehomecare","https://www.linkedin.com/company/true-homecare-limited/"],"legalName":"True Homecare"}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<!-- <link rel='stylesheet' id='mpp_gutenberg-css' href='https://www.truehomecare.co.uk/wp-content/plugins/metronet-profile-picture/dist/blocks.style.build.css?ver=2.6.3' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//www.truehomecare.co.uk/wp-content/cache/wpfc-minified/2ni3g6i5/1x9wk.css" media="all"/>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #0d6efd;--wp--preset--color--indigo: #6610f2;--wp--preset--color--purple: #6f42c1;--wp--preset--color--pink: #d63384;--wp--preset--color--red: #dc3545;--wp--preset--color--orange: #fd7e14;--wp--preset--color--yellow: #ffc107;--wp--preset--color--green: #198754;--wp--preset--color--teal: #20c997;--wp--preset--color--cyan: #0dcaf0;--wp--preset--color--gray: #6c757d;--wp--preset--color--gray-dark: #343a40;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-blue-color{color: var(--wp--preset--color--blue) !important;}.has-indigo-color{color: var(--wp--preset--color--indigo) !important;}.has-purple-color{color: var(--wp--preset--color--purple) !important;}.has-pink-color{color: var(--wp--preset--color--pink) !important;}.has-red-color{color: var(--wp--preset--color--red) !important;}.has-orange-color{color: var(--wp--preset--color--orange) !important;}.has-yellow-color{color: var(--wp--preset--color--yellow) !important;}.has-green-color{color: var(--wp--preset--color--green) !important;}.has-teal-color{color: var(--wp--preset--color--teal) !important;}.has-cyan-color{color: var(--wp--preset--color--cyan) !important;}.has-gray-color{color: var(--wp--preset--color--gray) !important;}.has-gray-dark-color{color: var(--wp--preset--color--gray-dark) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-blue-background-color{background-color: var(--wp--preset--color--blue) !important;}.has-indigo-background-color{background-color: var(--wp--preset--color--indigo) !important;}.has-purple-background-color{background-color: var(--wp--preset--color--purple) !important;}.has-pink-background-color{background-color: var(--wp--preset--color--pink) !important;}.has-red-background-color{background-color: var(--wp--preset--color--red) !important;}.has-orange-background-color{background-color: var(--wp--preset--color--orange) !important;}.has-yellow-background-color{background-color: var(--wp--preset--color--yellow) !important;}.has-green-background-color{background-color: var(--wp--preset--color--green) !important;}.has-teal-background-color{background-color: var(--wp--preset--color--teal) !important;}.has-cyan-background-color{background-color: var(--wp--preset--color--cyan) !important;}.has-gray-background-color{background-color: var(--wp--preset--color--gray) !important;}.has-gray-dark-background-color{background-color: var(--wp--preset--color--gray-dark) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-blue-border-color{border-color: var(--wp--preset--color--blue) !important;}.has-indigo-border-color{border-color: var(--wp--preset--color--indigo) !important;}.has-purple-border-color{border-color: var(--wp--preset--color--purple) !important;}.has-pink-border-color{border-color: var(--wp--preset--color--pink) !important;}.has-red-border-color{border-color: var(--wp--preset--color--red) !important;}.has-orange-border-color{border-color: var(--wp--preset--color--orange) !important;}.has-yellow-border-color{border-color: var(--wp--preset--color--yellow) !important;}.has-green-border-color{border-color: var(--wp--preset--color--green) !important;}.has-teal-border-color{border-color: var(--wp--preset--color--teal) !important;}.has-cyan-border-color{border-color: var(--wp--preset--color--cyan) !important;}.has-gray-border-color{border-color: var(--wp--preset--color--gray) !important;}.has-gray-dark-border-color{border-color: var(--wp--preset--color--gray-dark) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<!-- <link rel='stylesheet' id='child-understrap-styles-css' href='https://www.truehomecare.co.uk/wp-content/themes/understrap-child/css/child-theme.min.css?ver=1.2.0.1752708568' media='all' /> -->
+<!-- <link rel='stylesheet' id='skin-css' href='https://www.truehomecare.co.uk/wp-content/themes/understrap-child/css/skin/default-skin.css?ver=1.0' media='all' /> -->
+<!-- <link rel='stylesheet' id='slick-css' href='https://www.truehomecare.co.uk/wp-content/themes/understrap-child/css/slick.css?ver=1.0' media='all' /> -->
+<!-- <link rel='stylesheet' id='media-query-css' href='https://www.truehomecare.co.uk/wp-content/themes/understrap-child/css/media-query.css?ver=1.0' media='all' /> -->
+<!-- <link rel='stylesheet' id='advanced-style-css-final-css' href='https://www.truehomecare.co.uk/wp-content/themes/understrap-child/css/advanced-style-css-final.css?ver=1.3.9' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//www.truehomecare.co.uk/wp-content/cache/wpfc-minified/95ewxax8/1x9wk.css" media="all"/>
+<script src='//www.truehomecare.co.uk/wp-content/cache/wpfc-minified/qle386h7/1x9wk.js' type="text/javascript"></script>
+<!-- <script id="jquery-core-js" src="https://www.truehomecare.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script> -->
+<!-- <script id="jquery-migrate-js" src="https://www.truehomecare.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script> -->
+<script type="text/javascript">
+(function(d, t) {
+var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+v.onload = function() {
+window.voiceflow.chat.load({
+verify: { projectID: '68ecaceaa086e3ec827fde93' },
+url: 'https://general-runtime.voiceflow.com',
+versionID: 'production',
+assistant: {
+stylesheet: 'https://techvando.com/chat/style.css?v=2'
+}
+});
+}
+v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
+v.type = "text/javascript";
+s.parentNode.insertBefore(v, s);
+})(document, 'script');
+</script>
+<meta name="google-site-verification" content="4T2Xb9pAjanibBp_VCHI8HwAc20Zb1uWH_FblGsJUOc" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2Q3DZVHE7"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-W2Q3DZVHE7');
+</script><meta name="ti-site-data" content="eyJyIjoiMTowITc6MCEzMDowIiwibyI6Imh0dHBzOlwvXC93d3cudHJ1ZWhvbWVjYXJlLmNvLnVrXC93cC1hZG1pblwvYWRtaW4tYWpheC5waHA/YWN0aW9uPXRpX29ubGluZV91c2Vyc19nb29nbGUmcD0lMkYifQ==" />		<script>
+document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+</script>
+<style>
+.no-js img.lazyload {
+display: none;
+}
+figure.wp-block-image img.lazyloading {
+min-width: 150px;
+}
+.lazyload,
+.lazyloading {
+--smush-placeholder-width: 100px;
+--smush-placeholder-aspect-ratio: 1/1;
+width: var(--smush-placeholder-width) !important;
+aspect-ratio: var(--smush-placeholder-aspect-ratio) !important;
+}
+.lazyload, .lazyloading {
+opacity: 0;
+}
+.lazyloaded {
+opacity: 1;
+transition: opacity 400ms;
+transition-delay: 0ms;
+}
+</style>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="True Homecare - In-Home Care Company">
+<link rel="icon" href="https://www.truehomecare.co.uk/wp-content/uploads/2024/04/cropped-truehomecare-logo-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.truehomecare.co.uk/wp-content/uploads/2024/04/cropped-truehomecare-logo-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.truehomecare.co.uk/wp-content/uploads/2024/04/cropped-truehomecare-logo-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.truehomecare.co.uk/wp-content/uploads/2024/04/cropped-truehomecare-logo-270x270.png" />
+<style id="wp-custom-css">
+#gform_1_validation_container {
+display:none;
+}
+.gform_wrapper.gravity-theme .gfield_validation_message, .gform_wrapper.gravity-theme .validation_message {
+background: #fff!important;
+border: none!important;
+margin-top: 8px;
+padding: 0!important;
+font-style: italic;
+}
+.gfield_description.instruction.validation_message {
+display: none;
+}
+.twoimages {
+display: flex;
+align-items: center;
+}
+.twoimages img {
+width: 50%;
+margin: 5px;
+}
+@media (max-width: 767.98px) {
+.twoimages {
+display: block;
+}
+.twoimages img {
+width: 100%;
+margin: 5px 0;
+}
+.hero-search-form form {    width: 100%;}}
+.ba-blog-grid img {
+width:100%;
+}
+.post-wrap, .post-wrap p {
+font-size:20px!important;
+}
+.post-wrap p {
+margin-bottom: 20px;
+}
+.post-wrap h2, .post-wrap h3, .post-wrap h4, .post-wrap h5, .post-wrap h6 {
+margin: 30px 0 20px 0;
+font-weight: 600;
+}
+.post-wrap .wp-image-full {
+width:100%;
+}
+.post-wrap .no-list {
+list-style-type: none;
+padding-left: 0;
+}
+.navbar-brand img {
+max-height: 56px;
+}
+.navbar-brand img {
+max-height: 66px;
+}
+.header-wrap {
+text-align: center;
+padding: 5% 5%;
+background-size: cover !important;
+height: 45vh;
+background-position: center center !important;
+}
+.header-wrap h1.entry-title {
+font-weight: 900;
+color: #FFF;
+font-size: 4em;
+line-height: 1.2em;
+text-shadow: 1px 1px 2px black;
+}
+.gform_wrapper.gravity-theme .gfield_checkbox label, .gform_wrapper.gravity-theme .gfield_radio label {font-size: 10px !important;}
+/* New css start */
+.testimonial-wrap-slider-trf-mobile{
+display:none !important;
+}
+.testimonial-wrap-slider-trf .slick-list {
+padding: 0 0 0 0 !important;
+}
+.testimonial-wrap-slider-trf .slick-list .slick-slide {
+margin: 0 15px 0 15px;
+}
+body:not(.home) .hero-trf-location .container{
+position:relative;
+}
+.testimonial-wrap-slider-trf-mobile .slick-list .slick-track {
+display: flex !important;
+}
+.testimonial-wrap-slider-trf-mobile ul.slick-dots {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+list-style: none;
+gap: 5px;
+}
+.testimonial-wrap-slider-trf-mobile ul.slick-dots button {
+text-indent: -99999px;
+width: 10px;
+height: 10px;
+padding: 0;
+border-radius: 100%;
+border: 2px solid #CDCDCD;
+background: transparent;
+transition: color 0.2s, width 0.2s;
+}
+.testimonial-wrap-slider-trf-mobile ul.slick-dots li.slick-active button {
+width: 30px;
+border-radius: 8px;
+background: #262F2D;
+border-color: #262F2D;
+transition: color 0.2s, width 0.2s;
+}
+.block-testimonials-trf .testimonial-wrap-slider-column{
+height:inherit;
+}
+@media only screen and (max-width: 991px){
+.hero-location__information {
+z-index: 1;
+}
+section.hero-location.hero-trf .col-12.col-lg-8 {
+z-index:0;
+}
+section.hero-location.hero-trf .col-12.col-lg-8::after {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.4); /* adjust color/opacity */
+pointer-events: none; /* let clicks pass through */
+z-index: 1;
+}
+section.hero-location.hero-trf .col-12.col-lg-8 > * {
+z-index: 2; /* keeps content above overlay */
+}
+.block-testimonials-trf .container {
+max-width: 100%;
+}
+.testimonial-wrap-slider-trf .slick-list {
+padding: 0 0 0 0 !important;
+}
+body.location-template-default section.block-col-and-video-trf{
+padding-top:0;
+}
+section.block-col-and-video-trf .video-wrapper{
+max-width:90%;
+}
+body.location-template-default .block-services-list{
+padding-bottom:0;		
+}
+section.block-col-and-video-trf h3 {
+padding-left: 15px;
+padding-right: 15px;
+}
+section.block-col-and-video-trf p {
+padding-left: 15px;
+padding-right: 15px;
+padding-top:0;
+}
+}
+@media only screen and (max-width: 870px) {
+section.block-image-gallery-slider-trf .container .row.slider.block-image-gallery-slider-content {
+max-height: inherit;
+margin-top: 0px;
+}
+section.block-image-gallery-slider-trf .container .row.slider.block-image-gallery-slider-content:after{
+height:100%;
+top:0;
+}
+section.block-image-gallery-slider-trf .container .row.slider .col-md-2 {
+max-height: 100%;
+}
+section.block-image-gallery-slider-trf .container .row.slider .slick-active.slick-current {
+max-height: 100%;
+}
+section.block-image-gallery-slider-trf .ba-section-desc h2.ba-h2{
+text-align:center !important;
+}
+section.block-image-gallery-slider-trf .ba-section-desc h2.ba-h2:after{
+margin:0 auto;
+}
+section.block-image-gallery-slider-trf .ba-section-desc p {
+text-align: center;
+}
+}
+@media only screen and (max-width: 767.98px){
+body.location-template-default section.hero-location.hero-trf .col-12.col-lg-8 {
+padding-top: 50px;
+}
+section.block-image-gallery-slider-trf .container .row.slider .col-md-2:nth-child(n+4) {
+display: block;
+}
+section.sub-hero-trf .col-areas ul li{
+flex-basis:50%;
+}
+section.sub-hero-trf .col-areas a.toggle-link {
+background: #c4501f;
+line-height: 24px;
+font-size: 18px;
+text-decoration: none;
+padding: 13px 13px 13px 13px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+left: 0;
+right: 0;
+width: 120px;
+text-align: center !important;
+}
+section.block-image-gallery-slider-trf {
+padding-bottom: 60px;
+}
+.block-testimonials-trf .testimonial-wrap-slider-column{
+padding:20px;
+}
+.block-testimonials-trf .testimonial-wrap-slider-column img.ba-client-img-sq{
+left:20px;
+}
+.testimonial-wrap-slider-trf{
+display:none !important;
+}
+.testimonial-wrap-slider-trf-mobile{
+display:block !important;
+}
+section.sub-hero-trf .col-areas h4,section.trf-quality-block h3.ba-h3.big,section.block-image-gallery-slider-trf .ba-section-desc h2.ba-h2,.block-testimonials-trf h2.ba-h2,section.block-col-and-video-trf h3{
+font-size: 26px !important;
+line-height: 32px;
+}
+.block-testimonials-trf .testimonial-wrap-slider-column h5.ba-h5.client-name{
+font-size:20px;
+line-height:24px;
+}
+section.block-products-list-trf .ba-section-desc p{
+padding-right:0;
+}
+section.ba-blog-grid-trf .row:first-child .col-md-12 {
+padding-left: 0;
+padding-right: 0;
+}
+.about-location-trf .member-image img.img-owner {
+width: 100%;
+}
+.about-location-trf .member-image {
+margin-bottom: 20px;
+}
+section.about-location.about-location-trf ~.about-location-trf {
+padding-top: 0;
+}
+}
+section.block-image-gallery-slider-trf .container .row:first-child{
+margin-bottom:-105px;
+}
+section.block-image-gallery-slider-trf .container .row.slider.block-image-gallery-slider-thumb{
+height:auto;
+}
+section.block-products-list-trf .ba-grid-wrap .ba-f-img-grid.with-icon a:after,.block-services-list-trf .ba-grid-wrap .ba-grid-content.ba-link-bottom .ba-f-img-grid a:after,.finance-trf .col-md-6:first-child .ba-explore-wrap:before,.ba-blog-grid-trf .col-md-4.custom-col .ba-d-link-bottom>a:first-child:after,section.block-image-gallery-slider-trf .container .row .slick-current.slick-active:after{
+z-index:2;
+}
+section.block-image-gallery-slider-trf .container .row.slider .slick-active.slick-current:hover img {
+transform: scale(1.2);
+}
+section.block-image-gallery-slider-trf .container .row.slider.block-image-gallery-slider-content .col-md-2 img{
+transition: all 0.7s;
+}
+.ba-f-text-grid p a.understrap-read-more-link {
+display:none;
+}
+table.new-cus-table {
+width: 100%;
+border-collapse: collapse;
+}
+table.new-cus-table, .new-cus-table th, .new-cus-table td {
+border: 1px solid black;
+}
+.new-cus-table th, .new-cus-table td {
+padding: 10px;
+text-align: left;
+}
+</style>
+<!-- <link rel='stylesheet' id='gform_basic-css' href='https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.9.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='gform_theme_components-css' href='https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.9.3' media='all' /> -->
+<!-- <link rel='stylesheet' id='gform_theme-css' href='https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.9.3' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//www.truehomecare.co.uk/wp-content/cache/wpfc-minified/e734x7hm/1x9xw.css" media="all"/>
+</head>
+<body class="home wp-singular page-template-default page page-id-4778 wp-custom-logo wp-embed-responsive wp-theme-understrap wp-child-theme-understrap-child understrap-has-sidebar" itemscope itemtype="http://schema.org/WebSite">
+<div class="site" id="page">
+<!-- ******************* The Navbar Area ******************* -->
+<header id="wrapper-navbar" class="sticky-top no-sticky-m">
+<a class="skip-link visually-hidden-focusable" href="#content">
+Skip to content		</a>
+<div class="ba-topbar-nav primary-bg">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<ul class="top-bar-menu"><li><a href="tel:0161 428 1989" target="" class="header-tel" >0161 428 1989</a></li></ul>			</div>
+</div>
+</div>
+</div>
+<nav id="main-nav" class="navbar navbar-expand-md" aria-labelledby="main-nav-label">
+<h2 id="main-nav-label" class="screen-reader-text">
+Main Navigation	</h2>
+<div class="container">
+<button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarNavDropdown"
+aria-controls="navbarNavDropdown"
+aria-expanded="false"
+aria-label="Toggle navigation"
+>
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Your site branding in the menu -->
+<a href="https://www.truehomecare.co.uk/" class="navbar-brand custom-logo-link" rel="home" aria-current="page"><img width="416" height="175" src="https://www.truehomecare.co.uk/wp-content/uploads/2025/08/truehomecare-logo-1.png" class="custom-logo header-logo" alt="senior homecare company truehomecare logo" decoding="async" fetchpriority="high" srcset="https://www.truehomecare.co.uk/wp-content/uploads/2025/08/truehomecare-logo-1.png 416w, https://www.truehomecare.co.uk/wp-content/uploads/2025/08/truehomecare-logo-1-300x126.png 300w" sizes="(max-width: 416px) 100vw, 416px" /></a>
+<!-- The WordPress Menu goes here -->
+<div id="navbarNavDropdown" class="collapse navbar-collapse"><ul id="main-menu" class="navbar-nav ms-auto"><li class="ba-mob-navlogo"><a href="https://www.truehomecare.co.uk/" class="navbar-brand custom-logo-link" rel="home" aria-current="page"><img width="416" height="175" data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/08/truehomecare-logo-1.png" class="custom-logo header-logo lazyload" alt="senior homecare company truehomecare logo" decoding="async" data-srcset="https://www.truehomecare.co.uk/wp-content/uploads/2025/08/truehomecare-logo-1.png 416w, https://www.truehomecare.co.uk/wp-content/uploads/2025/08/truehomecare-logo-1-300x126.png 300w" data-sizes="(max-width: 416px) 100vw, 416px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 416px; --smush-placeholder-aspect-ratio: 416/175;" /></a></li><span class="ba-mob-close mob-el navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"></span><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-4805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4805 nav-item"><a title="Locations" href="/locations/" class="nav-link">Locations</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-5396" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-5396 nav-item"><a title="Services" href="#" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-5396">Services</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-5396" >
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-5393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5393 nav-item"><a title="Personal Care" href="https://www.truehomecare.co.uk/services/personal-care/" class="dropdown-item">Personal Care</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-9467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9467 nav-item"><a title="Companionship" href="https://www.truehomecare.co.uk/services/companionship/" class="dropdown-item">Companionship</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-9477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9477 nav-item"><a title="Live-in care" href="https://www.truehomecare.co.uk/services/live-in-care/" class="dropdown-item">Live-in care</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-9556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9556 nav-item"><a title="Long Term Condition Support" href="https://www.truehomecare.co.uk/services/long-term-condition-support/" class="dropdown-item">Long Term Condition Support</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-9557" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9557 nav-item"><a title="Stroke care" href="https://www.truehomecare.co.uk/services/stroke-care/" class="dropdown-item">Stroke care</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-9558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9558 nav-item"><a title="Parkinsons care" href="https://www.truehomecare.co.uk/services/parkinsons-care/" class="dropdown-item">Parkinsons care</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-10405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10405 nav-item"><a title="Short Breaks" href="https://www.truehomecare.co.uk/services/short-breaks/" class="dropdown-item">Short Breaks</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-5392" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5392 nav-item"><a title="All Services" href="https://www.truehomecare.co.uk/services/" class="dropdown-item">All Services</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-5259" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-5259 nav-item"><a title="About" href="#" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-5259">About</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-5259" >
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-5231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5231 nav-item"><a title="About Us" href="https://www.truehomecare.co.uk/about-us-true-homecare/" class="dropdown-item">About Us</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-5260" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5260 nav-item"><a title="Blog" href="/blog/" class="dropdown-item">Blog</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-4950" class="hide-web menu-item menu-item-type-custom menu-item-object-custom menu-item-4950 nav-item"><a title="Contact Us" href="/contact-us/" class="nav-link">Contact Us</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-10150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10150 nav-item"><a title="Career" href="https://www.truehomecare.co.uk/career/" class="nav-link">Career</a></li>
+<li><a href="/contact-us/" class="ba-header-btn ba-btn ba-btn-default ba-mob-header-cta">Get a Free Quote!</a></li><ul class="mob-el mob-menu-2"><li><a class="header-tel ba-phone-btn ba-btn-tertiary ba-btn ba-mob-header-cta mobile-menu-tel" target="" href="tel:01614281989" >Call 0161 428 1989</a></li></ul></ul></div>	<a href="/contact-us/" class="ba-header-btn btn-call2a">Request an Assessment</a>	</div><!-- .container(-fluid) -->
+</nav><!-- #main-nav -->
+</header><!-- #wrapper-navbar -->
+<div class="main-content page" id="content" tabindex="-1">
+<section class="hero-location hero-block hero-trf">
+<div class="container">
+<div class="breadcrumbs"><span><span class="breadcrumb_last" aria-current="page">Home</span></span></div>
+<div class="row">
+<div class="col-12 col-lg-4">
+<div class="hero-location__information">
+<h1>Reliable, Trustworthy - True Homecare</h1>
+<p>Specialised in providing care to clients in their own homes. Our team of experienced and compassionate carers are dedicated to ensuring the highest quality of life for our clients, allowing them to maintain their independence in the comfort of their own homes.</p>
+<div data-src="https://cdn.trustindex.io/loader.js?1680ea95433d93916f2631ab73c"></div>
+<div class="author-number-wrapper">
+<div class="call-icon">
+<img data-src="/wp-content/themes/understrap-child/img/ico-phone-orange.svg" alt="Call Icon" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload">
+</div>
+<div class="author-number-block">
+<p class="author-number"><a href="tel:0161 428 1989">0161 428 1989</a></p>
+<p>Available 24/7</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-8 lazyload" style="background-image:inherit;" data-bg-image="url(&#039;https://www.truehomecare.co.uk/wp-content/uploads/2025/06/senior-home-care-e1749763367885.webp&#039;)">
+<div class="hero-location__form">
+<h3>Get Your Assessment</h3>
+<h5>All Fields Required</h5>
+<script type="text/javascript"></script>
+<div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework get-free-estimate-form_wrapper' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' >
+<div class='gform_heading'>
+<h2 class="gform_title">Get Your Assessment</h2>
+<p class='gform_description'>All Fields Required</p>
+<p class='gform_required_legend'>&quot;<span class="gfield_required gfield_required_asterisk">*</span>&quot; indicates required fields</p>
+</div><form method='post' enctype='multipart/form-data'  id='gform_1' class='get-free-estimate-form' action='/' data-formid='1' novalidate>
+<div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_above description_above validation_below'><fieldset id="field_1_1" class="gfield gfield--type-name gfield--input-type-name gfield_contains_required field_sublabel_above gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_1" ><legend class='gfield_label gform-field-label screen-reader-text gfield_label_before_complex' ><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></legend><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row' id='input_1_1'>
+<span id='input_1_1_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+<label for='input_1_1_3' class='gform-field-label gform-field-label--type-sub '>First Name</label>
+<input type='text' name='input_1.3' id='input_1_1_3' value=''   aria-required='true'   placeholder='First Name' autocomplete="given-name" />
+</span>
+<span id='input_1_1_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+<label for='input_1_1_6' class='gform-field-label gform-field-label--type-sub '>Last Name</label>
+<input type='text' name='input_1.6' id='input_1_1_6' value=''   aria-required='true'   placeholder='Last Name' autocomplete="family-name" />
+</span>
+</div></fieldset><div id="field_1_8" class="gfield gfield--type-phone gfield--input-type-phone gfield--width-half gfield_contains_required field_sublabel_above gfield--no-description field_description_above field_validation_below gfield_visibility_visible"  data-js-reload="field_1_8" ><label class='gfield_label gform-field-label' for='input_1_8'>Phone Number<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_phone'><input name='input_8' id='input_1_8' type='tel' value='' class='large'  placeholder='Phone Number' aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_2" class="gfield gfield--type-email gfield--input-type-email gfield--width-half gfield_contains_required field_sublabel_above gfield--no-description field_description_above field_validation_below gfield_visibility_visible"  data-js-reload="field_1_2" ><label class='gfield_label gform-field-label' for='input_1_2'>Email Address<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+<input name='input_2' id='input_1_2' type='email' value='' class='large'   placeholder='Email Address' aria-required="true" aria-invalid="false"  />
+</div></div><div id="field_1_10" class="gfield gfield--type-text gfield--input-type-text gfield--width-full gfield_contains_required field_sublabel_above gfield--no-description field_description_above field_validation_below gfield_visibility_visible"  data-js-reload="field_1_10" ><label class='gfield_label gform-field-label' for='input_1_10'>Postcode<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_10' id='input_1_10' type='text' value='' class='large'    placeholder='Postcode' aria-required="true" aria-invalid="false"   /></div></div><fieldset id="field_1_11" class="gfield gfield--type-checkbox gfield--type-choice gfield--input-type-checkbox gfield--width-full field_sublabel_above gfield--no-description field_description_above hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_11" ><legend class='gfield_label gform-field-label gfield_label_before_complex' >Text Message (SMS)</legend><div class='ginput_container ginput_container_checkbox'><div class='gfield_checkbox ' id='input_1_11'><div class='gchoice gchoice_1_11_1'>
+<input class='gfield-choice-input' name='input_11.1' type='checkbox'  value='Yes, send me SMS updates on my estimate and promotions. Opt-out at any time by replying STOP. Data/text messaging rates may apply. &lt;a href=&quot;/privacy-policy/&quot;&gt;View Privacy Policy&lt;/a&gt;' checked='checked' id='choice_1_11_1'   />
+<label for='choice_1_11_1' id='label_1_11_1' class='gform-field-label gform-field-label--type-inline'>Yes, send me SMS updates on my estimate and promotions. Opt-out at any time by replying STOP. Data/text messaging rates may apply. <a href="/privacy-policy/">View Privacy Policy</a></label>
+</div></div></div></fieldset><div id="field_1_12" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_above gfield--has-description field_description_above field_validation_below gfield_visibility_visible"  data-js-reload="field_1_12" ><label class='gfield_label gform-field-label' for='input_1_12'>Email</label><div class='gfield_description' id='gfield_description_1_12'>This field is for validation purposes and should be left unchanged.</div><div class='ginput_container'><input name='input_12' id='input_1_12' type='text' value='' autocomplete='new-password'/></div></div></div></div>
+<div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' value='Request Assessment'  /> 
+<input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='postback' />
+<input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='gravity-theme' />
+<input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
+<input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+<input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+<input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+<input type='hidden' class='gform_hidden' name='state_1' value='WyJ7XCIxMS4xXCI6XCJlZmZjYTQyZmI2NTVlNGQxMDFmNGU2MjcyOTcxNzM1YlwifSIsIjRjNjg4ZWI3OGNlMjc4OGUzNGIyNWQ4M2MyMjExY2Q3Il0=' />
+<input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+<input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+<input type='hidden' name='gform_field_values' value='' />
+</div>
+</form>
+</div><script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [1, current_page] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 1, currentPage: current_page } } );            gform.utils.trigger( { event: 'gform/post_render', native: false, data: { formId: 1, currentPage: current_page } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="ba-features ba-p50 primary-bg-light quality-block trf-quality-block">
+<div class="container">
+<div class="ba-features-wrap">
+<div class="row">
+<div class="col-md-12 text-mg-center">
+<h2 class="ba-h3 big">Compassionate Care, Tailored for You</h2>
+<p class="f-sec-desc">At True Homecare, we believe in offering personalized care that respects your unique needs. Our compassionate team works closely with you to develop a care plan that supports your independence and enhances your wellbeing. We take the time to understand your requirements, ensuring you feel comfortable and supported every step of the way.
+</p></div>
+</div>
+<div class="ba-features-list">
+<div class="row ba-s-loop-gap text-mob-center">
+<div class="col-md-4">
+<div class="row">
+<div class="col-md-12">
+<img data-src="/wp-content/themes/understrap-child//img/top_customer_service_icon.svg" class="quality-block--icon ba-quality-icon lazyload" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" />
+</div>
+<div class="col-md-12">
+<h3>Committed to Comfort and Quality</h3>
+<p>Your comfort is our priority. From the moment you reach out, our dedicated team ensures that your care plan is not only effective but also reflects the high standards of quality you deserve. We deliver care that aligns with your lifestyle, allowing you to thrive at home.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 ba-gutter-lg">
+<div class="row">
+<div class="col-md-12">
+<img data-src="/wp-content/themes/understrap-child//img/topqualitymaterials.svg" class="quality-block--icon ba-quality-icon lazyload" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" />
+</div>
+<div class="col-md-12">
+<h3>Where Expertise Meets Compassion</h3>
+<p>Each member of our team brings a wealth of experience, training, and a genuine passion for providing exceptional care. We’re here to help you live comfortably and independently, with the support you need, when you need it.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="row">
+<div class="col-md-12">
+<img data-src="/wp-content/themes/understrap-child//img/TopInstallationTeam.svg" class="quality-block--icon ba-quality-icon lazyload" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" />
+</div>
+<div class="col-md-12">
+<h3>Care as Unique as You Are</h3>
+<p>Every person is different, and so are their care needs. That’s why we offer flexible, bespoke care solutions that cater to your specific requirements. Whether it's companionship, specialist care, or assistance with daily tasks, we tailor our services to support your health, happiness, and wellbeing at home.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="ba-2block-bg ba-gap-lg block-col-and-video">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="block-with-bg">
+<div class="ba-left-bg-full lazyload" style="background:inherit;" data-bg="url(&#039;/wp-content/themes/understrap-child/img/quality_bg.jpg&#039;)"></div>
+<h5>Personalised Care, Tailored for You</h5>
+<h2>Personalised Care, Tailored for You</h2>
+<p>At True Homecare, we’re dedicated to helping you stay in the comfort of your own home. Our services are fully customized to meet the unique needs of each client, ensuring the best possible care.
+We carefully match each client with a certified, experienced care provider who offers flexible and professional support, designed to enhance your independence and wellbeing.</p>
+</div>
+</div>
+<div class="col-md-6 ba-m-hide">
+<div class="ba-left-bg-full" id="video-container">
+</div>
+</div>
+</div>
+</div>
+</section>
+<div id="allreviews"></div>
+<section class="ba-gap-lg block-testimonials block-testimonials-trf" id="location-reviews">
+<div class="container">
+<div class="testimonial-wrap">
+<div class="row">
+<div class="col-md-12 text-center">
+<h2 class="ba-h2 mb-l">What True Homecare clients say about their care experience.</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="testimonial-wrap-slider-trf">
+<div data-src="https://cdn.trustindex.io/loader.js?22dae5e5443f93905376a6cb72a"></div> 					</div>
+<div class="testimonial-wrap-slider-trf-mobile">
+<div data-src="https://cdn.trustindex.io/loader.js?22dae5e5443f93905376a6cb72a"></div> 					</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="ba-blog-grid ba-blog-grid-trf block-blog-posts block-services-posts-trf ba-gap-lg color-white">
+<div class="container">
+<div class="row">
+<a href="https://truehomecare.co.uk/services/" class="ba-link-a ba-c2a-link ba-mt-l" target=""><span>View All Services</span></a>
+<div class="col-md-12 text-md-center">
+<h2 class="ba-h2 mb-l">Our Services</h2>
+</div>
+<div class="col-md-12 text-md-center block-desc"><p>We have tailor-made packages to suit the unique needs of all our clients.
+True Homecare are a family run independent care company managing a staff trained experienced carers.</p></div>
+</div>
+<div class="row justify-content-between">
+<div class="col-md-4 mx-md-auto custom-col ba-mob-bgap">
+<div class="ba-d-link-bottom">
+<a href="https://www.truehomecare.co.uk/services/dementia-and-alzheimer-care/"><img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/06/dementia-care-alzhemier-care-truehomecare-uk-e1750667273455-600x450-c-default.webp" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 600px; --smush-placeholder-aspect-ratio: 600/450;" /></a>
+<h3 class="ba-h3"><a href="https://www.truehomecare.co.uk/services/dementia-and-alzheimer-care/">Dementia Care</a></h3>
+<p>Dementia can cause distress for both patients and their families. We create an environment that reduces confusion and anxiety, allowing clients to maintain independence, stay comfortable, and live fulfilling lives at home, while prioritizing their health and wellbeing.
+</p>
+</div>
+</div>
+<div class="col-md-4 mx-md-auto custom-col ba-mob-bgap">
+<div class="ba-d-link-bottom">
+<a href="https://www.truehomecare.co.uk/services/palliative-care/"><img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/06/Palliative-and-End-Of-Life-Care-600x450-c-default.webp" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 600px; --smush-placeholder-aspect-ratio: 600/450;" /></a>
+<h3 class="ba-h3"><a href="https://www.truehomecare.co.uk/services/palliative-care/">Palliative and End Of Life Care</a></h3>
+<p>Palliative care can be emotionally challenging for everyone involved. We offer compassionate end-of-life support, ensuring you have the choice to remain in the comfort of your home. Our services provide relief, dignity, and comfort during this difficult time for both you and your family.
+</p>
+</div>
+</div>
+<div class="col-md-4 mx-md-auto custom-col ">
+<div class="ba-d-link-bottom">
+<a href="https://www.truehomecare.co.uk/services/domiciliary-care/"><img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/06/domiciliary-care-1-600x450-c-default.webp" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 600px; --smush-placeholder-aspect-ratio: 600/450;" /></a>
+<h3 class="ba-h3"><a href="https://www.truehomecare.co.uk/services/domiciliary-care/">Domiciliary Care</a></h3>
+<p>If you’re struggling with daily tasks, we can help you stay safe and independent at home. We work closely with you to assess needs and manage risks, creating a Personalised Care plan that lets you maintain your lifestyle and wellbeing in a familiar environment.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="block-images-with-description  block-images-with-description-trf primary-bg color-white pt-5 pb-5">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="ba-section-desc">
+<h2 class="ba-h2">Discover Quality Care Services for Your Loved Ones</h2>
+<p>The right care is right here. Explore our comprehensive range of services tailored to meet the unique needs of your family.</p>
+</div>
+</div>
+</div>
+<div class="row images-list ">
+<div class="col-md-6 ba-grid-gap">
+<div class="ba-grid-content ba-link-bottom">
+<div class="ba-f-img-grid">
+<a href="https://www.truehomecare.co.uk/services/personal-care/" class="ba-link-btn dark" target=""><img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/07/Personal-Care-uk-truehomecare-1-e1751649780867-564x324-c-default.webp" class="w-100 lazyload" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 564px; --smush-placeholder-aspect-ratio: 564/324;" /></a>
+</div>
+<div class="ba-f-text-grid">
+<h3><a href="https://www.truehomecare.co.uk/services/personal-care/" class="ba-link-a">Personal Care</a></h3>
+<p>Personal care services to help with daily tasks, ensuring comfort and dignity while promoting independence in the familiar surroundings of home.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 ba-grid-gap">
+<div class="ba-grid-content ba-link-bottom">
+<div class="ba-f-img-grid">
+<a href="https://www.truehomecare.co.uk/services/companionship/" class="ba-link-btn dark" target=""><img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/06/truehomecare-companionship-at-home-e1750159124947-564x324-c-default.webp" class="w-100 lazyload" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 564px; --smush-placeholder-aspect-ratio: 564/324;" /></a>
+</div>
+<div class="ba-f-text-grid">
+<h3><a href="https://www.truehomecare.co.uk/services/companionship/" class="ba-link-a">Companionship at Home</a></h3>
+<p>Our companionship services offer emotional support and meaningful activities to reduce loneliness, fostering connection and engagement with your loved ones.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 ba-grid-gap">
+<div class="ba-grid-content ba-link-bottom">
+<div class="ba-f-img-grid">
+<a href="https://www.truehomecare.co.uk/services/live-in-care/" class="ba-link-btn dark" target=""><img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/06/live-in-care-services-truehomecare-e1750160172719-564x324-c-default.webp" class="w-100 lazyload" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 564px; --smush-placeholder-aspect-ratio: 564/324;" /></a>
+</div>
+<div class="ba-f-text-grid">
+<h3><a href="https://www.truehomecare.co.uk/services/live-in-care/" class="ba-link-a">Live-in care</a></h3>
+<p>Our live-in care option provides round-the-clock support, allowing your loved ones to stay in the comfort of their own home while receiving professional care.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 ba-grid-gap">
+<div class="ba-grid-content ba-link-bottom">
+<div class="ba-f-img-grid">
+<a href="https://www.truehomecare.co.uk/services/overnight-care/" class="ba-link-btn dark" target=""><img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/07/Overnight-Care-uk-truehomecrae-1-e1751636903452-564x324-c-default.webp" class="w-100 lazyload" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 564px; --smush-placeholder-aspect-ratio: 564/324;" /></a>
+</div>
+<div class="ba-f-text-grid">
+<h3><a href="https://www.truehomecare.co.uk/services/overnight-care/" class="ba-link-a">Overnight Care</a></h3>
+<p>For those who need care overnight, our trained carers ensure safety and assistance while offering peace of mind to both clients and families.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 ba-grid-gap">
+<div class="ba-grid-content ba-link-bottom">
+<div class="ba-f-img-grid">
+<a href="https://www.truehomecare.co.uk/services/private-care/" class="ba-link-btn dark" target=""><img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/10/Private-care-uk-truehomecare-564x324-c-default.webp" class="w-100 lazyload" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 564px; --smush-placeholder-aspect-ratio: 564/324;" /></a>
+</div>
+<div class="ba-f-text-grid">
+<h3><a href="https://www.truehomecare.co.uk/services/private-care/" class="ba-link-a">Private Care at Home</a></h3>
+<p>Tailored private care services to maintain your loved one’s independence and wellbeing, all while staying in the comfort and security of their own home.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 ba-grid-gap">
+<div class="ba-grid-content ba-link-bottom">
+<div class="ba-f-img-grid">
+<a href="https://www.truehomecare.co.uk/services/reablement-services/" class="ba-link-btn dark" target=""><img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/06/Reablement-Services-uk-truehomecare-1-e1750685658842-564x324-c-default.webp" class="w-100 lazyload" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 564px; --smush-placeholder-aspect-ratio: 564/324;" /></a>
+</div>
+<div class="ba-f-text-grid">
+<h3><a href="https://www.truehomecare.co.uk/services/reablement-services/" class="ba-link-a">Reablement Services</a></h3>
+<p>Helping clients regain independence after illness or injury, our reablement services focus on improving daily living skills and building confidence at home.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="block-services-list-trf ba-gap-lg block-services-list secondary-bg color-white">
+<div class="container">
+<div class="row">
+<div class="col-md-12  text-center ">
+<div class="ba-section-desc">
+<h2 class="ba-h2">Even more options. </h2>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="ba-grid-wrap">
+<div class="ba-grid-content text-center ba-link-bottom">
+<div class="ba-f-img-grid">
+<a>
+<img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2024/04/companionship-768x512-c-default.webp" class="img-fluid img-full lazyload" alt="Companionship" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 768px; --smush-placeholder-aspect-ratio: 768/512;" />
+</a>
+</div>
+<div class="ba-f-text-grid">
+<h3 class="ba-h3" >Companionship</h3>
+<p>Explore how we support our clients in visiting their friends, and arrangements.</p>
+<a class="ba-link-a"><img data-src="/wp-content/themes/understrap-child/img/arrow-narrow-up-right-green.svg" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" /></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="ba-grid-wrap">
+<div class="ba-grid-content text-center ba-link-bottom">
+<div class="ba-f-img-grid">
+<a>
+<img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2025/07/Overnight-Care-uk-truehomecrae-1-e1751636903452-768x512-c-default.webp" class="img-fluid img-full lazyload" alt="Respite Care" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 768px; --smush-placeholder-aspect-ratio: 768/512;" />
+</a>
+</div>
+<div class="ba-f-text-grid">
+<h3 class="ba-h3" >Respite Care</h3>
+<p>Browse our team providing respite care for clients in their own homes.</p>
+<a class="ba-link-a"><img data-src="/wp-content/themes/understrap-child/img/arrow-narrow-up-right-green.svg" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" /></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"></div>
+<div class="row">
+<div class="col-md-12 text-center">
+<a href="/services/" class="btn ba-btn-default ba-mt-m">See All Services</a>
+</div>
+</div>
+</div>
+</section>
+<section class="finance-trf ba-gap-m ba-explore ba-mob-pd0">
+<div class="container ba-full-mob-container">
+<div class="row">
+<div class="col-md-6">
+<div class="ba-explore-wrap text-start text-md-end float-right-d">
+<img data-src="https://www.truehomecare.co.uk/wp-content/uploads/2024/04/care-quality-comission.webp" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 866px; --smush-placeholder-aspect-ratio: 866/768;">
+</div>
+</div>
+<div class="col-md-6">
+<div class="ba-explore-wrap">
+<h2 class="ba-h3">Delivering Excellence in Care, Every Day</h2>
+<p>Committed to delivering compassionate, high-quality care, we’re proud to have achieved a ‘Good’ rating from the Care Quality Commission. Your wellbeing is our top priority, and we strive for excellence in everything we do.</p>
+<a href="tel:0161 428 1989" class="ba-explore-btn ba-btn-default ba-mt-s" target=""><span>0161 428 1989</span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="location-faqs location-faqs-trf ba-gap-lg">
+<div class="container">
+<div class="row">
+<div class="col-12 text-center">
+<div class="ba-section-desc">
+<h2 class="ba-h2 text-center">True Homecare FAQ</h2>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-12 faqs">
+<div class="accordion">
+<div class="accordion-item">
+<h3 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-1" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+Is True Homecare Registered with the appropriate professional associations and bodies?
+</button>
+</h3>
+<div id="question-1" class="accordion-collapse collapse">
+<div class="accordion-body">
+Yes, True Homecare is registered with The Care Quality Commission (CQC). We are proud of being on the Preferred Providers List of the Stockport Council.
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h3 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-2" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+How is the level of care to be provided assessed?
+</button>
+</h3>
+<div id="question-2" class="accordion-collapse collapse">
+<div class="accordion-body">
+Once we’re in contact with a potential client, an initial assessment of all the needs of the client is made, including both medical and non-medical needs. We work with the client and their family to thoroughly understand the level of care needed and expected from our team. After this assessment, our Care Manager will arrange a visit to discuss your needs further and to talk to you about our services and how we can help you.
+After conducting a thorough needs assessment, including gathering information from all the people that play a part in our client’s life socially or medically, we select appropriate carers based on the needs of the client. We take pride in offering a completely customised, client-focused service so our clients receive everything they need.
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h3 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-3" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+What do you mean by a Customised, tailor-made care plan?
+</button>
+</h3>
+<div id="question-3" class="accordion-collapse collapse">
+<div class="accordion-body">
+We utilise clearly defined objectives in order to devise a unique, customised care package for each of our clients. We don’t believe in taking a cookie-cutter approach to care. You’re unique and your care should be too. In addition to providing care, we place a lot of emphasis on the safety of each of our clients.
+We work with you to develop a customised care plan that we all agree on. Our Care Plans are not fixed or inflexible, and everything can be adapted. We develop an open care plan that allows our clients to choose what they want to do, when and how they want to do it. We take on the daily responsibilities of providing care and ensuring that our clients remain safe and secure. We enable friends and families to spend quality time together enjoying the activities that they choose while we take care of the necessary daily duties and tasks.
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h3 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-4" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+What training do carers receive?
+</button>
+</h3>
+<div id="question-4" class="accordion-collapse collapse">
+<div class="accordion-body">
+All of our care staff are professionally trained and have extensive backgrounds in providing care. As part of the True Homecare team, our carers receive additional, comprehensive in-house training to ensure that they meet the high standards that we set for all carers. In addition to this, all carers receive ‘on the job’ training to ensure the individual needs of our clients are attended to. Ongoing training and development, regular updates, and careful management by our experienced care manager ensure that we consistently exceed industry standards, including the Skills for Care recommendations.
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h3 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-5" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+What quality monitoring/assurance systems are in place?
+</button>
+</h3>
+<div id="question-5" class="accordion-collapse collapse">
+<div class="accordion-body">
+Our Care Manager has a wealth of experience in monitoring the provision of care, and in ensuring that everything meets True Homecare’s rigorous standards. We make regular telephone contact with our carers, clients, and their representatives. We talk to our clients in confidence to ensure any concerns are raised and addressed. We cultivate a relationship that promotes trust between us and our clients and ensure they feel comfortable complaining if there is an issue. We also have an on-call support line for clients and carers, meaning that help and advice is available whenever it might be needed. We exceed the Care Quality Commission essential standards of quality and safety. We regularly conduct Quality Reviews with the clients to get their feedback and suggestions on the service they are receiving.
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h3 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-6" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+What tasks will my care worker carry out?
+</button>
+</h3>
+<div id="question-6" class="accordion-collapse collapse">
+<div class="accordion-body">
+Once a Care plan is agreed, this becomes the task lists for each day. We are continuously working on improving our service delivery, which means care plans are frequently updated to ensure we are providing the appropriate level of care.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="ba-fw-banner background-image-cta-block background-image-cta-block-trf lazyload" style="background:inherit;" data-bg="url(&#039;https://www.truehomecare.co.uk/wp-content/uploads/2025/06/senior-home-care-1.webp&#039;)">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<h3 class="ba-h3">Questions? We’re Happy to Help</h3>
+<div>
+<a href="tel:0161 428 1989" class="background-image-cta-block__phone-number page-tel ba-h3">
+0161 428 1989
+</a>
+</div>
+<a href="https://truehomecare.co.uk/contact-us/" class="ba-fw-btn ba-btn-orange ba-mt-s" target=""><span>Contact Us for More Information</span></a>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div><!-- #page-wrapper -->
+
+<!-----------Custom footer widget by Binu-------------------------------->
+<footer class="primary-bg">
+<div class="mob-footer-sticky secondary-bg">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<a href="tel:01614281989" class="btn ba-btn-orange ba-phone-btn mobile-sticky-tel">Call 0161-428-1989</a>
+</div>
+</div>
+</div>
+</div>
+<div class="container ">
+<div class="lg-footer">
+<div class="row">
+<div class="col-12 col-md-3"><div id="block-22" class="widget widget_block"><a href="/" rel="link" title="True Homecare homepage"><figure class="wp-block-image size-full"><img decoding="async" data-src="https://www.truehomecare.co.uk/wp-content/uploads/2024/04/truehomecare-logo-white.png" alt="True Homecare logo white for darker backgrounds" class="footer-logo wp-image-48 lazyload" width="150" height="73" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 150px; --smush-placeholder-aspect-ratio: 150/73;" /></figure></a></div><div id="block-23" class="widget widget_block"><h4 class="widget-title">Connect With Us</h4>
+<ul class="ba-social-media-links">
+<li><a href="https://www.facebook.com/Truehomecare/" target="_blank"><img decoding="async" data-src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/img/facebook-n.svg" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" /></a></li><li><a href="https://x.com/truehomecare" target="_blank"><img decoding="async" data-src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/img/twitter-n.svg" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" /></a></li><li><a href="https://www.linkedin.com/company/true-homecare-limited//" target="_blank"><img decoding="async" data-src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/img/linkedIn-n.svg" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" /></a></li>    </ul>
+</div></div><div class="col-6 col-md"><div id="nav_menu-7" class="widget widget_nav_menu"><h4 class="widget-title">About</h4><div class="menu-footer-menu-1-container"><ul id="menu-footer-menu-1" class="menu"><li id="menu-item-29" class="footer-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a href="/locations" class="footer-nav">Locations</a></li>
+<li id="menu-item-30" class="footer-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a href="/contact-us" class="footer-nav">Contact Us</a></li>
+<li id="menu-item-5466" class="footer-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-5466"><a href="/blog" class="footer-nav">Blog</a></li>
+<li id="menu-item-1768" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1768"><a href="https://www.truehomecare.co.uk/terms-conditions/" class="footer-nav">Terms &amp; Conditions</a></li>
+<li id="menu-item-1769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1769"><a href="https://www.truehomecare.co.uk/privacy-policy/" class="footer-nav">Privacy Policy</a></li>
+</ul></div></div></div><div class="col-6 col-md"><div id="nav_menu-13" class="widget widget_nav_menu"><h4 class="widget-title">Services</h4><div class="menu-footer-menu-2-container"><ul id="menu-footer-menu-2" class="menu"><li id="menu-item-10020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10020"><a href="https://www.truehomecare.co.uk/your-care-planning-process/" class="footer-nav">Our Care Process</a></li>
+<li id="menu-item-10021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10021"><a href="https://www.truehomecare.co.uk/understanding-the-role-of-homecare-professionals/" class="footer-nav">Role of Carer</a></li>
+<li id="menu-item-10019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10019"><a href="https://www.truehomecare.co.uk/your-safety-and-wellbeing/" class="footer-nav">Your Safety and Wellbeing</a></li>
+<li id="menu-item-10026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10026"><a href="https://www.truehomecare.co.uk/support-for-those-who-support-others/" class="footer-nav">Support For Others</a></li>
+<li id="menu-item-10029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10029"><a href="https://www.truehomecare.co.uk/being-there-for-you/" class="footer-nav">Being There for You</a></li>
+</ul></div></div></div><div class="col-6 col-md"><div id="block-30" class="widget widget_block"><p>True Homecare is registered by the Care Quality Commission. True Homecare is a limited company & registered in England. Reg No. 7912253.</p></div><div id="block-27" class="widget widget_block"><section class="block-wysiwyg pt-5 pb-5">
+<div class="container">
+<div class="row">
+<div class="col-12">
+</div>
+</div>
+</div>
+</section></div></div><div class="col-6 col-md"><div id="block-34" class="widget widget_block"> </div><div id="block-38" class="widget widget_block"></div></div><div class="col-12 col-md-3"><div id="block-28" class="widget widget_block">Copyright © 2025 True Homecare. All rights reserved</div></div>        </div>
+</div>
+<div class="mob-footer">
+<div class="row">
+<div class="col-12"><div id="block-24" class="widget widget_block"><a href="/" rel="link" title="True Homecare homepage"><figure class="wp-block-image size-full"><img decoding="async" data-src="https://www.truehomecare.co.uk/wp-content/uploads/2024/04/truehomecare-logo-white.png" alt="True Homecare logo white for darker backgrounds" class="footer-logo wp-image-48 lazyload" width="150" height="73" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 150px; --smush-placeholder-aspect-ratio: 150/73;" /></figure></a>
+<h4 class="widget-title">Connect With Us</h4>
+<ul class="ba-social-media-links">
+<li><a href="https://www.facebook.com/Truehomecare/" target="_blank"><img decoding="async" data-src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/img/facebook-n.svg" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" /></a></li><li><a href="https://x.com/truehomecare" target="_blank"><img decoding="async" data-src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/img/twitter-n.svg" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" /></a></li><li><a href="https://www.linkedin.com/company/true-homecare-limited//" target="_blank"><img decoding="async" data-src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/img/linkedIn-n.svg" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" /></a></li>    </ul>
+</div></div><div class="col-6"><div id="nav_menu-5" class="widget widget_nav_menu"><h4 class="widget-title">About</h4><div class="menu-footer-menu-1-container"><ul id="menu-footer-menu-3" class="menu"><li class="footer-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a href="/locations" class="footer-nav">Locations</a></li>
+<li class="footer-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a href="/contact-us" class="footer-nav">Contact Us</a></li>
+<li class="footer-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-5466"><a href="/blog" class="footer-nav">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1768"><a href="https://www.truehomecare.co.uk/terms-conditions/" class="footer-nav">Terms &amp; Conditions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1769"><a href="https://www.truehomecare.co.uk/privacy-policy/" class="footer-nav">Privacy Policy</a></li>
+</ul></div></div><div id="nav_menu-12" class="widget widget_nav_menu"><h4 class="widget-title">Services</h4><div class="menu-footer-menu-2-container"><ul id="menu-footer-menu-4" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10020"><a href="https://www.truehomecare.co.uk/your-care-planning-process/" class="footer-nav">Our Care Process</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10021"><a href="https://www.truehomecare.co.uk/understanding-the-role-of-homecare-professionals/" class="footer-nav">Role of Carer</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10019"><a href="https://www.truehomecare.co.uk/your-safety-and-wellbeing/" class="footer-nav">Your Safety and Wellbeing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10026"><a href="https://www.truehomecare.co.uk/support-for-those-who-support-others/" class="footer-nav">Support For Others</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10029"><a href="https://www.truehomecare.co.uk/being-there-for-you/" class="footer-nav">Being There for You</a></li>
+</ul></div></div></div><div class="col-12"><div id="block-33" class="widget widget_block">Copyright © 2025 True Homecare. All rights reserved</div></div>        </div>
+<div>
+</div>
+</footer>
+<!-------------------------------------------------------------------------->
+</div><!-- #page -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/understrap-child/*","/wp-content/themes/understrap/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="mpp_gutenberg_tabs-js" src="https://www.truehomecare.co.uk/wp-content/plugins/metronet-profile-picture/js/mpp-frontend.js?ver=2.6.3"></script>
+<script id="afl-wc-utm-public-js-extra">
+var afl_wc_utm_public = {"ajax_url":"https://www.truehomecare.co.uk/wp-admin/admin-ajax.php","action":"afl_wc_utm_view","nonce":"","cookie_prefix":"afl_wc_utm_","cookie_expiry":{"days":90},"cookie_renewal":"force","cookie_consent_category":"statistics","domain_info":{"domain":"www.truehomecare.co.uk","path":"/"},"last_touch_window":"1800","wp_consent_api_enabled":"","user_has_active_attribution":"0","attr_first_non_utm":"0"};
+//# sourceURL=afl-wc-utm-public-js-extra
+</script>
+<script id="afl-wc-utm-public-js" src="https://www.truehomecare.co.uk/wp-content/plugins/afl-wc-utm/public/js/afl-wc-utm-public.min.js?ver=2.10.2"></script>
+<script id="child-understrap-scripts-js" src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/js/child-theme.min.js?ver=1.2.0.1755714010"></script>
+<script id="smush-lazy-load-js" src="https://www.truehomecare.co.uk/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.20.0"></script>
+<script id="slick-js" src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/js/slick.min.js"></script>
+<script id="custom-script-js-extra">
+var ajax_object = {"ajax_url":"https://www.truehomecare.co.uk/wp-admin/admin-ajax.php","search_query":"","site":"trf"};
+//# sourceURL=custom-script-js-extra
+</script>
+<script id="custom-script-js" src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/js/custom-script.js?ver=1.0.1"></script>
+<script id="custom-script-slick-final-07-05-2024-js" src="https://www.truehomecare.co.uk/wp-content/themes/understrap-child/js/custom-script-slick-final.js?ver=1.0"></script>
+<script async data-wp-strategy="async" id="trustindex-loader-js-js" src="https://cdn.trustindex.io/loader.js"></script>
+<script id="wp-dom-ready-js" src="https://www.truehomecare.co.uk/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-hooks-js" src="https://www.truehomecare.co.uk/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://www.truehomecare.co.uk/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://www.truehomecare.co.uk/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
+<script id="gform_json-js" defer='defer' src="https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.3"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://www.truehomecare.co.uk/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"7f4e3fe7f4b05ee22a6e57a025ea4250","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.9.3"></script>
+<script id="gform_masked_input-js" defer='defer' src="https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.9.3"></script>
+<script id="gform_placeholder-js" defer='defer' src="https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.9.3"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=501a987060f4426fb517400c73c7fc1e"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=ddd2702ee024d421149a5e61416f1ff5"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"7f4e3fe7f4b05ee22a6e57a025ea4250"},"ajax":{"ajaxurl":"https://www.truehomecare.co.uk/wp-admin/admin-ajax.php","ajax_submission_nonce":"d65e70f230","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again."}}}},"hmr_dev":"","public_path":"https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"1d9ee05e53"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="https://www.truehomecare.co.uk/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=cd31c16637eeae0b20e422009e5a8b28"></script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {jQuery('#input_1_10').mask('99999').bind('keypress', function(e){if(e.which == 13){jQuery(this).blur();} } );if(typeof Placeholders != 'undefined'){
+Placeholders.enable();
+}} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [1, 1] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 1, currentPage: 1 } } );            gform.utils.trigger( { event: 'gform/post_render', native: false, data: { formId: 1, currentPage: 1 } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+<!----------------Modal------------------------>
+<div class="modal fade" id="base-model" tabindex="-1" aria-labelledby="" aria-hidden="true">
+<div class="modal-dialog modal-dialog-top modal-md modal-default">
+<div class="modal-content">
+<div class="modal-body base-model-body  primary-bg-light">
+<div class="row">
+<div class="col-sm-7">
+<h5 class="ba-h5">No locations within 50 miles of your search.</h5>
+</div>
+<div class="col-sm-5 my-auto text-sm-end">
+<button type="button" class="btn light btn-modal" data-bs-dismiss="modal">OK</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!----------------Modal end-------------------->
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('click', function(event) {
+if (event.target.closest('.ti-widget')) {
+event.preventDefault();
+const target = document.querySelector('#allreviews');
+if (target) {
+window.scrollTo({
+top: target.offsetTop - 150,
+behavior: 'smooth'
+});
+}
+}
+});
+});
+</script>
+</body>
+</html><!-- WP Fastest Cache file was created in 0.415 seconds, on July 6, 2026 @ 8:10 am -->

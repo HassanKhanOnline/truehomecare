@@ -1,0 +1,32 @@
+---
+// "Get Your Assessment" lead form (front-end only for now; wire to a handler later).
+---
+<form class="leadform" method="post" action="/thank-you/">
+  <h3>Get Your Assessment</h3>
+  <p class="leadform__note">All Fields Required</p>
+  <input type="text" name="first_name" placeholder="First Name" required />
+  <input type="text" name="last_name" placeholder="Last Name" required />
+  <input type="tel" name="phone" placeholder="Phone Number" required />
+  <input type="email" name="email" placeholder="Email Address" required />
+  <input type="text" name="postcode" placeholder="Postcode" required />
+  <label class="leadform__consent">
+    <input type="checkbox" name="consent" required />
+    <span>Yes, send me SMS updates on my estimate and promotions. Opt out at any time by replying STOP. Data/text messaging rates may apply.</span>
+  </label>
+  <button type="submit" class="btn btn--ghost leadform__submit">Request Assessment</button>
+</form>
+
+<style>
+  .leadform { background: #fff; border-radius: 10px; box-shadow: var(--shadow); padding: 24px; max-width: 360px; width: 100%; }
+  .leadform h3 { margin-bottom: 4px; }
+  .leadform__note { font-size: 0.78rem; color: var(--muted); margin-bottom: 14px; }
+  .leadform input[type='text'], .leadform input[type='tel'], .leadform input[type='email'] {
+    width: 100%; padding: 11px 12px; border: 1px solid var(--line); border-radius: 6px;
+    margin-bottom: 12px; font-family: inherit; font-size: 0.92rem;
+  }
+  .leadform input:focus { outline: none; border-color: var(--green-logo); }
+  .leadform__consent { display: flex; gap: 8px; font-size: 0.7rem; color: var(--muted); margin-bottom: 14px; line-height: 1.4; }
+  .leadform__consent input { margin-top: 3px; }
+  .leadform__submit { width: 100%; justify-content: center; background: var(--green); color: #fff; border-color: var(--green); }
+  .leadform__submit:hover { background: var(--green-deep); border-color: var(--green-deep); color: #fff; }
+</style>

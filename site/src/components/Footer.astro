@@ -1,0 +1,86 @@
+---
+import Logo from './Logo.astro';
+import { site, footerLinks } from '../data/site';
+---
+<section class="footcta">
+  <div class="container footcta__inner">
+    <div>
+      <h3>Questions? We’re Happy to Help</h3>
+      <a href={site.phoneHref} class="footcta__phone">{site.phone}</a>
+    </div>
+    <a href="/contact-us/" class="btn btn--primary">Contact Us for More Information</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <Logo light />
+      <p class="footer__social-label">Connect With Us</p>
+      <div class="footer__social">
+        <a href={site.social.facebook} aria-label="Facebook">f</a>
+        <a href={site.social.twitter} aria-label="Twitter">t</a>
+        <a href={site.social.linkedin} aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>About</h4>
+      <ul>
+        {footerLinks.about.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Services</h4>
+      <ul>
+        {footerLinks.services.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+      </ul>
+    </div>
+
+    <div class="footer__col footer__reg">
+      <p>
+        True Homecare is registered by the Care Quality Commission. True Homecare is a limited
+        company &amp; registered in England. Reg No. {site.regNo}.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container">
+      Copyright © {new Date().getFullYear()} True Homecare. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footcta { background: url('/images/footer-cta-bg.jpg') center/cover no-repeat, var(--green-deep); position: relative; }
+  .footcta::before { content: ''; position: absolute; inset: 0; background: rgba(22, 58, 46, 0.86); }
+  .footcta__inner { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 40px 20px; flex-wrap: wrap; }
+  .footcta h3 { color: #fff; margin: 0; }
+  .footcta__phone { display: block; color: var(--orange); font-size: 1.6rem; font-weight: 700; }
+
+  .footer { background: var(--green-deep); color: rgba(255,255,255,0.8); padding-top: 54px; }
+  .footer__grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.4fr; gap: 32px; padding-bottom: 40px; }
+  .footer__social-label { color: var(--orange); font-weight: 600; margin: 20px 0 10px; }
+  .footer__social { display: flex; gap: 10px; }
+  .footer__social a { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; background: rgba(255,255,255,0.12); color: #fff; font-size: 0.85rem; font-weight: 600; }
+  .footer__social a:hover { background: var(--orange); }
+
+  .footer__col h4 { color: var(--orange); font-size: 1rem; margin-bottom: 16px; }
+  .footer__col ul { list-style: none; padding: 0; margin: 0; }
+  .footer__col li { margin-bottom: 10px; }
+  .footer__col a { color: rgba(255,255,255,0.8); font-size: 0.92rem; }
+  .footer__col a:hover { color: #fff; }
+  .footer__reg p { font-size: 0.85rem; line-height: 1.6; }
+
+  .footer__bottom { border-top: 1px solid rgba(255,255,255,0.12); padding: 18px 0; font-size: 0.82rem; }
+
+  @media (max-width: 900px) {
+    .footer__grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 560px) {
+    .footer__grid { grid-template-columns: 1fr; }
+    .footcta__inner { flex-direction: column; align-items: flex-start; }
+  }
+</style>

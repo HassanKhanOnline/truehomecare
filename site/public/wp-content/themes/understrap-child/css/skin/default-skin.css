@@ -1,0 +1,122 @@
+.primary-bg {
+    background: #2c3936;
+    color: #ffffff;
+}
+.block-products-list .ba-grid-content {
+    color: #000000;
+}
+.secondary-bg {
+    background: #F2F2F2;
+}
+.primary-bg-light {
+    background: #246851;
+    color: #ffffff;
+}
+.primary-bg a {
+    color: #ffffff;
+}
+.block-products-list .ba-grid-content a {
+    color:#246851;
+}
+.btn-call2a {
+    background: #C4501F;
+    color: #ffffff!important;
+}
+.btn-call2a:hover {
+    background: #A63F14;
+}
+.ba-loc-grid .ba-h5{
+    color: #2C3936;
+}
+.ba-btn-secondary {
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #2C3936;
+    color: #2C3936;
+}
+.ba-btn-primary {
+    background: #246851;
+    border-radius: 5px;
+    color: #ffffff!important;
+}
+.ba-btn-tertiary {
+    background: #2C3936;
+    color: #ffffff;
+}
+.ba-btn-dark {
+    background: #2C3936;
+    color: #ffffff;
+}
+.ba-btn-dark:hover {
+    background: #246851;
+    color: #ffffff;
+}
+.ba-btn-tertiary:hover {
+    color: #ffffff!important;
+}
+.ba-btn-orange {
+    background: #C4501F;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-weight: 600;
+
+}
+.ba-btn-orange:hover {
+    background: #A63F14;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+
+}
+.secondary-bg a, .secondary-bg a:hover, .ba-search-item-h, .ba-toggle-btn {
+    color: #246851;
+}
+.secondary-bg .ba-btn-orange, .secondary-bg .ba-btn-orange:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.ba-btn-default {
+ background: #246851!important;
+ color: #ffffff!important;
+ font-weight: 600;
+}
+#banner-hero .hero-h1 {
+    color: #ffffff;
+}
+.get-free-estimate-form_wrapper .gform_button:hover, .location-page-upper-footer .buttons .btn.dark:hover, .ba-btn-orange:hover {
+    background: #A63F14!important;
+    color: #fff;
+  
+  }
+  .get-free-estimate-form_wrapper .gform_button:active,  .get-free-estimate-form_wrapper .gform_button:focus, .location-page-upper-footer .buttons .btn.dark:active,.location-page-upper-footer .buttons .btn.dark:focus, .ba-btn-orange:active, .ba-btn-orange:focus {
+    background: #C4501F!important;
+  }
+ .ba-btn-default:hover, .btn.green:hover, .get-free-estimate:hover, .btn.dark:hover{
+    background: #2C3936!important;
+    color: #fff!important;
+  
+  }
+  .btn-f-learn-more:hover,  .btn-f-learn-more:active, .btn.light:hover {
+    background: #246851!important;
+    color: #fff;
+  }
+  .primary-bg-light .btn.light:hover,  .primary-bg-light .btn-f-learn-more:active, .primary-bg-light .btn-f-learn-more:hover {
+    background: #2C3936!important;
+  }
+  .ba-link-a:hover {
+    color: #2C3936!important;
+  }
+a:hover {
+color: #2C3936;
+}
+footer a:hover, .top-bar-menu a:hover {
+    color: #fff;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+#main-nav a:hover {
+    color: #000;
+}
+.location-page-upper-footer .ba-h3 {
+    color: #fff
+}
