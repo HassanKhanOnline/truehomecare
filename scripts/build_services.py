@@ -749,8 +749,91 @@ reablement = {
  ],
 }
 
+IMG_REAB = '/wp-content/uploads/2025/06/Reablement-Services-uk-truehomecare-1-e1750685658842.png'
+
+# ============ RESPITE CARE ============
+respite = {
+ 'file': 'services__respite-care.html', 'route': '/services/respite-care/',
+ 'm_title': 'Respite Care at Home in Stockport & Wilmslow | True Homecare',
+ 'm_desc': 'CQC-rated respite care at home across Stockport, Wilmslow & Cheshire. Reliable short-term and 24-hour cover so family carers can rest. Rapid deployment available. Call 0161 428 1989.',
+ 'hero_title': 'Respite Care at Home', 'hero_img': '/wp-content/uploads/2025/06/Respite-Care-uk-truehomecare.png',
+ 'hero_text': "True Homecare provides short-term respite care to support both clients and their primary carers across Wilmslow, Stockport, and the surrounding areas. We understand that full-time caregiving is physically and mentally demanding. Our private visiting and live-in respite services offer reliable relief, allowing family members to rest, manage personal commitments, or take a holiday, knowing their relative is safe. Whether you require temporary daily visits or continuous 24-hour supervision, our care plans adapt to your exact schedule, providing secure, professional oversight at home.",
+ 'process_heading': 'How to arrange Respite Care?',
+ 'process_intro': "Our team will guide you through the process of arranging a safeguarding-compliant respite package, ensuring all clinical and personal requirements are met before you step away.",
+ 'process_cards': [
+   ('Contact our Care Experts', "Call our Stockport and Wilmslow office on 01614281989 or use our secure online enquiry form. Our team is available to discuss your required cover dates, funding options, and specific care needs."),
+   ('Free In-Home Assessment', "An experienced care manager will conduct a home visit within 24 hours. We evaluate existing health conditions, physical mobility restrictions, and daily routines to determine the exact level of support required to maintain home safety."),
+   ('Your Respite Care Plan', "We translate our findings into a detailed care document. This outlines daily tasks, manual handling requirements, and medication schedules, ensuring our temporary support aligns accurately with any ongoing medical treatments."),
+ ],
+ 'experts_heading': 'See What Our Experts Can Do',
+ 'experts_paras': ["True Homecare eliminates handover stress by managing a highly structured process. We document your exact routines—from preferred meal times to specific morning rituals—and replicate them precisely. Whether we are managing post-operative recovery, continence care, or simply ensuring safe mobility around the house, our care workers maintain strict continuity, so your relative experiences zero disruption while you take your break."],
+ 'feature_heading': 'The Personalised Carer Matching Process',
+ 'feature_text': "Successful short-term care requires immediate trust and competence. We do not use generic staff allocations. Our care managers match professionals to your family based on specific clinical competencies. If your relative requires complex moving and handling, we assign care workers with advanced hoist training. For clients with cognitive impairments, we provide staff experienced in dementia support and behavioural validation. This strict skill-matching ensures the care worker can safely and confidently manage the household from day one.",
+ 'benefits_heading': 'Comprehensive Respite Support Features',
+ 'benefits': [
+   ('Personal Care and Hygiene', "Discreet assistance with daily hygiene, bathing, dressing, and continence management, ensuring clients maintain their dignity."),
+   ('Medication Administration', "We track dosages accurately to prevent errors and manage chronic conditions securely."),
+   ('Companion Support', "Active social engagement to prevent isolation, including facilitating local community outings, accompanying clients to medical appointments, or sharing hobbies at home."),
+   ('Nutritional Support', "Preparing balanced meals that adhere to specific dietary needs, including dysphagia diets or diabetes management plans."),
+   ('Mobility Assistance', "Safe facilitation of movement around the home using correct transfer techniques, walking frames, and manual handling equipment to actively reduce fall risks."),
+   ('Dementia-Specific Engagement', "Structured cognitive stimulation designed to reduce confusion. We ensure caregiver continuity to accurately monitor any sudden behavioural or health changes."),
+ ],
+ 'phone_cta': 'Call us to find out more about Respite Care',
+ 'why1': ('Why True Homecare is the First Choice for Respite Care', "True Homecare delivers CQC-rated respite care rooted in clinical professionalism. We strictly adhere to the Ethical Framework by Stockport Council and align our protocols with the rigorous standards of the United Kingdom Homecare Association (UKHCA). To maintain our ‘Good’ CQC rating, we employ staff with recognised UK healthcare qualifications. For highly complex needs, our care packages receive oversight from care managers with advanced clinical experience, providing families with the reassurance that their loved ones are receiving evidence-based, regulated support."),
+ 'why2': ('Regulated Excellence and 24-Hour Support', "Caregiving emergencies happen, and family carers sometimes need immediate relief due to their own illness or unforeseen circumstances. True Homecare provides rapid-response respite deployment across Cheshire and Greater Manchester. In urgent situations, we expedite the home assessment to place a qualified care worker in the home safely and quickly. For planned breaks, we offer highly scalable cover—from a few visiting hours a week to continuous 24-hour live-in care while you travel, ensuring uninterrupted household stability."),
+ 'careopts_heading': 'Complementary Support Options',
+ 'careopts_intro': "Explore the specialist services that work alongside respite care to support your loved one's wellbeing and independence.",
+ 'careopts_cards': [
+   {'img': IMG_DEM, 'title': 'Alzheimer and Dementia Care',
+    'body': "Keep the client safe in their most familiar surroundings. Our bespoke support provides CQC-rated assistance tailored to your schedule, actively managing the complexities of memory-related conditions.",
+    'items': [
+      ('Consistent, Familiar Routine', "Our team structures support around the client's existing habits to minimise confusion and reduce anxiety."),
+      ('Specialist Memory Support', "We focus on caregiver continuity. Our staff undergo rigorous training to manage symptoms like sundowning and ensure medications are taken safely."),
+      ('Essential Respite for Families', "Caring for a relative with memory loss is exhausting. Our flexible cover, including waking or sleeping nights, gives primary carers crucial time to rest."),
+    ], 'btn': ('Request Dementia Assessment', '/services/dementia-and-alzheimer-care/')},
+   {'img': IMG_REAB, 'title': 'Specialist Reablement Services',
+    'body': "Regain independence following an illness or hospital stay. Our goal-oriented reablement empowers clients to perform daily tasks themselves, restoring confidence.",
+    'items': [
+      ('Goal-Oriented Recovery', "We define specific, measurable outcomes—such as improving indoor mobility or rebuilding self-care skills—tracking physical progress daily."),
+      ('Multidisciplinary Alignment', "We coordinate directly with local primary care networks to ensure our home support safely mirrors the guidance of your discharge team."),
+      ('Sustained Autonomy', "By providing intensive, short-term recovery support, we prevent hospital readmissions and help clients safely transition back to independent living."),
+    ], 'btn': ('Book Reablement Support', '/services/reablement-services/')},
+ ],
+ 'content_html': (
+   '<h3><strong>Our Approach to Personalised Respite Care</strong></h3>'
+   '<h4><strong>Keeping Families Updated While You Are Away</strong></h4>'
+   "<p>We understand that it is difficult to switch off entirely when leaving a loved one in someone else's care. To provide total peace of mind, True Homecare maintains transparent, proactive communication with family members. Our care managers provide regular updates regarding your relative's health, mood, and daily activities. Should any medical issues arise while you are away, our local Stockport team handles all coordination with local healthcare providers, allowing you to enjoy your break without constant worry.</p>"
+   '<h3><strong>How Our Respite Support is Delivered</strong></h3>'
+   '<p>Once the respite plan is agreed upon, our focus shifts to delivering reliable support that accurately mirrors your existing routines.</p>'
+   '<h4><strong>Care Worker Introduction</strong></h4>'
+   '<p>We ensure a proper introduction between the care worker, the client, and the family before the primary carer departs, establishing comfort and familiarity.</p>'
+   '<h4><strong>Routine Implementation</strong></h4>'
+   '<p>We execute the agreed-upon schedule, managing all daily transitions. This includes delivering precise assistance during high-risk times, such as morning routines, evening settledowns, and waking nights.</p>'
+   '<h4><strong>Clinical Oversight</strong></h4>'
+   '<p>Our management team conducts spot checks and maintains continuous oversight of the care worker to ensure all manual handling and medication administration protocols are strictly followed.</p>'
+   '<h4><strong>End-of-Respite Review</strong></h4>'
+   "<p>Upon the family carer's return, we provide a full handover regarding the client's health and wellbeing. Families can easily retain our services for ongoing weekly visits if continued support is desired.</p>"
+   '<h2><strong>Choosing the Right Care Environment</strong></h2>'
+   + table_html([
+     'Maintain independence and preserve identity',
+     'Highly personalised, dedicated one-to-one attention',
+     'Consistency of a dedicated professional',
+     'Maintaining social ties and community integration',
+     'Cost-effective and bespoke respite support',
+   ], header=('Feature', 'True Homecare', 'Residential Facility'))
+ ),
+ 'faq_heading': 'Frequently Asked Questions About Respite Care',
+ 'faqs': [
+   ('Who pays for respite care in the UK?', "Funding is typically managed via private payments or local authority support. Families can pay independently for full control over schedules, or those meeting specific local financial and health eligibility criteria may receive social care funding following a council needs assessment."),
+   ('How quickly can respite care be arranged?', "While standard arrangements follow a brief consultation, we offer rapid respite deployment for urgent situations, prioritising expedited home assessments to place a qualified care worker in the home quickly."),
+   ('What is the difference between respite and permanent home care?', "Respite care is a temporary, short-term arrangement designed to give primary family carers a scheduled break to rest and recharge. Permanent home care is a long-term solution for individuals requiring ongoing daily assistance."),
+   ('Does respite care include dementia support?', "Yes. We provide specialist dementia-specific engagement, focusing on positive cognitive stimulation, behavioural validation techniques, and consistent routines that reduce confusion and anxiety."),
+   ('How long can a respite care period last?', "The duration is entirely built around your family's needs. It can range from a few visiting hours a week, overnight supervision, or consecutive weeks of live-in cover while you take a holiday."),
+ ],
+}
+
 # ============ BUILD ALL ============
-configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary, learning, reablement]
+configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary, learning, reablement, respite]
 manifest = json.load(open(MANIFEST))
 mmap = {m['route']: m for m in manifest}
 for cfg in configs:
