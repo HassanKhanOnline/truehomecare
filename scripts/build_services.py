@@ -592,8 +592,87 @@ domiciliary = {
  ],
 }
 
+# ============ LEARNING DISABILITY SUPPORT ============
+learning = {
+ 'file': 'services__learning-disability-support.html', 'route': '/services/learning-disability-support/',
+ 'm_title': 'Learning Disability Support at Home | True Homecare',
+ 'm_desc': 'CQC-rated learning disability support at home across Stockport, Wilmslow & Cheshire. Person-centred help with daily living, autism support, medication and independence. Call 0161 428 1989.',
+ 'hero_title': 'Learning Disability Support', 'hero_img': '/wp-content/uploads/2025/07/Learning-Disability-Support-Uk-Truehomecare-1.png',
+ 'hero_text': "True Homecare provides high-quality learning disability support at home for individuals across the UK. Our premium services focus on maintaining independence and dignity, ensuring clients receive tailored support to live comfortably, safely, and confidently within their own homes. Our services operate at the intersection of person-centred care and full CQC compliance. We strictly adhere to the Ethical Framework by Stockport Council, ensuring our support is both locally trusted and held to the highest regulatory standards.",
+ 'process_heading': 'How do I arrange Learning Disability Support?',
+ 'process_intro': "Our local Cheshire and Greater Manchester team will guide you seamlessly through the process of arranging a safeguarding-compliant learning disability support package, tailored perfectly to the individual's personality, social needs, and emotional wellbeing.",
+ 'process_cards': [
+   ('Contact our Learning Disability Support Experts', "Get in touch with our Stockport and Wilmslow team on 01614281989 or use our secure online enquiry form to discuss your specific care options. Our dedicated team is available for 24-hour support, providing immediate guidance on independent living services."),
+   ('Free In-Home Assessment within 24 hours', "Our skilled team will conduct a free assessment within 24 hours of your enquiry. We evaluate personal routines, mental health, cognitive requirements, and communication needs to identify the exact level of support required for adults with learning disabilities, ensuring complete safety and appropriate care."),
+   ('Your bespoke Learning Disability Support package', "We create person-centred care plans in strict adherence to the Ethical Framework of Stockport Council. Our CQC-rated staff hold relevant UK qualifications and are carefully matched based on individual interests, social goals, and specific support packages for complex learning disability requirements."),
+ ],
+ 'experts_heading': 'See What Our Experts Can Do',
+ 'experts_paras': ["True Homecare's professional learning disability support provides the profound peace of mind that comes from knowing the client is safe, dignified, and supported within their own home. By transitioning from the stress of social isolation to our personalised, dedicated independent living services, our clients experience a measurable improvement in their daily quality of life, comfort, and emotional wellbeing."],
+ 'feature_heading': 'Learning Disability Support Your Family Can Trust',
+ 'feature_text': "Balancing professional responsibilities with the care of a family member living with learning disabilities often leads to significant caregiver stress and family burden. True Homecare alleviates this emotional pressure, providing the ultimate relief of knowing the client is safe, dignified, and well-supported with flexible care options, including waking nights or sleeping nights if required.",
+ 'benefits_heading': 'Comprehensive Learning Disability Support Features',
+ 'benefits': [
+   ('Personalised Daily Living Assistance', "Our caregivers provide dignified, person-centred support with daily routines, helping clients develop and maintain independence while ensuring they feel confident."),
+   ('Clinical Medication Management', "We ensure health stability through the precise administration of prescriptions. Working alongside other healthcare professionals such as district nurses, GPs, hospital staff, and pharmacists, we guarantee that medication adherence is consistently monitored, with routines in line with advice from bodies such as Diabetes UK."),
+   ('Specialised Support for Autism', "We provide expert support for learning disabilities and autism at home, implementing safety measures and structured activities to reduce anxiety. We ensure consistent support to effectively manage specific cognitive, communication, and sensory requirements."),
+   ('Nutritional Support and Meal Planning', "Our team provides tailored meal preparation and nutritional oversight. We design bespoke menus to meet complex dietary requirements while promoting overall physical health and wellbeing for every client."),
+   ('Household Management and Independent Living Skills', "We assist with local shopping, errands, and light cleaning to ensure a safe, tidy, and organised space. We strictly comply with guidelines from the United Kingdom Homecare Association (UKHCA) and the Royal College of Nursing (RCN)."),
+   ('Companionship Services', "We actively combat isolation by providing consistent emotional support and facilitating companionship through local community outings, keeping clients socially active and mentally stimulated."),
+ ],
+ 'phone_cta': 'Call us to find out more about Learning Disability Support',
+ 'why1': ('Why True Homecare is the First Choice for Learning Disability Support', "True Homecare delivers personalised learning disability support rooted in dignity, respect, and clinical professionalism. Beyond our years of experience, we operate at the exact intersection of person-centred care and full compliance. We provide the high-quality in-home care every client deserves to live independently and safely at home."),
+ 'why2': ('Delivering Perfection in Learning Disability Support', "Our absolute commitment to quality is validated by external healthcare regulators. True Homecare is proud to have achieved a ‘Good’ rating from the Care Quality Commission (CQC). This registered standard ensures that the safety, dignity, and clinical wellbeing of our clients remain absolute top priorities through rigorous corporate governance."),
+ 'careopts_heading': 'Complementary Support Options',
+ 'careopts_intro': "Explore the services that work seamlessly alongside learning disability support to provide a fully integrated, person-centred plan for independent living.",
+ 'careopts_cards': [
+   {'img': IMG_COMP, 'title': 'Person-Centred Companionship',
+    'body': "Combat isolation and improve emotional wellbeing through meaningful social connection. Our companionship services focus on fostering genuine relationships that keep clients socially active, intellectually engaged, and emotionally supported in their own home.",
+    'items': [
+      ('Social Engagement', "We facilitate active participation in hobbies, community events, and local interests, ensuring clients remain connected to the world and feel truly valued."),
+      ('Emotional Support', "Our team provides empathetic listening and consistent presence, helping to reduce feelings of loneliness and anxiety while fostering a positive outlook."),
+      ('Outing Assistance', "From a stroll in the park to a movie or a family gathering, we provide the reliable support you need to maintain an active lifestyle."),
+    ], 'btn': ('Explore Companionship', '/services/companionship/')},
+   {'img': IMG_LIVEIN, 'title': '24-Hour Live-in Care',
+    'body': "Avoid the stress of moving to a residential setting. Our premium live-in care provides 24-hour support from a dedicated professional. Experience true one-to-one assistance that guarantees safety, dignity, and complete peace of mind.",
+    'items': [
+      ('24/7 Security', "Rest easy knowing a professional is present round-the-clock to manage safety, respond to emergencies, and provide continuous supervision, day and night."),
+      ('Professional Companionship', "Beyond clinical needs, our team provides meaningful company, turning daily routines into positive interactions that enhance the client's overall quality of life."),
+      ('Dedicated Assistance', "Receive unwavering, personalised support for all daily tasks—from medication management to personal hygiene and household help—tailored specifically to the client's unique requirements."),
+    ], 'btn': ('Explore Live-in Care', '/services/live-in-care/')},
+ ],
+ 'content_html': (
+   '<h3><strong>Our Step-by-Step Learning Disability Support Delivery Process</strong></h3>'
+   '<p>We ensure a seamless transition to domiciliary learning disability care through a structured onboarding process that prioritises independence, safety, and thorough regulatory compliance.</p>'
+   '<h4><strong>1. Initial Clinical &amp; Social Consultation</strong></h4>'
+   "<p>Our process begins with a comprehensive, free assessment in the client's own home, where our experienced care managers conduct a deep dive into the client's unique goals, communication preferences, and daily living needs. We engage directly with the family to identify primary environmental adjustments, ensuring we fully understand the support required to maintain safety and dignity.</p>"
+   '<h4><strong>2. Plan Creation</strong></h4>'
+   "<p>We translate our assessment findings into a tailored, actionable roadmap specifically designed to address personal wellbeing. This roadmap coordinates essential tasks such as skill-building, social inclusion, and daily routine management while ensuring the care plan aligns perfectly with the client's lifestyle and home environment.</p>"
+   '<h4><strong>3. Targeted Lifestyle Accommodations</strong></h4>'
+   '<p>We integrate specific daily preferences into the care routine, providing dedicated support for sleeping nights, executing necessary hospital visits, or organising a relaxing outing for a walk in the park.</p>'
+   '<h4><strong>4. Dedicated Caregiver Matching &amp; Vetting</strong></h4>'
+   f"<p>{TEAM} We perform a sophisticated matching process to pair the client with a skilled professional who shares their personality and values. This ensures that the support provided is personally enriching, fostering trust and long-term stability. All staff pass comprehensive DBS checks, and ongoing training ensures our caregivers remain current with best practices.</p>"
+   '<h4><strong>5. Ongoing Monitoring &amp; Inter-Agency Review</strong></h4>'
+   '<p>Quality care is never static. We provide continuous, proactive monitoring of outcomes, strictly adhering to the Ethical Framework by Stockport Council. We regularly review and refine the support package based on real-time progress and direct, open feedback from the family and the local clinical team to ensure completely integrated, high-quality care.</p>'
+   '<h2><strong>Service Comparison: True Homecare vs. Residential Facilities</strong></h2>'
+   + table_html([
+     'Maintains independence in a familiar, comforting home environment',
+     'Receives dedicated, one-to-one professional attention',
+     'Flexible support adapted to personal daily routines',
+     'Cost-effective, person-centred support package',
+   ], header=('Care Criteria', 'True Homecare', 'Residential Care'))
+ ),
+ 'faq_heading': 'Learning Disability Support FAQs',
+ 'faqs': [
+   ('What is the focus of your learning disability support at home?', "Our support focuses on empowering adults to live independently in their own homes. This includes assistance with daily living skills, medication management, community access, and companionship services tailored to their specific interests."),
+   ('How do you support clients with co-occurring autism?', "Our caregivers undergo specialised training to provide structured routines, sensory management, and communication support, ensuring a calm, safe environment that reduces anxiety and promotes confidence."),
+   ('Are your caregivers qualified to manage complex clinical needs?', "Yes. All of our staff hold relevant UK certifications, pass strict DBS checks, and receive advanced training. Our care coordinators work alongside Registered Nurses (RNs), district nurses, and specialists to manage complex health conditions."),
+   ('How do you integrate assistive technologies into home care?', "We implement smart tools like visual schedules, digital reminders, and voice-to-text software to bridge communication gaps, simplify daily tasks, and provide real-time peace of mind for the family."),
+   ('How can I arrange an initial assessment in Stockport or Wilmslow?', "To begin building a bespoke care plan, contact our local team on 01614281989. We will arrange a free in-home consultation within 24 hours to review your physical, cognitive, and social requirements."),
+ ],
+}
+
 # ============ BUILD ALL ============
-configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary]
+configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary, learning]
 manifest = json.load(open(MANIFEST))
 mmap = {m['route']: m for m in manifest}
 for cfg in configs:
