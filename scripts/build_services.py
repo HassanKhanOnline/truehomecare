@@ -671,8 +671,86 @@ learning = {
  ],
 }
 
+# ============ REABLEMENT SERVICES ============
+reablement = {
+ 'file': 'services__reablement-services.html', 'route': '/services/reablement-services/',
+ 'm_title': 'Reablement Services at Home in Stockport & Cheshire | True Homecare',
+ 'm_desc': 'CQC-rated reablement and hospital-to-home support across Greater Manchester & Cheshire. Short-term, goal-oriented recovery that rebuilds independence at home. Call 0161 428 1989.',
+ 'hero_title': 'Reablement Services at Home', 'hero_img': '/wp-content/uploads/2025/06/Reablement-Services-uk-truehomecare-1-e1750685658842.png',
+ 'hero_text': "Reablement is a short-term, goal-oriented recovery process designed to help individuals regain their independence after an illness, injury, or hospital stay. Unlike traditional home care, which focuses on performing tasks for an individual, professional reablement empowers clients to perform tasks themselves, rebuild confidence, and safely restore their daily living skills in their own homes. True Homecare delivers these specialised pathways across Greater Manchester and Cheshire, helping individuals transition safely from a clinical environment back to autonomous living.",
+ 'process_heading': 'How to Arrange Reablement Services',
+ 'process_intro': "Our local Cheshire and Greater Manchester team will guide you through arranging a safeguarding-compliant reablement package, tailored to the client's clinical and physical recovery needs before care begins.",
+ 'process_cards': [
+   ('Contact our Reablement Experts', "Call our Stockport and Wilmslow-based office on 01614281989 or use our secure online enquiry form. Our support team responds to social care enquiries immediately to outline your short-term recovery options."),
+   ('Free In-Home Assessment', "Our care managers will conduct a home visit within 24 hours. We evaluate current health conditions, physical mobility, and daily routines to determine the exact level of support required."),
+   ('Your Custom Recovery Plan', "We translate our findings into a targeted roadmap for recovery. We allocate CQC-rated care workers who have the specific training required to help the client safely practice their independent living skills."),
+ ],
+ 'experts_heading': 'Hospital-to-Home Transitional Care',
+ 'experts_paras': ["We specialise in hospital discharge support across the Greater Manchester health network. Our care managers coordinate directly with hospital discharge teams, social workers, and primary care networks to ensure that necessary equipment, medication schedules, and care workers are fully established in the home before the client is discharged, preventing readmissions and accelerating recovery."],
+ 'feature_heading': 'Reablement Services Your Family Can Trust',
+ 'feature_text': "Managing a sudden change in a relative's physical abilities following a stroke, fall, or surgery is exhausting. True Homecare alleviates this pressure through professional intervention. We take on the physical demands of personal care, mobility assistance, and safety monitoring, allowing families to step back from full-time caregiving duties. By providing a structured, secure environment, we give you the reassurance that your relative is recovering safely at home.",
+ 'benefits_heading': 'Comprehensive Reablement Support Features',
+ 'benefits': [
+   ('Personal Care and Daily Assistance', "Dignified support with essential daily routines, including washing and dressing, encouraging the client to perform tasks independently as their strength returns."),
+   ('Safe Medication Management', "Organised medication administration and tracking to prevent dosage errors, adhering strictly to discharge summaries and GP prescriptions."),
+   ('Nutritional Support', "Tailored meal preparation focused on physical recovery. For clients with specific conditions, we coordinate dietary plans in line with guidance from bodies such as Diabetes UK."),
+   ('Cognitive and Memory Support', "Structured daily routines and cognitive exercises designed to support clients recovering from neurological events or managing early-stage dementia."),
+   ('Companionship and Social Engagement', "Facilitating local community outings and escorting clients to follow-up hospital appointments to maintain mobility and prevent isolation."),
+   ('Household Management', "Practical assistance with shopping, errands, and light domestic tasks to ensure the home remains a safe, trip-free environment."),
+ ],
+ 'phone_cta': 'Call us to find out more about Reablement Services',
+ 'why1': ('Upholding CQC Standards in Daily Practice', "True Homecare is a CQC-rated ‘Good’ provider. Quality and safety are integrated into every shift, strictly adhering to the Ethical Framework set by Stockport Council through regular internal auditing. Our care packages are supervised by experienced care managers, and we work in strict alignment with local district nurses, GPs, and pharmacists to ensure every element of your reablement plan meets national clinical standards."),
+ 'why2': ('Mobility, Physiotherapy, and Fall Prevention', "Physical rehabilitation requires consistency and safety. Our care workers are trained to assist clients in safely executing the daily exercises prescribed by their Physiotherapists and Occupational Therapists (OTs). We provide expert assistance with manual handling, ensuring clients safely navigate their homes using walking frames, hoists, and stairlifts."),
+ 'careopts_heading': 'Complementary Support Options',
+ 'careopts_intro': "Explore the specialist services that work alongside reablement to support your loved one's recovery and ongoing wellbeing.",
+ 'careopts_cards': [
+   {'img': IMG_DEM, 'title': 'Alzheimer and Dementia Care',
+    'body': "Keep the client safe in their most familiar surroundings. Our bespoke support provides expert, CQC-rated assistance tailored to your exact schedule. We actively manage the complexities of memory-related conditions so the client can maintain their routine securely at home.",
+    'items': [
+      ('Consistent, Familiar Routine', "Our team structures support around the client's existing habits to minimise confusion, reduce anxiety, and create a calm environment."),
+      ('Specialist Memory Support', "We limit the number of visiting carers to ensure continuity. A familiar care worker is trained to monitor symptoms like sundowning, assist with cognitive stimulation, and flag any behavioural changes to medical professionals."),
+      ('Essential Respite for Families', "Caring for a relative with memory loss is demanding. Our flexible care—whether visiting care, waking nights, or sleeping nights—gives family carers crucial time to rest and recharge."),
+    ], 'btn': ('Request Dementia Assessment', '/services/dementia-and-alzheimer-care/')},
+   {'img': IMG_RESP, 'title': 'Private Respite Care at Home',
+    'body': "We provide short-term, professional cover so family carers can take a necessary break. We step in safely to ensure the client remains comfortable, allowing family members to rest or handle personal commitments.",
+    'items': [
+      ('Seamless Routine Transition', "We follow your exact instructions for medication, meals, and mobility, ensuring the client experiences no disruption while you are away."),
+      ('Flexible Cover Options', "Support ranges from a few hours of visiting care per week to full 24-hour live-in cover while you are on holiday."),
+      ('Complete Reassurance', "You can take time off knowing your relative is supported by vetted, fully trained care professionals."),
+    ], 'btn': ('Book Respite Cover', '/services/respite-care/')},
+ ],
+ 'content_html': (
+   '<h3><strong>How Our Reablement Support is Delivered</strong></h3>'
+   '<p>Once the recovery roadmap is agreed upon, our focus shifts to delivering professional, empowering support that safely transitions the client back to autonomous living.</p>'
+   '<h4><strong>Caregiver Matching</strong></h4>'
+   '<p>We pair clients with care workers based on the required clinical skills, manual handling experience, and shared interests to foster an encouraging recovery environment.</p>'
+   '<h4><strong>Goal Setting &amp; Recovery Milestones</strong></h4>'
+   '<p>We define key health, mobility, and lifestyle objectives specifically targeted at regaining independent living skills following an illness or a recent hospital discharge.</p>'
+   '<h4><strong>Care Integration</strong></h4>'
+   "<p>We implement a structured daily schedule that respects the client's established habits, including daytime therapy practice or night-time supervision.</p>"
+   '<h4><strong>Regular Reviews &amp; Phased Reduction</strong></h4>'
+   '<p>Quality reablement is responsive. We conduct regular audits to track physical milestones. As the client successfully regains their strength and independence, we proactively scale down our professional support in consultation with the family and medical teams.</p>'
+   '<h2><strong>Choosing the Right Care Environment</strong></h2>'
+   + table_html([
+     'Clients retain personal independence and lifestyle choices.',
+     'Care is delivered safely within a familiar home environment.',
+     'Individuals receive dedicated one-to-one attention from a carer.',
+     'Daily routines and specific meal times are fully preserved.',
+     'Clients maintain local community ties and keep pets at home.',
+   ], header=('Feature', 'True Homecare', 'Residential Facility'))
+ ),
+ 'faq_heading': 'Frequently Asked Questions About Reablement',
+ 'faqs': [
+   ('What is reablement and how does it differ from standard care?', "Reablement is a short-term, goal-oriented service focused on restoring your physical ability to live independently after a medical event. Standard home care provides ongoing, long-term assistance with daily living tasks."),
+   ('When should I consider reablement services?', "Consider reablement following a hospital stay, a fall, or a period of illness where the client needs intensive, short-term support to safely regain their confidence, physical mobility, and self-care skills."),
+   ('How do you ensure safe manual handling?', "Every True Homecare staff member undergoes rigorous, mandatory training in manual handling and the safe use of mobility aids. We strictly adhere to occupational therapy guidelines to ensure transfers and mobility exercises are conducted safely."),
+   ('What is the role of the Care Manager?', "Your assigned Care Manager acts as the clinical bridge between your family and the care team. They conduct regular home visits, adjust the recovery roadmap as milestones are met, and ensure all daily routines adhere to local safeguarding guidelines."),
+   ("What happens if the client's care needs increase?", "Our care packages are highly scalable. Because our care managers conduct regular reviews, we can quickly transition a short-term reablement package into long-term visiting care, live-in care, or specialist support without the need to move the client to a residential facility."),
+ ],
+}
+
 # ============ BUILD ALL ============
-configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary, learning]
+configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary, learning, reablement]
 manifest = json.load(open(MANIFEST))
 mmap = {m['route']: m for m in manifest}
 for cfg in configs:
