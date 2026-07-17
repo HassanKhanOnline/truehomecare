@@ -910,8 +910,162 @@ afterhospital = {
  ],
 }
 
+# ============ DISABILITY HOME CARE ============
+disability = {
+ 'file': 'services__disability-home-care.html', 'route': '/services/disability-home-care/',
+ 'm_title': 'Disability Home Care in Stockport & Cheshire | True Homecare',
+ 'm_desc': 'CQC-rated disability home care across Greater Manchester & Cheshire. Specialist support for MS, cerebral palsy, spinal injury and complex needs, promoting independence. Call 0161 428 1989.',
+ 'hero_title': 'Disability Homecare', 'hero_img': '/wp-content/uploads/2025/06/Physical-Disability-uk-truehomecare-e1750682164903.webp',
+ 'hero_text': "Access professional disability support designed to enhance your quality of life. True Homecare provides high-quality visiting and live-in care across Greater Manchester and Cheshire, focusing on bespoke support plans that prioritise your physical safety while promoting maximum independence in your own home. We strictly adhere to the Ethical Framework by Stockport Council, ensuring our support is locally trusted and held to the highest national standards.",
+ 'process_heading': 'How to Arrange Disability Home Care',
+ 'process_intro': "Arranging long-term disability care requires precise planning. True Homecare provides a transparent, safeguarding-compliant onboarding process before any services begin.",
+ 'process_cards': [
+   ('Step 1: Initial Consultation', "Contact our Stockport and Wilmslow-based team on 01614281989. Our care management team handles all private care enquiries promptly, walking you through options such as complex physical support, visiting care, or overnight supervision."),
+   ('Step 2: Comprehensive In-Home Assessment', "A care manager conducts a free home visit within 24 hours. We evaluate existing health conditions and physical mobility constraints. During this visit, we also perform a professional home safety audit, identifying environmental fall risks and recommending necessary mobility adaptations."),
+   ('Step 3: Multidisciplinary Liaison', "To ensure the care plan is medically integrated, we coordinate directly with your local community health network. We work alongside visiting nursing teams, occupational therapists, and local GPs to ensure our care roadmap aligns flawlessly with existing clinical guidance."),
+ ],
+ 'experts_heading': 'Compassionate Care, Tailored for You',
+ 'experts_paras': ["Disability homecare is not a one-size-fits-all service. True Homecare specialises in managing complex long-term conditions, including Multiple Sclerosis (MS), Cerebral Palsy, Muscular Dystrophy, and spinal cord injuries. Rather than dictating your routine, our care workers act as facilitators for your independence. We bridge the gap between necessary clinical assistance and autonomous living, ensuring you remain in complete control of your household, your schedule, and your personal choices."],
+ 'feature_heading': 'Safe Manual Handling & Adaptations',
+ 'feature_text': "Safety is the foundation of our disability support. For clients with severe mobility restrictions, our care workers are rigorously trained in advanced manual handling. We safely operate profiling beds, ceiling track hoists, and standing aids to ensure all daily transfers are secure and comfortable. By working closely with local Occupational Therapists across Cheshire and Greater Manchester, we ensure your home environment is continuously adapted to meet your evolving physical requirements.",
+ 'benefits_heading': 'Disability Support Services',
+ 'benefits': [
+   ('Personal Care Assistance', "Dignified support for daily hygiene routines, including bathing, dressing, and continence care, ensuring you feel comfortable and confident."),
+   ('Mobility and Transfer Support', "Safe assistance navigating your home, utilising certified transferring techniques and manual handling equipment to actively reduce fall risks."),
+   ('Medication Administration', "Prompted or fully administered medication support. We maintain precise Medication Administration Records (MAR) to ensure complex prescription schedules are followed safely."),
+   ('Community Access and Social Support', "Facilitating community involvement by accompanying you to social events, medical appointments, or educational courses, ensuring you remain an active part of the Stockport and Wilmslow communities."),
+   ('Daily Living Skills Development', "Helping you retain essential life skills, such as meal preparation, safe cooking, and household management, to maximise your autonomy."),
+   ('Respite Care for Families', "Temporary relief for family carers, providing professional cover that allows your primary support network to take a scheduled break."),
+ ],
+ 'phone_cta': 'Call us to find out more about Disability Home Care',
+ 'why1': ('Why Choose True Homecare for Disability Home Care?', "We are the preferred choice across Greater Manchester and Cheshire because we prioritise clinical safety without sacrificing personal dignity. We don't just provide physical support; we act as a secure bridge to your local medical community, ensuring seamless communication with your existing GP and primary care network. We meticulously pair you with a care worker based on the specific clinical skills your diagnosis requires, ensuring your support is evidence-based, highly competent, and perfectly matched to your lifestyle."),
+ 'why2': ('Our Commitment to Regulated Excellence', "True Homecare is proud to hold a ‘Good’ rating from the Care Quality Commission (CQC) across all inspected categories, serving as an independent validation of our safety, effectiveness, and care leadership. To maintain these high standards, our services align with the guidelines of the United Kingdom Homecare Association (UKHCA) and the Royal College of Nursing (RCN)."),
+ 'careopts_heading': 'Complementary Support Options',
+ 'careopts_intro': "Explore the specialist services that work alongside disability home care to support your independence and wellbeing.",
+ 'careopts_cards': [
+   {'img': IMG_REAB, 'title': 'Specialist Reablement Services',
+    'body': "Regain your confidence and physical autonomy following an illness or surgery. Our goal-oriented reablement programme empowers you to perform daily tasks independently, fostering a faster, more secure recovery in your own home.",
+    'items': [
+      ('Goal-Oriented Recovery', "We define specific, measurable outcomes—such as improving balance, rebuilding walking confidence, or mastering self-care—to track your progress in real-time."),
+      ('Professional Collaboration', "We work alongside external clinical specialists and consultants to ensure our recovery support is consistent with your medical instructions."),
+      ('Essential Respite for Families', "By providing intensive recovery support, we offer essential respite to family members, ensuring you feel confident in your relative's progress without the pressure of full-time caregiving."),
+    ], 'btn': ('Request Reablement Assessment', '/services/reablement-services/')},
+   {'img': IMG_LIVEIN, 'title': 'Live-in Care',
+    'body': "When 24-hour support is required, our live-in care service offers a professional alternative to a facility. A dedicated caregiver lives in the home to provide constant, compassionate support.",
+    'items': [
+      ('Bespoke Support', "We create a roadmap that coordinates medication, mobility, and emotional support tailored to your unique lifestyle."),
+      ('Continuity of Care', "Your caregiver becomes a trusted presence, ensuring stability and a deep personal bond, which is vital for long-term wellbeing."),
+      ('Immediate Safety Response', "Having a professional on-site 24/7 ensures immediate assistance during waking nights or unforeseen medical events."),
+    ], 'btn': ('Book Live-in Care', '/services/live-in-care/')},
+ ],
+ 'content_html': (
+   '<h3><strong>How Our Disability Support is Delivered</strong></h3>'
+   '<p>Once the care roadmap is established, we implement a managed service that prioritises safety while promoting maximum independence.</p>'
+   '<h4><strong>Clinical Skill Matching</strong></h4>'
+   '<p>We pair clients with CQC-rated care workers based on specific physical needs and manual handling requirements. For clients experiencing progressive neurological conditions, we prioritise care worker continuity so that subtle health or mobility shifts are monitored accurately.</p>'
+   '<h4><strong>Implementation of Daily Living Support</strong></h4>'
+   '<p>Your dedicated care worker implements a schedule that respects your existing routines. We manage flexible scheduling—from targeted daytime visits to dedicated waking nights—and assist with community access.</p>'
+   '<h4><strong>Risk Assessments &amp; Clinical Audits</strong></h4>'
+   '<p>Health and mobility needs naturally evolve. Our care managers conduct regular, structured risk assessments and clinical audits in your home. We adjust the support package collaboratively based on real-time mobility changes and direct feedback from the client.</p>'
+   '<h2><strong>Choosing the Right Living Environment</strong></h2>'
+   + table_html([
+     'Clients retain complete control over their daily routine and decisions.',
+     'Support is delivered in the comfort of your own home, near family.',
+     'Individual one-to-one attention from a matched carer.',
+     'Stress and anxiety are minimised by avoiding relocation.',
+   ], header=('Care Criteria', 'True Homecare', 'Residential Care'))
+ ),
+ 'faq_heading': 'Disability Home Care FAQs',
+ 'faqs': [
+   ('How do I access private disability care in my local area?', "You can begin by contacting the True Homecare team directly to arrange a professional home assessment. We evaluate your specific needs and local environment to create a private care plan that aligns with your personal goals and lifestyle."),
+   ('Can your services be integrated with existing NHS or local authority support?', "Yes. Our private care services are designed to complement existing public health provisions or direct payments, filling critical gaps in support to ensure you have comprehensive coverage for all daily living requirements."),
+   ('How quickly can care start after an initial enquiry?', "Once the initial home assessment is complete and a compatible caregiver is matched to your specific clinical needs, we can typically implement your bespoke care plan within a few working days."),
+   ('Do you provide support for specific physical or cognitive disabilities?', "Yes. We support a wide range of long-term conditions, from mobility impairments, cerebral palsy, and stroke recovery to neurological conditions like Parkinson's, ensuring each client receives specialist care tailored to their diagnosis."),
+   ('How do you ensure the caregiver is a good fit for my needs?', "We use a matching process based on clinical skills, personality compatibility, and shared personal hobbies, ensuring your caregiver provides not only professional physical support but also a comfortable social connection."),
+ ],
+}
+
+# ============ PARKINSON'S CARE (updated content) ============
+parkinsons_v2 = {
+ 'file': 'services__parkinsons-care.html', 'route': '/services/parkinsons-care/',
+ 'm_title': "Parkinson's Care at Home in Stockport & Wilmslow | True Homecare",
+ 'm_desc': "Premium, CQC-rated Parkinson's care at home across Stockport, Wilmslow & Cheshire. Specialist neurological support: time-critical medication, mobility and dementia care. Call 0161 428 1989.",
+ 'hero_title': "Parkinson's Care at Home", 'hero_img': '/wp-content/uploads/2025/06/Parkinsons-Car-uk-truehomecare-e1750678402255.webp',
+ 'hero_text': "True Homecare provides premium, bespoke Parkinson's care, designed to help clients safely maintain their independence as their condition progresses. Offering person-centred professional support across Greater Manchester and Cheshire, we provide specialised local expertise in Wilmslow and Stockport. Our objective is to keep clients out of residential facilities, ensuring they receive highly structured, one-to-one neurological care in their own familiar surroundings.",
+ 'process_heading': "How to Arrange Parkinson's Care",
+ 'process_intro': "Our local team will guide you through the process of arranging a safeguarding-compliant Parkinson's care package, tailored precisely to the client's physical and cognitive requirements before care begins.",
+ 'process_cards': [
+   ("Step 1: Contact our Parkinson's Care Experts", "Call our Stockport and Wilmslow office on 01614281989 or use our secure online enquiry form. Our support team handles all private care enquiries promptly, outlining options such as hourly visiting care, waking nights, or comprehensive 24-hour live-in support."),
+   ('Step 2: Free In-Home Assessment', "A care manager will conduct a complimentary evaluation within 24 hours. We evaluate specific motor symptoms, mobility restrictions, and night-time routines to establish the exact level of safety support required."),
+   ('Step 3: Bespoke Care Package Creation', "We translate our findings into a detailed care plan. We allocate staff who hold relevant UK qualifications and have specific experience in managing complex neurological conditions."),
+ ],
+ 'experts_heading': 'Specialist Neurological Care Workers',
+ 'experts_paras': ["When managing a progressive condition like Parkinson's, rotating agency staff can cause severe distress and missed medical red flags. True Homecare prioritises absolute care worker continuity. We meticulously match you with a dedicated professional based on clinical competencies and shared interests. By having a consistent care worker in the home, they become acutely aware of the client's unique baseline."],
+ 'feature_heading': "Parkinson's Care Your Family Can Trust",
+ 'feature_text': "Parkinson's disease is highly unpredictable, with clients frequently experiencing sudden ‘on/off’ periods where mobility and rigidity fluctuate dramatically throughout the day. True Homecare specialises in managing these complex motor shifts. Our care workers are trained to identify the onset of bradykinesia (slowness of movement) and severe tremors, adapting the daily routine instantly to ensure the client remains safe, comfortable, and fall-free during periods of high physical vulnerability. We are a CQC-rated ‘Good’ provider, strictly adhering to the Ethical Framework set by Stockport Council and the professional guidelines of the United Kingdom Homecare Association (UKHCA).",
+ 'benefits_heading': "Comprehensive Parkinson's Care Support Features",
+ 'benefits': [
+   ('Time-Critical Medication Administration', "Parkinson's medication is highly time-sensitive; even a 30-minute delay can trigger a severe “wearing-off” effect. We manage prescription schedules with absolute precision, utilising Medication Administration Records (MAR) to maintain steady dopamine levels."),
+   ('Proactive Fall Prevention & Mobility', "We assist with safe manual handling, utilising approved transfer techniques for getting in and out of beds or chairs. Our team implements sensory cues (like rhythmic tapping) to help clients overcome “freezing of gait” episodes."),
+   ('Nutritional & Dysphagia Support', "Parkinson's can cause swallowing difficulties. We prepare modified-texture meals to prevent choking risks, monitor hydration to reduce confusion, and provide client support during mealtimes without rushing."),
+   ('Specialised Cognitive Engagement', "We provide structured daily routines to reduce the anxiety and depression often associated with progressive neurological conditions, encouraging activities that promote mental sharpness."),
+   ('Companionship and Social Engagement', "We combat isolation by providing consistent emotional support, escorting clients to local community outings, or providing reliable transport for neurology appointments."),
+   ('Household Management', "Assisting with essential shopping, errands, and maintaining a hazard-free living space to prevent trips and falls."),
+ ],
+ 'phone_cta': "Call us to find out more about Parkinson's Care",
+ 'why1': ("Why True Homecare is the First Choice for Parkinson's Care", "True Homecare is the preferred specialist care provider across Stockport, Wilmslow, and Cheshire because we treat Parkinson's disease with precise, medically aligned strategies rather than generic home support. We understand that Parkinson's is a complex condition where symptoms like rigidity and ‘freezing’ can change hourly. To manage this safely, we prioritise strict care worker continuity. We act as a direct bridge to your GP and medical consultants to ensure your daily care constantly adapts to your latest health requirements."),
+ 'why2': ('Delivering Regulated Excellence in Long-Term Support', "We are deeply committed to delivering compassionate, high-quality home care for progressive health conditions. True Homecare is proud to have achieved a ‘Good’ rating from the Care Quality Commission (CQC). The safety, dignity, and wellbeing of our clients are our absolute top priorities."),
+ 'careopts_heading': 'Complementary Support Options',
+ 'careopts_intro': "Explore the specialist services that work alongside Parkinson's care to support both the client and their family.",
+ 'careopts_cards': [
+   {'img': IMG_DEM, 'title': "Parkinson's Dementia Support",
+    'body': "As Parkinson's progresses, many clients experience cognitive slowing or Parkinson's Disease Dementia (PDD). Our specialist support provides CQC-rated assistance tailored to manage both motor and memory symptoms.",
+    'items': [
+      ('Routine Stability', "Unexpected changes trigger anxiety. We structure support around existing habits to create a highly predictable, calm environment."),
+      ('Managing Hallucinations & Confusion', "Our staff undergo rigorous training to manage non-motor symptoms, using validation techniques to de-escalate distress safely."),
+      ('Essential Respite for Families', "Managing physical rigidity and cognitive decline simultaneously is exhausting. Our flexible care gives family members crucial time to rest."),
+    ], 'btn': ("Request Parkinson's Assessment", '/services/dementia-and-alzheimer-care/')},
+   {'img': IMG_RESP, 'title': 'High-Dependency Respite Care',
+    'body': "Need a temporary break? Caring for someone with advanced Parkinson's often involves heavy physical lifting and disrupted sleep. Our private respite care provides safe, short-term relief.",
+    'items': [
+      ('Flawless Clinical Handover', "We mirror your exact routine, ensuring complex time-critical medication schedules are executed without interruption."),
+      ('Flexible Cover Options', "Whether you require overnight waking cover to manage sleep disturbances or full live-in care for a holiday, our packages adapt to you."),
+      ('Total Peace of Mind', "Step away knowing that our vetted team is managing all mobility aids, nutrition, and daily safety parameters."),
+    ], 'btn': ('Book Respite Cover', '/services/respite-care/')},
+ ],
+ 'content_html': (
+   "<h3><strong>Our Clinical Parkinson's Care Delivery Process</strong></h3>"
+   '<p>At True Homecare, we utilise a transparent, medically-aligned approach to delivering ongoing neurological care, ensuring daily stability as the condition progresses.</p>'
+   '<h4><strong>Symptom Mapping &amp; Assessment</strong></h4>'
+   "<p>Before care begins, we map the individual's specific experience with the disease, identifying whether they struggle more with tremors, rigidity, or non-motor symptoms like sleep disturbances.</p>"
+   '<h4><strong>Environment &amp; Risk Auditing</strong></h4>'
+   '<p>We conduct a thorough home safety audit, identifying fall risks such as loose rugs or narrow walkways that frequently trigger “freezing” episodes.</p>'
+   '<h4><strong>Active Caregiving &amp; Symptom Tracking</strong></h4>'
+   "<p>Our matched care workers provide continuous physical assistance while maintaining an accurate log of the client's physical state before and after medication, identifying patterns of symptom relief.</p>"
+   '<h4><strong>Dynamic Adjustments &amp; MDT Reviews</strong></h4>'
+   "<p>Parkinson's is progressive, meaning care must be dynamic. We maintain a constant communication loop with district nurses and consultants. If the client experiences a sudden decline in mobility, we adjust the care plan immediately rather than waiting for a scheduled review.</p>"
+   '<h2><strong>Choosing the Right Path: Home Care vs. Residential Care</strong></h2>'
+   '<p>We provide care that allows one to stay in their own home rather than moving to a residential care facility, ensuring better mental and physical health outcomes.</p>'
+   + table_html([
+     'Maintains total personal independence and daily autonomy',
+     'Allows the individual to remain safely within their own property',
+     'Guarantees dedicated, one-to-one attention from a matched carer',
+     'Scalable costs based entirely on actual hours needed',
+     'Preserves familiar local community ties and direct family access',
+   ], header=('Care Criteria', 'True Homecare', 'Residential Care'))
+ ),
+ 'faq_heading': "Parkinson's Care FAQs",
+ 'faqs': [
+   ("Can individuals manage Parkinson's better at home?", "Yes. A familiar environment provides vital psychological comfort and structural consistency, which often helps manage motor fluctuations and anxiety associated with progressive health conditions."),
+   ("What professional support is needed for Parkinson's?", "Managing the condition requires multidisciplinary coordination. We handle all communication with primary care networks and pharmacists directly to ensure seamless continuity. We work closely with district nurses, GPs, and pharmacists to ensure our support aligns perfectly with ongoing medical plans, strictly adhering to the Ethical Framework by Stockport Council."),
+   ('How do you handle complex medication regimes?', "Our staff undergo rigorous training to manage complex, time-critical medication schedules accurately, reducing the risk of motor fluctuations and ensuring consistent health maintenance."),
+   ("Can you provide 24-hour care for clients with dementia and Parkinson's?", "Yes. We offer continuous 24-hour support, including options for both waking nights and sleeping nights. When managing complex, co-existing conditions, we prioritise caregiver continuity. By assigning a dedicated carer rather than constantly rotating staff, we ensure they can accurately monitor subtle health changes and behavioural trends over time. This approach guarantees a highly safe, stable, and comforting environment."),
+   ('How do you manage mobility and fall risks?', "During our initial assessment, our care managers conduct a comprehensive home safety evaluation to identify environmental risks and recommend mobility adaptations (like grab rails) to foster long-term autonomy. Caregivers utilise safe, approved transfer techniques to prevent injury. Contact us on 01614281989 to arrange your assessment."),
+ ],
+}
+
 # ============ BUILD ALL ============
-configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary, learning, reablement, respite, afterhospital]
+configs = [livein, longterm, stroke, parkinsons_v2, dementia, domiciliary, learning, reablement, respite, afterhospital, disability]
 manifest = json.load(open(MANIFEST))
 mmap = {m['route']: m for m in manifest}
 for cfg in configs:
