@@ -3,9 +3,9 @@
 from bs4 import BeautifulSoup
 import json, os
 
-MIR = '/Users/hassankhan/Documents/truehomecare/site/src/mirror/pages'
+MIR = '/Users/hassankhan/Developer/THC/site/src/mirror/pages'
 TEMPLATE = open(MIR + '/services__personal-care.html').read()
-MANIFEST = '/Users/hassankhan/Documents/truehomecare/site/src/data/mirror-manifest.json'
+MANIFEST = '/Users/hassankhan/Developer/THC/site/src/data/mirror-manifest.json'
 
 def paras(*ps):
     return ''.join(f'<p>{p}</p>' for p in ps)
@@ -92,12 +92,14 @@ def build(cfg):
     # CONTENT SECTION
     set_html(one('.content-section-text'), cfg['content_html'])
 
-    # FAQ (5)
+    # FAQ (variable count; trim any leftover template items)
     set_text(one('.faq-heading'), cfg['faq_heading'])
-    fi = many('.faq-item', 5)
+    fi = many('.faq-item', len(cfg['faqs']))
     for i, (q, a) in enumerate(cfg['faqs']):
         set_text(fi[i].select_one('.faq-question span:first-child'), q)
         set_html(fi[i].select_one('.faq-answer'), f'<p>{a}</p>')
+    for extra in fi[len(cfg['faqs']):]:
+        extra.decompose()
 
     open(MIR + '/' + cfg['file'], 'w').write(str(soup))
     return cfg['file']
@@ -510,8 +512,88 @@ dementia = {
  ],
 }
 
+# ============ DOMICILIARY CARE ============
+domiciliary = {
+ 'file': 'services__domiciliary-care.html', 'route': '/services/domiciliary-care/',
+ 'm_title': 'Domiciliary Care in Stockport & Wilmslow | True Homecare',
+ 'm_desc': 'CQC-rated domiciliary care at home across Stockport, Wilmslow & Cheshire. Personal care, medication, meals, mobility and companionship that keeps loved ones independent. Call 0161 428 1989.',
+ 'hero_title': 'Domiciliary Care', 'hero_img': '/wp-content/uploads/2025/07/Domiciliary-Care-Uk-Truehomecare-e1751638985436.png',
+ 'hero_text': "Domiciliary care provides tailored professional support delivered directly in the client's own home. It is designed for individuals who wish to live independently but require assistance with daily tasks to maintain their safety, dignity, and wellbeing.",
+ 'process_heading': 'How do I arrange Domiciliary Care?',
+ 'process_intro': "Our local team will guide you seamlessly through the process of arranging a safeguarding-compliant care package, tailored perfectly to the client's clinical and personal requirements.",
+ 'process_cards': [
+   ('Contact our Domiciliary Care Experts', "Get in touch with our Stockport and Wilmslow-based team on 01614281989 or use our secure online enquiry form to discuss your family's specific options. Our dedicated team handles all private care enquiries promptly, walking you through the baseline choices for your relative to provide immediate guidance and peace of mind on our home care services, including Stroke Care, Long-Term Condition Support, or Respite Care."),
+   ('Free In-Home Assessment within 24 Hours', "Our team will visit to discuss your requirements, learn more about the client's specific health conditions, daily routine, and overall mental health. We conduct a free assessment in their own home to identify the specialised and emotional support, as well as safety measures, required to keep them comfortable."),
+   ('Your Bespoke Care Alignment', "We create a person-centred care package that strictly adheres to the Ethical Framework by Stockport Council. We never do random placements; all of our CQC-rated staff hold relevant UK certifications and qualifications and are carefully paired with clients based on physical needs, cognitive requirements, personality traits, and shared hobbies to ensure consistent emotional support—including tailored support for Parkinson's clients."),
+ ],
+ 'experts_heading': 'Expert Care, Real Results: How We Support Independence',
+ 'experts_paras': ["True Homecare's professional domiciliary care provides the profound peace of mind that comes from knowing your relative is safe, dignified, and expertly supported within their own home. By transitioning from the stress of cold clinical settings to our personalised, dedicated in-home care, our clients experience a measurable improvement in their daily quality of life, physical comfort, and emotional wellbeing, allowing them to age in place safely."],
+ 'feature_heading': 'Domiciliary Care Your Family Can Trust',
+ 'feature_text': "Balancing professional responsibilities with the care of a relative living with complex health needs often leads to severe caregiver stress and family burden. We alleviate this emotional burden, providing the ultimate relief of knowing your relative is safe, dignified, and well-supported with dedicated emotional support.",
+ 'benefits_heading': 'Comprehensive Domiciliary Support Elements',
+ 'benefits': [
+   ('Medication Management', "Our caregivers ensure prescriptions are taken accurately and on time. We assist with reminders, dosage tracking, and coordinating with pharmacies to prevent errors and maintain health stability, tracking routines in line with advice from bodies like Diabetes UK."),
+   ('Personal Hygiene and Grooming', "We provide dignified support with bathing, dressing, and oral care. Our staff helps clients maintain their personal grooming standards, promoting confidence and physical wellbeing."),
+   ('Nutritional Support and Meal Preparation', "Caregivers plan and prepare balanced meals tailored to dietary requirements. We provide assistance with eating and hydration to ensure all nutritional needs and physical health goals are met daily."),
+   ('Mobility Assistance', "We help clients move safely around their homes and provide transportation support. This includes assistance with walking aids to reduce fall risk, support independent living, and maintain safety, under the guidance of the United Kingdom Homecare Association (UKHCA) and the Royal College of Nursing (RCN)."),
+   ('Companionship Services', "Beyond physical needs, we provide emotional support and companionship. Our team engages clients in meaningful conversation and social activities to combat loneliness and isolation."),
+   ('Household Management', "We assist with essential daily chores, including light cleaning, laundry, and organising. This ensures a safe, tidy, and stress-free living environment for our clients."),
+ ],
+ 'phone_cta': 'Call us to find out more about Domiciliary Care',
+ 'why1': ('Why True Homecare is the First Choice for Domiciliary Care', "True Homecare delivers highly personalised domiciliary care rooted in dignity, respect, and deep community integration. Beyond our years of operational experience, we ensure that our care coordination seamlessly interfaces with your existing local medical networks. Our services operate at the intersection of person-centred care and full CQC compliance. We strictly adhere to the Ethical Framework by Stockport Council, ensuring our support is both locally trusted and held to the highest regulatory standards."),
+ 'why2': ('Delivering Perfection in Domiciliary Care', "We are deeply committed to delivering compassionate, high-quality domiciliary care services. True Homecare is proud to have achieved a ‘Good’ rating from the Care Quality Commission (CQC). The safety, dignity, and wellbeing of our clients are our absolute top priorities, and we strive for regulated excellence in everything we do. We work alongside other healthcare professionals like district nurses, GPs, hospitals, and pharmacists."),
+ 'careopts_heading': 'Specialist Domiciliary Care Options',
+ 'careopts_intro': "Explore the complementary services that work seamlessly alongside domiciliary care to provide a fully integrated, person-centred plan for your loved one.",
+ 'careopts_cards': [
+   {'img': IMG_COMP, 'title': 'Person-Centred Companionship',
+    'body': "Combat isolation and improve emotional wellbeing through meaningful social connection. Our companionship services focus on fostering genuine relationships that keep clients socially active, intellectually engaged, and emotionally supported in their own home.",
+    'items': [
+      ('Social Engagement', "We facilitate active participation in hobbies, community events, and local interests, ensuring clients remain connected to the world and feel truly valued."),
+      ('Emotional Support', "Our team provides empathetic listening and consistent presence, helping to reduce feelings of loneliness and anxiety while fostering a positive outlook."),
+      ('Outing Assistance', "From a stroll in the park to a movie or a family gathering, we provide the reliable support you need to maintain an active lifestyle."),
+    ], 'btn': ('Explore Companionship', '/services/companionship/')},
+   {'img': IMG_LIVEIN, 'title': '24-Hour Live-in Care',
+    'body': "Avoid the stress of moving to a residential setting. Our premium live-in care provides 24-hour support from a dedicated professional. Experience true one-to-one assistance that guarantees safety, dignity, and complete peace of mind.",
+    'items': [
+      ('24/7 Security', "Rest easy knowing a professional is present round-the-clock to manage safety, respond to emergencies, and provide continuous supervision, day and night."),
+      ('Professional Companionship', "Beyond clinical needs, our team provides meaningful company, turning daily routines into positive interactions that enhance the client's overall quality of life."),
+      ('Dedicated Assistance', "Receive unwavering, personalised support for all daily tasks—from medication management, performed in liaison with GPs and pharmacists, to personal hygiene and household help—tailored specifically to the client's unique requirements."),
+    ], 'btn': ('Explore Live-in Care', '/services/live-in-care/')},
+ ],
+ 'content_html': (
+   '<h3><strong>Our Approach to Person-Centred Domiciliary Care</strong></h3>'
+   '<h4><strong>The Step-by-Step Care Planning Process</strong></h4>'
+   '<p>We ensure a seamless transition to domiciliary care through a structured onboarding process, providing in-home care that prioritises independence and dignity.</p>'
+   '<h4><strong>1. Initial Consultation &amp; Needs Analysis</strong></h4>'
+   "<p>A detailed needs analysis to understand the client's preferences, health conditions, and personal requirements. We also discuss how our home care services can provide essential respite and emotional support for family members, protecting them from caregiver burnout.</p>"
+   '<h4><strong>2. Risk &amp; Safety Assessment</strong></h4>'
+   "<p>A comprehensive evaluation of the home environment to ensure safety, mitigate hazards, and plan for specific at-home care needs, such as mobility support or palliative care home requirements.</p>"
+   '<h4><strong>3. Plan Integration</strong></h4>'
+   "<p>The creation of a personalised strategy tailored to the client's specific daily routines—including support for waking nights, sleeping nights, or outings such as taking out for a walk in the park, cinema visits, or hospital visits.</p>"
+   '<h4><strong>4. Carer Matching &amp; Quality Monitoring</strong></h4>'
+   '<p>Our care coordinators ensure our staff undergo rigorous regulatory screening. All staff pass comprehensive DBS checks and professional background screening. This approach guarantees that behavioural trends are correctly tracked by a familiar face. Our nursing oversight includes Registered Nurses (RNs) to manage clinical needs, and continuous oversight maintains the high standards of our domiciliary care.</p>'
+   '<h4><strong>5. Family Collaboration &amp; Medical Liaison</strong></h4>'
+   "<p>We maintain transparent communication channels and conduct regular care reviews with family members to ensure our home care services evolve alongside the client's needs.</p>"
+   '<h2><strong>Domiciliary Care Service Comparison</strong></h2>'
+   + table_html([
+     'We protect your cherished independence and personal identity.',
+     'We preserve your familiar, comforting home environment.',
+     'You receive dedicated, focused, one-to-one professional attention.',
+     'Our flexible care remains highly cost-effective daily.',
+     'We honour your unique, personal daily routine.',
+   ], header=('Care Criteria', 'True Homecare', 'Residential Care'))
+ ),
+ 'faq_heading': 'Domiciliary Care FAQs',
+ 'faqs': [
+   ('What is domiciliary care exactly?', "Domiciliary care is professional health and social care provided in a client's own home. It involves tailored support ranging from basic companionship and domestic help to complex personal care and medication management, allowing individuals to live independently."),
+   ('Who is eligible for this type of support?', "Anyone requiring assistance to maintain their safety, mental health, and wellbeing at home is eligible. This typically includes seniors, individuals with progressive health conditions, or those recovering from hospital stays."),
+   ('How does CQC inspection work for home care?', "The Care Quality Commission (CQC) conducts regular inspections to ensure providers meet fundamental standards of safety and quality. They review care records, interview staff and clients, and monitor outcomes to maintain a registered rating. True Homecare is proud to hold a ‘Good’ rating."),
+   ('How do I arrange a first assessment?', "To begin, contact us to schedule a home visit. Our specialists will evaluate physical and emotional needs, discuss preferences, and use this information to build a bespoke care plan. Contact our Stockport and Wilmslow team directly on 01614281989 to arrange a free assessment within 24 hours."),
+ ],
+}
+
 # ============ BUILD ALL ============
-configs = [livein, longterm, stroke, parkinsons, dementia]
+configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary]
 manifest = json.load(open(MANIFEST))
 mmap = {m['route']: m for m in manifest}
 for cfg in configs:
