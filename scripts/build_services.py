@@ -832,8 +832,86 @@ respite = {
  ],
 }
 
+# ============ AFTER-HOSPITAL CARE ============
+afterhospital = {
+ 'file': 'services__after-hospital-care.html', 'route': '/services/after-hospital-care/',
+ 'm_title': 'After-Hospital Care at Home in Stockport & Cheshire | True Homecare',
+ 'm_desc': 'CQC-rated after-hospital and post-discharge care across Greater Manchester & Cheshire. Safe home recovery, readmission prevention and rapid-response cover. Call 0161 428 1989.',
+ 'hero_title': 'After-Hospital Care at Home', 'hero_img': '/wp-content/uploads/2026/03/Care-After-Hospital-Discharge-at-Home.jpg',
+ 'hero_text': "Ensure a safe transition from the hospital ward to your home with our professional post-discharge support. True Homecare provides expert visiting and live-in care across Greater Manchester and Cheshire, offering a secure alternative to extended hospital stays or transitional care facilities. We manage the physical demands of your recovery, allowing you to recuperate safely in the comfort of your own home.",
+ 'process_heading': 'How We Facilitate a Safe Hospital Discharge',
+ 'process_intro': "Returning home after major surgery or a severe illness requires meticulous planning. Our local team manages this transition by guiding you through a safeguarding-compliant onboarding process before the patient leaves the ward.",
+ 'process_cards': [
+   ('Step 1: Multidisciplinary Discharge Planning', "We liaise directly with hospital discharge coordinators, occupational therapists, and social workers to understand the exact clinical requirements. We verify that mobility aids, hospital beds, and support frameworks are established in the home prior to arrival."),
+   ('Step 2: Free In-Home Assessment', "Within 24 hours of discharge, a care manager conducts a comprehensive home assessment. We evaluate environmental safety, trip hazards, and immediate physical mobility limitations to finalize the care package."),
+   ('Step 3: Your Clinical Recovery Roadmap', "We create a person-centred recovery plan outlining clear objectives regarding mobility assistance, medication administration, and personal care to ensure a safe, structured rehabilitation."),
+ ],
+ 'experts_heading': 'Preventing Hospital Readmissions',
+ 'experts_paras': ["The first 72 hours after a hospital discharge are the most critical for patient safety. Without proper supervision, the risk of falls, medication errors, and dehydration increases significantly, often leading to hospital readmission. True Homecare mitigates these risks by providing immediate, structured oversight. Our care workers monitor vital signs of recovery, ensure adequate fluid intake, and manage safe manual handling, providing a secure environment that actively promotes healing and prevents avoidable medical emergencies."],
+ 'feature_heading': 'Condition-Specific Post-Operative Support',
+ 'feature_text': "We understand that a hip replacement requires a very different care approach than a stroke discharge. True Homecare provides targeted support for specific medical events. For orthopaedic recovery, we assist with mobility exercises and safe transferring to protect joints. For cardiac or neurological events, we provide strict medication management and fatigue monitoring. Whether you require temporary daily visits in Wilmslow or continuous 24-hour live-in care in Stockport, our support adapts precisely to your diagnosis.",
+ 'benefits_heading': 'Essential Post-Discharge Support Features',
+ 'benefits': [
+   ('Medication Administration', "Rigorous oversight and tracked administration of newly prescribed hospital medications, ensuring correct dosages and preventing dangerous drug interactions."),
+   ('Mobility Assistance and Transfers', "Safe facilitation of movement using certified manual handling techniques, hoists, and stand-aids to rebuild physical independence while minimising fall risks."),
+   ('Dignified Personal Hygiene', "Discreet assistance with bathing, dressing, and continence care, accommodating limited mobility or surgical wounds with strict hygiene protocols."),
+   ('Nutrition and Hydration Support', "Tailored meal preparation focused on fueling the healing process, monitoring fluid intake, and adhering to specific post-operative dietary guidelines."),
+   ('Post-Operative Observation', "Attentive observation of the client's general condition to track healing progress and immediately flag visible changes, such as signs of infection, to medical professionals. (Note: Our care assistants do not perform clinical wound dressings; this is strictly coordinated with visiting District Nurses)."),
+   ('Logistical Household Support', "Managing domestic tasks, laundry, and essential shopping so the client can conserve energy entirely for their physical recovery."),
+ ],
+ 'phone_cta': 'Call us to find out more about After-Hospital Care',
+ 'why1': ('Clinical Safety & Regulated Standards', "True Homecare is a CQC-rated ‘Good’ provider, delivering regulated, evidence-based support. We operate under the strict guidelines of the United Kingdom Homecare Association (UKHCA) and the Ethical Framework by Stockport Council. By combining trained clinical oversight with a person-centred approach, we provide a reliable, highly audited service that integrates seamlessly with your NHS primary care network, ensuring your post-discharge support meets rigorous national safety benchmarks."),
+ 'why2': ('Rapid Response Discharge Team', "Hospitals often require patients to discharge with very little notice, leaving families scrambling to find adequate support. True Homecare operates a rapid-response assessment protocol across Stockport, Wilmslow, and Cheshire. We can fast-track our initial consultations and coordinate directly with hospital wards to ensure a fully vetted, qualified care worker is ready and waiting at your property the moment you arrive home, eliminating the stress of emergency care planning."),
+ 'careopts_heading': 'Complementary Support Options',
+ 'careopts_intro': "Explore the specialist services that work alongside after-hospital care to support a safe, sustained recovery at home.",
+ 'careopts_cards': [
+   {'img': IMG_REAB, 'title': 'Specialist Reablement Services',
+    'body': "Regain your physical independence following an illness or surgery. Our goal-oriented reablement programme empowers you to perform daily tasks safely, fostering a faster recovery at home.",
+    'items': [
+      ('Goal-Oriented Recovery', "We track specific, measurable outcomes—such as improving balance or rebuilding walking confidence—monitoring your progress daily."),
+      ('Therapy Integration', "We assist clients in safely executing the daily exercises prescribed by their NHS Physiotherapists and Occupational Therapists."),
+      ('Phased Care Reduction', "As your strength and autonomy return, we proactively scale down our visiting hours, ensuring you only pay for the support you genuinely need."),
+    ], 'btn': ('Request Reablement Assessment', '/services/reablement-services/')},
+   {'img': IMG_LIVEIN, 'title': '24-Hour Live-in Care',
+    'body': "When complex post-hospital recovery requires continuous supervision, our live-in care service offers a secure alternative to a nursing facility.",
+    'items': [
+      ('Continuous Clinical Observation', "A dedicated care worker lives in the home to provide round-the-clock safety monitoring, fall prevention, and immediate emergency response."),
+      ('Managing Post-Operative Fatigue', "We take over 100% of the household logistics and personal care, allowing the client to rest completely and recover at their own pace."),
+      ('Seamless MDT Collaboration', "Your live-in carer acts as the primary point of contact for visiting district nurses and GPs, ensuring all medical instructions are executed flawlessly."),
+    ], 'btn': ('Book Live-in Care', '/services/live-in-care/')},
+ ],
+ 'content_html': (
+   '<h3><strong>How Our After-Hospital Care is Delivered</strong></h3>'
+   '<p>Once the recovery roadmap is agreed upon, our management team ensures the service is delivered safely and reliably.</p>'
+   '<h4><strong>Care Worker Allocation</strong></h4>'
+   '<p>We assign professionals based on specific rehabilitation skill sets (e.g., hoist training, stroke recovery experience) to ensure a safe, highly competent care environment immediately following discharge.</p>'
+   '<h4><strong>Routine Integration</strong></h4>'
+   '<p>We implement a schedule that safely incorporates necessary recovery tasks into your home life. This flexible support ranges from targeted daytime visits to waking nights for continuous observation.</p>'
+   '<h4><strong>Multidisciplinary Handovers</strong></h4>'
+   '<p>We manage the logistical responsibilities—such as tracking newly prescribed medications and coordinating access for visiting District Nurses—allowing you to focus entirely on rebuilding your strength.</p>'
+   '<h4><strong>Recovery Audits &amp; Proactive Review</strong></h4>'
+   '<p>We conduct regular audits to track your physical milestones. Through constant liaison with your GP and family, we ensure your care package adapts as your independence increases.</p>'
+   '<h2><strong>Choosing the Right Care Environment</strong></h2>'
+   + table_html([
+     'Protects your cherished independence daily.',
+     'Preserves your familiar, comforting home environment.',
+     'Individuals receive dedicated one-to-one attention from a carer.',
+     'Daily routines and customisable schedules are fully preserved.',
+     'Emotional wellbeing is supported by maintaining local community ties.',
+   ], header=('Feature', 'True Homecare', 'Residential Care'))
+ ),
+ 'faq_heading': 'Frequently Asked Questions',
+ 'faqs': [
+   ('Who is responsible for arranging care after a hospital discharge?', "While a hospital discharge coordinator or social worker helps identify immediate clinical needs before you leave the ward, arranging long-term private care packages remains the choice and responsibility of the patient and their family."),
+   ('How long does post-hospital care last?', "The duration depends entirely on your personal recovery goals. It can range from a few weeks of intensive, short-term support to longer-term private home care oversight if chronic conditions require ongoing assistance."),
+   ('What is the difference between reablement and long-term care?', "Reablement is a short-term, goal-oriented service designed specifically to help you regain physical skills and self-care independence after an injury or medical event. Long-term care provides ongoing, permanent assistance with daily living tasks."),
+   ('Can you provide emergency post-hospital cover?', "Yes. We coordinate directly with hospital discharge teams to fast-track assessments, ensuring a qualified, vetted care worker is ready to support you the moment you arrive home from the ward."),
+   ('Can you provide 24-hour care following a hospital stay?', "Yes. We offer fully scalable care structures. Depending on the complexity of your recovery, we can provide anything from a few hours of daily assistance to full 24-hour live-in care, sleeping nights, or waking nights for continuous safety monitoring."),
+ ],
+}
+
 # ============ BUILD ALL ============
-configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary, learning, reablement, respite]
+configs = [livein, longterm, stroke, parkinsons, dementia, domiciliary, learning, reablement, respite, afterhospital]
 manifest = json.load(open(MANIFEST))
 mmap = {m['route']: m for m in manifest}
 for cfg in configs:
