@@ -44,3 +44,7 @@
   .why-choose-image { height: 320px; }
   .why-choose-img { width: 90%; height: 300px; }
 }
+
+/* ===== "What Is ..." feature-intro icons (service pages) ===== */
+.feature-icon-circle { background: transparent !important; width: 78px; height: 78px; }
+.feature-icon-circle .feature-icon-image { width: 78px; height: 78px; object-fit: contain; display: block; }
