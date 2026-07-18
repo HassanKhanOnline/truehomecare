@@ -105,10 +105,10 @@ def build(cfg):
     return cfg['file']
 
 # ============ IMAGES ============
-IMG_COMP = '/wp-content/uploads/2025/06/truehomecare-companionship-at-home-e1750159124947-1024x683.png'
-IMG_LIVEIN = '/wp-content/uploads/2025/06/live-in-care-services-truehomecare-e1750160172719.webp'
-IMG_DEM = '/wp-content/uploads/2026/01/Treatment-for-Lewy-Body-dementia-UK.jpg'
-IMG_RESP = '/wp-content/uploads/2025/10/Taking-Care-of-the-Carer_-Respite-and-Family-Support.jpg'
+IMG_COMP = '/images/2025-06-truehomecare-companionship-at-home-e1750159124947-1024x683.png'
+IMG_LIVEIN = '/images/2025-06-live-in-care-services-truehomecare-e1750160172719.webp'
+IMG_DEM = '/images/2026-01-Treatment-for-Lewy-Body-dementia-UK.jpg'
+IMG_RESP = '/images/2025-10-Taking-Care-of-the-Carer_-Respite-and-Family-Support.jpg'
 
 TEAM = "Our team comprises skilled professionals, care managers, care coordinators, and caregivers who are experts in palliative home care."
 
@@ -201,7 +201,7 @@ longterm = {
  'file': 'services__long-term-condition-support.html', 'route': '/services/long-term-condition-support/',
  'm_title': 'Long-Term Condition Support at Home | True Homecare',
  'm_desc': 'Expert, CQC-rated long-term condition support at home across Stockport, Wilmslow & Cheshire. Clinical care for Parkinson\'s, stroke recovery & chronic conditions. Call 0161 428 1989.',
- 'hero_title': 'Long-Term Care at Home', 'hero_img': '/wp-content/uploads/2025/06/Long-Term-Condition-Support-uk-truehomecare-e1750672890434.webp',
+ 'hero_title': 'Long-Term Care at Home', 'hero_img': '/images/2025-06-Long-Term-Condition-Support-uk-truehomecare-e1750672890434.webp',
  'hero_text': "True Homecare provides expert, bespoke long-term condition support for residents across Stockport, Wilmslow, and the wider Cheshire region. Our CQC-rated care professionals deliver high-quality, clinical support in the comfort of your own home, ensuring your loved one maintains independence, safety, and dignity while effectively managing complex, ongoing health requirements through our locally-trusted expertise.",
  'process_heading': 'How do I arrange Long-Term Care at Home?',
  'process_intro': 'Our local Cheshire and Greater Manchester team will guide you seamlessly through the process of arranging a safeguarding-compliant Long-Term Condition Support package, tailored perfectly to the clinical and personal needs of the client. By providing this professional service, we also offer essential respite and emotional relief to family members, ensuring you can return to your roles as family rather than full-time caregivers, knowing your relative is in professional hands.',
@@ -281,7 +281,7 @@ stroke = {
  'file': 'services__stroke-care.html', 'route': '/services/stroke-care/',
  'm_title': 'Stroke Care at Home in Stockport & Cheshire | True Homecare',
  'm_desc': 'Expert, CQC-rated stroke care and rehabilitation at home across Stockport, Wilmslow & Cheshire. Clinical support for mobility, speech and recovery. Call 0161 428 1989.',
- 'hero_title': 'Stroke Care', 'hero_img': '/wp-content/uploads/2025/06/Stroke-Care-uk-truehomecare-e1750687057622.png',
+ 'hero_title': 'Stroke Care', 'hero_img': '/images/2025-06-Stroke-Care-uk-truehomecare-e1750687057622.png',
  'hero_text': "True Homecare provides expert, bespoke Stroke Care at home for clients across Stockport, Wilmslow, and the wider Cheshire region. Our CQC-rated care professionals deliver high-quality, clinical support in the comfort of the client's home, ensuring they maintain independence, safety, and dignity during their recovery journey through our locally-trusted, clinical expertise. By providing this professional support, we offer essential respite and emotional relief to family members, ensuring you can return to your roles as family rather than full-time caregivers.",
  'process_heading': 'How do I arrange Stroke Care at Home?',
  'process_intro': "Our local Cheshire and Greater Manchester team will guide you seamlessly through the process of arranging a safeguarding-compliant Stroke Care package, tailored perfectly to the client's recovery goals and clinical needs.",
@@ -362,7 +362,7 @@ parkinsons = {
  'file': 'services__parkinsons-care.html', 'route': '/services/parkinsons-care/',
  'm_title': "Parkinson's Care at Home in Stockport & Wilmslow | True Homecare",
  'm_desc': "Premium, CQC-rated Parkinson's care at home across Stockport, Wilmslow & Cheshire. Specialist support for medication, mobility & symptoms. Call 0161 428 1989.",
- 'hero_title': "Parkinson's Care at Home", 'hero_img': '/wp-content/uploads/2025/06/Parkinsons-Car-uk-truehomecare-e1750678402255.webp',
+ 'hero_title': "Parkinson's Care at Home", 'hero_img': '/images/2025-06-Parkinsons-Car-uk-truehomecare-e1750678402255.webp',
  'hero_text': "True Homecare provides premium, bespoke Parkinson's Care at home, designed to help clients safely maintain their independence. Offering person-centred professional support, we provide specialised local expertise specifically in Wilmslow and Stockport, ensuring clients receive high-quality, one-to-one care in their own familiar, comfortable surroundings. By providing this professional service, we also offer essential respite and emotional relief to family members, ensuring you can return to your roles as family rather than full-time caregivers.",
  'process_heading': "How do I arrange Parkinson's Care at Home?",
  'process_intro': "Our local Cheshire and Greater Manchester team will guide you seamlessly through the process of arranging a safeguarding-compliant Parkinson's home care package, tailored perfectly to the client's clinical and personal needs.",
@@ -440,7 +440,7 @@ dementia = {
  'file': 'services__dementia-and-alzheimer-care.html', 'route': '/services/dementia-and-alzheimer-care/',
  'm_title': "Dementia & Alzheimer's Care at Home | True Homecare",
  'm_desc': "Expert, CQC-rated dementia and Alzheimer's care at home across Stockport, Wilmslow & Cheshire. Specialist memory support, routine and safety. Call 0161 428 1989.",
- 'hero_title': "Dementia & Alzheimer's Care at Home", 'hero_img': '/wp-content/uploads/2025/06/dementia-care-alzhemier-care-truehomecare-uk-e1750667273455-1024x683.png',
+ 'hero_title': "Dementia & Alzheimer's Care at Home", 'hero_img': '/images/2025-06-dementia-care-alzhemier-care-truehomecare-uk-e1750667273455-1024x683.png',
  'hero_text': "True Homecare provides expert, bespoke Alzheimer and Dementia Care at home for clients across Stockport, Wilmslow, and the wider Cheshire region. Our CQC-rated care professionals deliver high-quality, clinical support in the comfort of the client's home, ensuring they maintain dignity, safety, and a sense of belonging. By providing this professional service, we offer essential respite and emotional relief to family members, ensuring you can return to your roles as family rather than full-time caregivers.",
  'process_heading': "How do I arrange Dementia and Alzheimer's Care at Home?",
  'process_intro': "Our local Cheshire and Greater Manchester team will guide you seamlessly through the process of arranging a safeguarding-compliant care package, tailored perfectly to the client's unique cognitive requirements, personal history, and daily needs.",
@@ -517,7 +517,7 @@ domiciliary = {
  'file': 'services__domiciliary-care.html', 'route': '/services/domiciliary-care/',
  'm_title': 'Domiciliary Care in Stockport & Wilmslow | True Homecare',
  'm_desc': 'CQC-rated domiciliary care at home across Stockport, Wilmslow & Cheshire. Personal care, medication, meals, mobility and companionship that keeps loved ones independent. Call 0161 428 1989.',
- 'hero_title': 'Domiciliary Care', 'hero_img': '/wp-content/uploads/2025/07/Domiciliary-Care-Uk-Truehomecare-e1751638985436.png',
+ 'hero_title': 'Domiciliary Care', 'hero_img': '/images/2025-07-Domiciliary-Care-Uk-Truehomecare-e1751638985436.png',
  'hero_text': "Domiciliary care provides tailored professional support delivered directly in the client's own home. It is designed for individuals who wish to live independently but require assistance with daily tasks to maintain their safety, dignity, and wellbeing.",
  'process_heading': 'How do I arrange Domiciliary Care?',
  'process_intro': "Our local team will guide you seamlessly through the process of arranging a safeguarding-compliant care package, tailored perfectly to the client's clinical and personal requirements.",
@@ -597,7 +597,7 @@ learning = {
  'file': 'services__learning-disability-support.html', 'route': '/services/learning-disability-support/',
  'm_title': 'Learning Disability Support at Home | True Homecare',
  'm_desc': 'CQC-rated learning disability support at home across Stockport, Wilmslow & Cheshire. Person-centred help with daily living, autism support, medication and independence. Call 0161 428 1989.',
- 'hero_title': 'Learning Disability Support', 'hero_img': '/wp-content/uploads/2025/07/Learning-Disability-Support-Uk-Truehomecare-1.png',
+ 'hero_title': 'Learning Disability Support', 'hero_img': '/images/2025-07-Learning-Disability-Support-Uk-Truehomecare-1.png',
  'hero_text': "True Homecare provides high-quality learning disability support at home for individuals across the UK. Our premium services focus on maintaining independence and dignity, ensuring clients receive tailored support to live comfortably, safely, and confidently within their own homes. Our services operate at the intersection of person-centred care and full CQC compliance. We strictly adhere to the Ethical Framework by Stockport Council, ensuring our support is both locally trusted and held to the highest regulatory standards.",
  'process_heading': 'How do I arrange Learning Disability Support?',
  'process_intro': "Our local Cheshire and Greater Manchester team will guide you seamlessly through the process of arranging a safeguarding-compliant learning disability support package, tailored perfectly to the individual's personality, social needs, and emotional wellbeing.",
@@ -676,7 +676,7 @@ reablement = {
  'file': 'services__reablement-services.html', 'route': '/services/reablement-services/',
  'm_title': 'Reablement Services at Home in Stockport & Cheshire | True Homecare',
  'm_desc': 'CQC-rated reablement and hospital-to-home support across Greater Manchester & Cheshire. Short-term, goal-oriented recovery that rebuilds independence at home. Call 0161 428 1989.',
- 'hero_title': 'Reablement Services at Home', 'hero_img': '/wp-content/uploads/2025/06/Reablement-Services-uk-truehomecare-1-e1750685658842.png',
+ 'hero_title': 'Reablement Services at Home', 'hero_img': '/images/2025-06-Reablement-Services-uk-truehomecare-1-e1750685658842.png',
  'hero_text': "Reablement is a short-term, goal-oriented recovery process designed to help individuals regain their independence after an illness, injury, or hospital stay. Unlike traditional home care, which focuses on performing tasks for an individual, professional reablement empowers clients to perform tasks themselves, rebuild confidence, and safely restore their daily living skills in their own homes. True Homecare delivers these specialised pathways across Greater Manchester and Cheshire, helping individuals transition safely from a clinical environment back to autonomous living.",
  'process_heading': 'How to Arrange Reablement Services',
  'process_intro': "Our local Cheshire and Greater Manchester team will guide you through arranging a safeguarding-compliant reablement package, tailored to the client's clinical and physical recovery needs before care begins.",
@@ -749,14 +749,14 @@ reablement = {
  ],
 }
 
-IMG_REAB = '/wp-content/uploads/2025/06/Reablement-Services-uk-truehomecare-1-e1750685658842.png'
+IMG_REAB = '/images/2025-06-Reablement-Services-uk-truehomecare-1-e1750685658842.png'
 
 # ============ RESPITE CARE ============
 respite = {
  'file': 'services__respite-care.html', 'route': '/services/respite-care/',
  'm_title': 'Respite Care at Home in Stockport & Wilmslow | True Homecare',
  'm_desc': 'CQC-rated respite care at home across Stockport, Wilmslow & Cheshire. Reliable short-term and 24-hour cover so family carers can rest. Rapid deployment available. Call 0161 428 1989.',
- 'hero_title': 'Respite Care at Home', 'hero_img': '/wp-content/uploads/2025/06/Respite-Care-uk-truehomecare.png',
+ 'hero_title': 'Respite Care at Home', 'hero_img': '/images/2025-06-Respite-Care-uk-truehomecare.png',
  'hero_text': "True Homecare provides short-term respite care to support both clients and their primary carers across Wilmslow, Stockport, and the surrounding areas. We understand that full-time caregiving is physically and mentally demanding. Our private visiting and live-in respite services offer reliable relief, allowing family members to rest, manage personal commitments, or take a holiday, knowing their relative is safe. Whether you require temporary daily visits or continuous 24-hour supervision, our care plans adapt to your exact schedule, providing secure, professional oversight at home.",
  'process_heading': 'How to arrange Respite Care?',
  'process_intro': "Our team will guide you through the process of arranging a safeguarding-compliant respite package, ensuring all clinical and personal requirements are met before you step away.",
@@ -837,7 +837,7 @@ afterhospital = {
  'file': 'services__after-hospital-care.html', 'route': '/services/after-hospital-care/',
  'm_title': 'After-Hospital Care at Home in Stockport & Cheshire | True Homecare',
  'm_desc': 'CQC-rated after-hospital and post-discharge care across Greater Manchester & Cheshire. Safe home recovery, readmission prevention and rapid-response cover. Call 0161 428 1989.',
- 'hero_title': 'After-Hospital Care at Home', 'hero_img': '/wp-content/uploads/2026/03/Care-After-Hospital-Discharge-at-Home.jpg',
+ 'hero_title': 'After-Hospital Care at Home', 'hero_img': '/images/2026-03-Care-After-Hospital-Discharge-at-Home.jpg',
  'hero_text': "Ensure a safe transition from the hospital ward to your home with our professional post-discharge support. True Homecare provides expert visiting and live-in care across Greater Manchester and Cheshire, offering a secure alternative to extended hospital stays or transitional care facilities. We manage the physical demands of your recovery, allowing you to recuperate safely in the comfort of your own home.",
  'process_heading': 'How We Facilitate a Safe Hospital Discharge',
  'process_intro': "Returning home after major surgery or a severe illness requires meticulous planning. Our local team manages this transition by guiding you through a safeguarding-compliant onboarding process before the patient leaves the ward.",
@@ -915,7 +915,7 @@ disability = {
  'file': 'services__disability-home-care.html', 'route': '/services/disability-home-care/',
  'm_title': 'Disability Home Care in Stockport & Cheshire | True Homecare',
  'm_desc': 'CQC-rated disability home care across Greater Manchester & Cheshire. Specialist support for MS, cerebral palsy, spinal injury and complex needs, promoting independence. Call 0161 428 1989.',
- 'hero_title': 'Disability Homecare', 'hero_img': '/wp-content/uploads/2025/06/Physical-Disability-uk-truehomecare-e1750682164903.webp',
+ 'hero_title': 'Disability Homecare', 'hero_img': '/images/2025-06-Physical-Disability-uk-truehomecare-e1750682164903.webp',
  'hero_text': "Access professional disability support designed to enhance your quality of life. True Homecare provides high-quality visiting and live-in care across Greater Manchester and Cheshire, focusing on bespoke support plans that prioritise your physical safety while promoting maximum independence in your own home. We strictly adhere to the Ethical Framework by Stockport Council, ensuring our support is locally trusted and held to the highest national standards.",
  'process_heading': 'How to Arrange Disability Home Care',
  'process_intro': "Arranging long-term disability care requires precise planning. True Homecare provides a transparent, safeguarding-compliant onboarding process before any services begin.",
@@ -990,7 +990,7 @@ parkinsons_v2 = {
  'file': 'services__parkinsons-care.html', 'route': '/services/parkinsons-care/',
  'm_title': "Parkinson's Care at Home in Stockport & Wilmslow | True Homecare",
  'm_desc': "Premium, CQC-rated Parkinson's care at home across Stockport, Wilmslow & Cheshire. Specialist neurological support: time-critical medication, mobility and dementia care. Call 0161 428 1989.",
- 'hero_title': "Parkinson's Care at Home", 'hero_img': '/wp-content/uploads/2025/06/Parkinsons-Car-uk-truehomecare-e1750678402255.webp',
+ 'hero_title': "Parkinson's Care at Home", 'hero_img': '/images/2025-06-Parkinsons-Car-uk-truehomecare-e1750678402255.webp',
  'hero_text': "True Homecare provides premium, bespoke Parkinson's care, designed to help clients safely maintain their independence as their condition progresses. Offering person-centred professional support across Greater Manchester and Cheshire, we provide specialised local expertise in Wilmslow and Stockport. Our objective is to keep clients out of residential facilities, ensuring they receive highly structured, one-to-one neurological care in their own familiar surroundings.",
  'process_heading': "How to Arrange Parkinson's Care",
  'process_intro': "Our local team will guide you through the process of arranging a safeguarding-compliant Parkinson's care package, tailored precisely to the client's physical and cognitive requirements before care begins.",

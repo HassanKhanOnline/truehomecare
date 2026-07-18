@@ -34,7 +34,7 @@ set_html(sel1('.tv-service-hero__text'),
     'the comfort of their own homes.</p>')
 # hero image
 hero_img = sel1('.tv-service-hero__image')
-new_hero = '/wp-content/uploads/2025/06/truehomecare-companionship-at-home-e1750159124947-1024x683.png'
+new_hero = '/images/2025-06-truehomecare-companionship-at-home-e1750159124947-1024x683.png'
 for a in ('src', 'data-src', 'srcset', 'data-srcset'):
     if hero_img.has_attr(a): del hero_img[a]
 hero_img['src'] = new_hero
@@ -163,7 +163,7 @@ set_html(sel1('.care-options-header div'),
 cards = selall('.care-option-card', 2)
 care_cards = [
     {
-        'img': '/wp-content/uploads/2025/06/live-in-care-services-truehomecare-e1750160172719.webp',
+        'img': '/images/2025-06-live-in-care-services-truehomecare-e1750160172719.webp',
         'alt': '24-Hour Live-in Care',
         'title': '24-Hour Live-in Care',
         'body': "Avoid the stress of moving to a residential facility. Our premium live-in care provides 24-hour support "
