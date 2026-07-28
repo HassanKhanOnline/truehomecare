@@ -18,6 +18,15 @@ html, body { overflow-x: clip; }
   section.sub-hero-trf .col-areas ul li { flex-basis: 50%; }
 }
 
+/* Service pages: the two alternating "why-choose" blocks after the phone-CTA
+   strip (content-left/image-right, then image-left/content-right) each carry
+   70px top+bottom padding, leaving ~140px of empty space between the pair.
+   Tighten just the gap BETWEEN them (first block's bottom + second block's top)
+   so they read as one unit; the space above the first and below the second is
+   unchanged. Longhand padding keeps each section's horizontal padding intact. */
+.why-choose-section:not(.why-choose-reverse) { padding-bottom: 20px; }
+.why-choose-section.why-choose-reverse { padding-top: 20px; padding-bottom: 40px; }
+
 /* "Our Services" cards (.ba-blog-grid-trf). Two equal-specificity theme rules set
    the card width — max-width:345px vs 33.33%. The live CSS load order makes 33.33%
    win (3 cards fill the row edge-to-edge); the mirror's order makes 345px win, which
