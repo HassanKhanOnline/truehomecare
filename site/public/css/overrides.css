@@ -1,5 +1,111 @@
 /* True Homecare — small overrides layered on top of the mirrored theme CSS. */
 
+/* Cross-device: many full-bleed sections use `width: 100vw` (+ negative margins) to
+   run edge-to-edge. 100vw includes the vertical scrollbar's width, so on any viewport
+   WITH a classic scrollbar (most desktops/tablets) those sections overhang by the
+   scrollbar width (~8px) and create a tiny horizontal page-scroll. Phones use overlay
+   scrollbars (0px) so they're unaffected. Clip the sliver at the root so no device
+   gets a horizontal scroll. `overflow-x: clip` (not `hidden`) is used deliberately so
+   the sticky header (.sticky-top) keeps working. */
+html, body { overflow-x: clip; }
+
+/* Location "Areas We Serve" list — the mirrored theme CSS keeps flex-basis:25%
+   (4 columns) at every width, so on phones (<768px) the town links collapse to
+   content-width and wrap raggedly. The live site adds a mobile rule making each
+   item 50% (a clean 2-column grid). That rule is missing from the mirror's
+   stylesheet, so restore it here to match live. */
+@media (max-width: 767.98px) {
+  section.sub-hero-trf .col-areas ul li { flex-basis: 50%; }
+}
+
+/* "Our Services" cards (.ba-blog-grid-trf). Two equal-specificity theme rules set
+   the card width — max-width:345px vs 33.33%. The live CSS load order makes 33.33%
+   win (3 cards fill the row edge-to-edge); the mirror's order makes 345px win, which
+   leaves narrow cards with gaps in the space-between row. Force the live value on
+   desktop (md+, where col-md-4 is a third-width); mobile keeps its stacked full width. */
+@media (min-width: 768px) {
+  .ba-blog-grid-trf .col-md-4.custom-col { max-width: 33.33%; }
+}
+
+/* Location gallery ("See the heart behind the care we provide") thumbnail strip.
+   The theme hard-sets height:390px on the thumb slider; combined with the flex
+   `align-items:end` container that leaves the one-row thumbnail strip floating well
+   above the bottom. Let it size to its content (~one row) so it sits at the bottom
+   next to the main image, matching the live layout. */
+section.block-image-gallery-slider-trf .container .row.slider.block-image-gallery-slider-thumb {
+  height: auto !important;
+}
+
+/* Location-page reviews/testimonials section: the theme's .ba-gap-lg utility adds
+   60px of top padding, but the live site zeroes it here (padding-top:0), so the
+   "Read what people say" heading + reviews widget sit tight under the section above.
+   Match live and remove the extra gap above the widget. */
+.location-block-testimonials-trf.ba-gap-lg { padding-top: 0; }
+
+/* Location-page reviews width: the service-page template constrains its reviews
+   block to 80% / max 1200px, centred (see .reviews-wrap on service pages), but the
+   location testimonials section lets the Trustindex widget run full-width. Match the
+   service-page width here. Scoped to the location reviews section only. The .ti-widget
+   cap (with !important) also reins in the injected Trustindex widget if it breaks out
+   of the Bootstrap .container. */
+.location-block-testimonials-trf .container {
+  width: 80%;
+  max-width: 1200px;
+}
+.location-block-testimonials-trf .ti-widget {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+@media (max-width: 768px) {
+  .location-block-testimonials-trf .container { width: 100%; }
+}
+
+/* Decorative picket-fence graphic beneath the reviews slider. The theme already
+   draws it via .block-testimonials-trf::after (absolute, 170px tall, with the
+   section reserving padding-bottom:170px), but the earlier image-consolidation
+   left the CSS url() pointing at the live domain's /images/ path, which 404s
+   locally. Repoint it at the bundled asset so the fence renders. Scoped to .home. */
+.home .block-testimonials-trf::after {
+  background-image: url('/images/2024-05-why-install-bg-railing-img-new-updated.png') !important;
+}
+
+/* Final CTA banner — "Questions? We're Happy to Help" (.ba-fw-banner).
+   The live section's background comes from a lazyload `data-bg` attribute, but the
+   mirror ships no lazyload library AND the referenced image was missing from
+   /images, so the section rendered with no background and collapsed to ~180px.
+   The exact live image (senior-home-care-1.webp, a wide 1440x231 banner) is now
+   restored, layered under a light dark overlay for white-text contrast. The theme's
+   .ba-fw-banner already sets cover / center / no-repeat / padding 46px 0 / color:#fff.
+   Scoped to .home so only the homepage CTA is affected. `!important` is required
+   because the section carries an inline `style="background:inherit"` that would
+   otherwise win over this stylesheet rule. */
+.home .background-image-cta-block-trf {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('/images/2025-06-senior-home-care-1.webp') !important;
+}
+
+/* Active menu state is applied client-side from the URL (see site-interactions.js).
+   The theme puts a 0.7s `transition: all` on menu links, which would make the active
+   colour fade in on every page load. The live site renders the current-menu class
+   server-side (no fade), so render our active items instantly to match. Hover on
+   other items keeps its normal transition. */
+#main-menu li.current-menu-item > a,
+#main-menu li.current-menu-parent > a,
+#main-menu .dropdown-menu li.current-menu-item > a {
+  transition: none;
+}
+
+/* Header logo height. The live site sizes the logo via an inline WordPress
+   Customizer <style> (max-height:66px) that isn't part of the mirrored external
+   CSS, so the mirror falls back to the theme default (56.33px) and renders the
+   logo ~10px too short on desktop. Restore the live height. Tablet/mobile keep
+   their existing max-width sizing (90px), where width is the binding dimension. */
+@media (min-width: 992px) {
+  .navbar-brand img.custom-logo { max-height: 66px; }
+}
+
 /* Equal-height images for the "Related / Complementary" care-option cards
    (e.g. under "Dementia Related Services Available"). */
 .care-option-image {
@@ -50,19 +156,42 @@
 .feature-icon-circle .feature-icon-image { width: 78px; height: 78px; object-fit: contain; display: block; }
 
 /* ===== Assessment form (homepage — replaces removed Gravity Forms) ===== */
-.hero-location__form .tv-assessment-form { max-width: 360px; margin-left: auto; }
-.tv-assessment-form { width: 100%; background: #fff; border: 2px solid #31634e; padding: 24px 20px 30px; box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
-.tv-assessment-form h2 { margin: 0 0 8px; font-size: 26px; line-height: 1.15; font-weight: 800; color: #111; }
-.tv-assessment-form__note { margin: 0 0 16px; font-size: 13px; font-weight: 700; color: #222; }
-.tv-assessment-form__field { margin-bottom: 13px; }
-.tv-assessment-form__field label { display: block; font-size: 12px; color: #555; margin-bottom: 2px; line-height: 1.2; }
-.tv-assessment-form__field input { width: 100%; border: 0; border-bottom: 1px solid #444; border-radius: 0; box-shadow: none; height: 28px; padding: 0; font-size: 14px; background: transparent; }
-.tv-assessment-form__field input:focus { outline: none; border-bottom-color: #31634e; box-shadow: none; }
-.tv-assessment-form__sms { display: flex; gap: 8px; align-items: flex-start; font-size: 11px; line-height: 1.45; color: #333; margin: 12px 0 22px; }
-.tv-assessment-form__sms input { margin-top: 2px; flex: 0 0 auto; }
-.tv-assessment-form__sms a { color: #31634e; text-decoration: underline; font-weight: 700; }
-.tv-assessment-form__submit { width: 100%; background: #31634e; color: #fff; border: 0; padding: 14px 16px; font-size: 13px; font-weight: 800; cursor: pointer; transition: 0.25s ease; }
-.tv-assessment-form__submit:hover, .tv-assessment-form__submit:focus { background: #254d3d; color: #fff; }
+/* Hero "Get Your Assessment" form — matches the live True Homecare hero.
+   Scoped to `.home` (the homepage <body> carries `home`; service pages don't) so
+   this only affects the homepage hero. Service pages render the same form from
+   their own inline <style> and have no input placeholders — leaving them untouched
+   avoids blanking their visible-label fields.
+
+   IMPORTANT: the single visible box IS the .hero-location__form wrapper, which the
+   mirrored theme already styles exactly like the live site (#f6f6f6 background,
+   2px solid #266751 border, 21px 24px 34px padding, max-width 355px). The inner
+   <form> must therefore stay BARE — no background, border, shadow or padding of its
+   own — otherwise the two nested boxes produce the double-border / double-padding
+   effect (and the extra padding inflated the hero height). */
+.home .hero-location__form .tv-assessment-form {
+  width: 100%; max-width: none; margin: 0;
+  background: none; border: 0; box-shadow: none; padding: 0;
+}
+.home .tv-assessment-form h2 { margin: 0 0 8px; font-size: 28px; line-height: 1.2; font-weight: 700; color: #000; }
+.home .tv-assessment-form__note { margin: 0 0 8px; font-size: 16px; font-weight: 500; color: #000; }
+/* Live fields use placeholder text, not visible labels — hide labels accessibly. */
+.home .tv-assessment-form__field { margin-bottom: 16px; }
+.home .tv-assessment-form__field label {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+.home .tv-assessment-form__field input {
+  width: 100%; border: 0; border-bottom: 1px solid #000; border-radius: 0;
+  box-shadow: none; height: 40px; padding: 8px 8px 8px 0; font-size: 15px;
+  background: transparent; color: #000;
+}
+.home .tv-assessment-form__field input::placeholder { color: #555; opacity: 1; }
+.home .tv-assessment-form__field input:focus { outline: none; border-bottom-color: #266751; box-shadow: none; }
+.home .tv-assessment-form__sms { display: flex; gap: 8px; align-items: flex-start; font-size: 11px; line-height: 1.45; color: #333; margin: 12px 0 16px; }
+.home .tv-assessment-form__sms input { margin-top: 2px; flex: 0 0 auto; }
+.home .tv-assessment-form__sms a { color: #266751; text-decoration: underline; font-weight: 700; }
+.home .tv-assessment-form__submit { width: 100%; background: #266751; color: #fff; border: 0; border-radius: 0; padding: 13px 21px; font-size: 16px; font-weight: 700; cursor: pointer; margin-top: 6px; transition: 0.25s ease; }
+.home .tv-assessment-form__submit:hover, .home .tv-assessment-form__submit:focus { background: #1d5340; color: #fff; }
 
 /* ===== Mobile menu: hamburger on the right, drawer slides from the right ===== */
 @media (max-width: 767.98px) {
