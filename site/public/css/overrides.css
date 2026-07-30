@@ -45,29 +45,25 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
   height: auto !important;
 }
 
-/* Location-page reviews/testimonials section: the theme's .ba-gap-lg utility adds
-   60px of top padding, but the live site zeroes it here (padding-top:0), so the
-   "Read what people say" heading + reviews widget sit tight under the section above.
-   Match live and remove the extra gap above the widget. */
-.location-block-testimonials-trf.ba-gap-lg { padding-top: 0; }
-
-/* Location-page reviews width: the service-page template constrains its reviews
-   block to 80% / max 1200px, centred (see .reviews-wrap on service pages), but the
-   location testimonials section lets the Trustindex widget run full-width. Match the
-   service-page width here. Scoped to the location reviews section only. The .ti-widget
-   cap (with !important) also reins in the injected Trustindex widget if it breaks out
-   of the Bootstrap .container. */
-.location-block-testimonials-trf .container {
+/* Location pages now reuse the SERVICE-page review section (.reviews-section /
+   .reviews-wrap). site-interactions.js injects the same Trustindex widget into
+   .reviews-wrap on BOTH page types, so the review section is identical. The
+   service page carries these styles inline; mirror the exact same rules here so
+   location pages render the review section the same way. (Replaces the old,
+   now-removed .location-block-testimonials-trf overrides.) */
+.reviews-section {
+  background: #ffffff;
+  padding: 50px 20px;
+}
+.reviews-wrap {
   width: 80%;
   max-width: 1200px;
-}
-.location-block-testimonials-trf .ti-widget {
-  max-width: 1200px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin: 0 auto;
 }
 @media (max-width: 768px) {
-  .location-block-testimonials-trf .container { width: 100%; }
+  .reviews-wrap {
+    width: 100%;
+  }
 }
 
 /* Decorative picket-fence graphic beneath the reviews slider. The theme already
