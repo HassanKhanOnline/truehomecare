@@ -1,0 +1,102 @@
+---
+// Custom 404 page. Reuses the site's real header + footer (sliced from the
+// homepage mirror by stable markers) so the chrome matches every other page,
+// with a branded "not found" section in the middle.
+import cssList from '../data/mirror-css.json';
+import homeBody from '../mirror/home-body.html?raw';
+
+const headerEnd = '</header><!-- #wrapper-navbar -->';
+const hi = homeBody.indexOf(headerEnd);
+const header = hi >= 0 ? homeBody.slice(0, hi + headerEnd.length) : '';
+
+const footerStart = '<!-----------Custom footer widget by Binu';
+const fi = homeBody.indexOf(footerStart);
+const footer = fi >= 0 ? homeBody.slice(fi) : '';
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found (404) | True Homecare</title>
+    <meta
+      name="description"
+      content="Sorry, we couldn't find that page. Explore True Homecare's in-home care services across Stockport & Cheshire, or call 0161 428 1989."
+    />
+    {cssList.map((href: string) => <link rel="stylesheet" href={href} />)}
+    <link rel="stylesheet" href="/css/overrides.css" />
+    <style>
+      .thc-404 { background: #f0f0ef; padding: 90px 20px 100px; }
+      .thc-404__inner { max-width: 760px; margin: 0 auto; text-align: center; }
+      .thc-404__code {
+        font-size: 132px; font-weight: 800; line-height: 1; letter-spacing: 2px;
+        color: #266751; margin: 0;
+      }
+      .thc-404__code span { color: #d95719; }
+      .thc-404__title { font-size: 36px; font-weight: 800; color: #1f2a27; margin: 10px 0 16px; }
+      .thc-404__text { font-size: 18px; line-height: 1.65; color: #4a544f; margin: 0 auto 32px; max-width: 580px; }
+      .thc-404__actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; }
+      .thc-404__btn {
+        display: inline-block; padding: 15px 34px; border-radius: 8px; font-weight: 700;
+        font-size: 16px; text-decoration: none; transition: background .2s, color .2s;
+      }
+      .thc-404__btn--primary { background: #d95719; color: #fff; }
+      .thc-404__btn--primary:hover, .thc-404__btn--primary:focus { background: #bf4a13; color: #fff; }
+      .thc-404__btn--ghost { background: transparent; color: #266751; border: 2px solid #266751; }
+      .thc-404__btn--ghost:hover, .thc-404__btn--ghost:focus { background: #266751; color: #fff; }
+      .thc-404__links {
+        border-top: 1px solid #d9d9d6; padding-top: 26px; font-size: 15px; color: #4a544f;
+      }
+      .thc-404__links-label { font-weight: 700; display: block; margin-bottom: 10px; color: #1f2a27; }
+      .thc-404__links a { color: #266751; text-decoration: none; margin: 0 10px; font-weight: 600; white-space: nowrap; }
+      .thc-404__links a:hover, .thc-404__links a:focus { color: #d95719; text-decoration: underline; }
+      .thc-404__phone { margin-top: 26px; font-size: 16px; color: #4a544f; }
+      .thc-404__phone a { color: #d95719; font-weight: 700; text-decoration: none; }
+      @media (max-width: 600px) {
+        .thc-404 { padding: 60px 18px 70px; }
+        .thc-404__code { font-size: 92px; }
+        .thc-404__title { font-size: 27px; }
+        .thc-404__text { font-size: 17px; }
+        .thc-404__links a { display: inline-block; margin: 4px 8px; }
+      }
+    </style>
+  </head>
+  <body class="page error404 wp-theme-understrap wp-child-theme-understrap-child understrap-has-sidebar">
+    <Fragment set:html={header} />
+    <div class="main-content page" id="content" tabindex="-1">
+      <main id="main" class="site-main">
+        <section class="thc-404">
+          <div class="thc-404__inner">
+            <p class="thc-404__code">4<span>0</span>4</p>
+            <h1 class="thc-404__title">Oops &mdash; this page isn&rsquo;t here</h1>
+            <p class="thc-404__text">
+              The page you&rsquo;re looking for may have moved or no longer exists.
+              Let&rsquo;s get you back to safe, trusted, compassionate care.
+            </p>
+            <div class="thc-404__actions">
+              <a href="/" class="thc-404__btn thc-404__btn--primary">Back to Home</a>
+              <a href="/contact-us/" class="thc-404__btn thc-404__btn--ghost">Contact Us</a>
+            </div>
+            <div class="thc-404__links">
+              <span class="thc-404__links-label">Popular pages</span>
+              <a href="/services/personal-care/">Personal Care</a>
+              <a href="/services/live-in-care/">Live-in Care</a>
+              <a href="/services/companionship/">Companionship</a>
+              <a href="/locations/">Locations</a>
+              <a href="/blog/">Blog</a>
+            </div>
+            <p class="thc-404__phone">
+              Need help now? Call <a href="tel:01614281989">0161 428 1989</a>
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <Fragment set:html={footer} />
+    <script is:inline src="/js/bootstrap.bundle.min.js"></script>
+    <script is:inline src="/js/swiper-bundle.min.js"></script>
+    <script is:inline src="/js/jquery.min.js"></script>
+    <script is:inline src="/js/slick.min.js"></script>
+    <script is:inline src="/js/site-interactions.js"></script>
+  </body>
+</html>
