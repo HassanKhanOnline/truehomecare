@@ -11,3 +11,6 @@ command = "npm run build"
 
 [assets]
 directory = "./site/dist"
+# Serve the built 404.html (with a 404 status) for any unknown route,
+# e.g. /wp-admin/ — otherwise Cloudflare returns a bare, empty 404.
+not_found_handling = "404-page"
