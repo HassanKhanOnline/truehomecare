@@ -3,5 +3,11 @@
 name = "truehomecare"
 compatibility_date = "2025-06-01"
 
+# Build the Astro site before deploying so ./site/dist exists.
+# `wrangler deploy` runs this command first; the root `build` script installs the
+# site's deps and runs `astro build` (outputs to site/dist).
+[build]
+command = "npm run build"
+
 [assets]
 directory = "./site/dist"
