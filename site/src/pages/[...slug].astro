@@ -29,6 +29,10 @@ const body = bodies['../mirror/pages/' + page.file];
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{page.title}</title>
     {page.description && <meta name="description" content={page.description} />}
+    <link rel="icon" href="/images/2024-04-cropped-truehomecare-logo-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/images/2024-04-cropped-truehomecare-logo-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/images/2024-04-cropped-truehomecare-logo-180x180.png" />
+    <meta name="msapplication-TileImage" content="/images/2024-04-cropped-truehomecare-logo-192x192.png" />
     {cssList.map((href: string) => <link rel="stylesheet" href={href} />)}
     <link rel="stylesheet" href="/css/overrides.css" />
   </head>
