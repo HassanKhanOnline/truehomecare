@@ -1,0 +1,895 @@
+{
+  "version": "1.0",
+  "schema": "https://entitymap.org/spec/v1.0",
+  "publisher": {
+    "name": "True Homecare",
+    "url": "https://www.truehomecare.co.uk"
+  },
+  "generated": "2026-08-28T05:14:08Z",
+  "entities": [
+    {
+      "entityId": "e_001",
+      "@type": "Organization",
+      "name": "True Homecare",
+      "description": "Family-run, CQC-registered domiciliary care provider delivering personalised care in clients' own homes across Stockport, Wilmslow, Cheshire East and Greater Manchester. Holds a 'Good' rating from the Care Quality Commission.",
+      "sameAs": "https://www.truehomecare.co.uk",
+      "relations": [
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_002",
+          "targetName": "Post-Operative Care at Home",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_003",
+          "targetName": "End of Life Care Services at Home",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_004",
+          "targetName": "Companionship Care at Home in Stockport",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_005",
+          "targetName": "Dementia & Alzheimer's Care at Home",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_006",
+          "targetName": "Domiciliary Care in Stockport & Wilmslow",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_007",
+          "targetName": "Learning Disability Support at Home",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_008",
+          "targetName": "24-Hour Live-in Care in Stockport & Wilmslow",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_009",
+          "targetName": "Elderly Care at Home",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_010",
+          "targetName": "Disability Home Care in Stockport & Cheshire",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_011",
+          "targetName": "After-Hospital Care at Home in Stockport",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_012",
+          "targetName": "Stroke Care at Home in Stockport & Cheshire",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_013",
+          "targetName": "Reablement Services at Home in Stockport",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_014",
+          "targetName": "Private Care at Home",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_015",
+          "targetName": "Physical Disability Support Services",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_016",
+          "targetName": "Personal Care At Home",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_017",
+          "targetName": "Parkinson's Care at Home in Stockport",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_018",
+          "targetName": "Palliative Care at Home",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_019",
+          "targetName": "Overnight Care Services",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_020",
+          "targetName": "Long-Term Condition Support at Home",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_021",
+          "targetName": "Respite Care at Home in Stockport & Wilmslow",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "PROVIDES",
+          "targetId": "e_022",
+          "targetName": "Short Break Care Services in Stockport",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "OPERATES_IN",
+          "targetId": "e_023",
+          "targetName": "Stockport",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "OPERATES_IN",
+          "targetId": "e_024",
+          "targetName": "Wilmslow",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "OPERATES_IN",
+          "targetId": "e_025",
+          "targetName": "Cheshire",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "OPERATES_IN",
+          "targetId": "e_026",
+          "targetName": "Greater Manchester",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "OPERATES_IN",
+          "targetId": "e_027",
+          "targetName": "Cheadle",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_001",
+          "text": "CQC-registered home care provider delivering personalised care in clients’ own homes across Stockport, Wilmslow, Cheshire East and Greater Manchester.",
+          "sourceUrl": "https://www.truehomecare.co.uk/about-us-true-homecare/",
+          "pageTitle": "About True Homecare",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_002",
+      "@type": "Service",
+      "name": "Post-Operative Care at Home",
+      "description": "True Homecare provides specialised post-operative care at home for a safe, comfortable recovery after surgery, with mobility support and medication management.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "RELATED_TO",
+          "targetId": "e_011",
+          "targetName": "After-Hospital Care at Home in Stockport",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_002",
+          "text": "True Homecare provides specialised post-operative care at home for a safe, comfortable recovery after surgery, with mobility support and medication management.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/post-operative-care/",
+          "pageTitle": "Post-Operative Care at Home",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_003",
+      "@type": "Service",
+      "name": "End of Life Care Services at Home",
+      "description": "True Homecare provides compassionate end-of-life care at home with personalised support, pain management and emotional care for dignity and comfort.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "RELATED_TO",
+          "targetId": "e_018",
+          "targetName": "Palliative Care at Home",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_003",
+          "text": "True Homecare provides compassionate end-of-life care at home with personalised support, pain management and emotional care for dignity and comfort.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/end-of-life-care/",
+          "pageTitle": "End of Life Care Services at Home",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ],
+      "sameAs": "https://en.wikipedia.org/wiki/End-of-life_care"
+    },
+    {
+      "entityId": "e_004",
+      "@type": "Service",
+      "name": "Companionship Care at Home in Stockport",
+      "description": "Professional companionship care across Stockport, Wilmslow & Cheshire. Person-centred emotional support to combat loneliness and keep loved ones active at home.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_004",
+          "text": "Professional companionship care across Stockport, Wilmslow & Cheshire. Person-centred emotional support to combat loneliness and keep loved ones active at home.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/companionship/",
+          "pageTitle": "Companionship Care at Home in Stockport",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_005",
+      "@type": "Service",
+      "name": "Dementia & Alzheimer's Care at Home",
+      "description": "CQC-rated dementia and Alzheimer's care at home across Stockport, Wilmslow & Cheshire. Specialist memory support, routine and safety. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_005",
+          "text": "CQC-rated dementia and Alzheimer's care at home across Stockport, Wilmslow & Cheshire. Specialist memory support, routine and safety. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/dementia-and-alzheimer-care/",
+          "pageTitle": "Dementia & Alzheimer's Care at Home",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ],
+      "sameAs": "https://en.wikipedia.org/wiki/Dementia"
+    },
+    {
+      "entityId": "e_006",
+      "@type": "Service",
+      "name": "Domiciliary Care in Stockport & Wilmslow",
+      "description": "CQC-rated domiciliary care across Stockport, Wilmslow & Cheshire. Personal care, medication, meals, mobility and companionship. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_006",
+          "text": "CQC-rated domiciliary care across Stockport, Wilmslow & Cheshire. Personal care, medication, meals, mobility and companionship. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/domiciliary-care/",
+          "pageTitle": "Domiciliary Care in Stockport & Wilmslow",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ],
+      "sameAs": "https://en.wikipedia.org/wiki/Home_care"
+    },
+    {
+      "entityId": "e_007",
+      "@type": "Service",
+      "name": "Learning Disability Support at Home",
+      "description": "CQC-rated learning disability support across Stockport, Wilmslow & Cheshire. Person-centred help with daily living and autism support. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_007",
+          "text": "CQC-rated learning disability support across Stockport, Wilmslow & Cheshire. Person-centred help with daily living and autism support. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/learning-disability-support/",
+          "pageTitle": "Learning Disability Support at Home",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_008",
+      "@type": "Service",
+      "name": "24-Hour Live-in Care in Stockport & Wilmslow",
+      "description": "Premium 24-hour live-in care across Stockport, Wilmslow & Cheshire. One-to-one CQC-rated support that keeps loved ones safe and independent. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_008",
+          "text": "Premium 24-hour live-in care across Stockport, Wilmslow & Cheshire. One-to-one CQC-rated support that keeps loved ones safe and independent. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/live-in-care/",
+          "pageTitle": "24-Hour Live-in Care in Stockport & Wilmslow",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ],
+      "sameAs": "https://en.wikipedia.org/wiki/Live-in_caregiver"
+    },
+    {
+      "entityId": "e_009",
+      "@type": "Service",
+      "name": "Elderly Care at Home",
+      "description": "True Homecare provides compassionate elderly care at home across Stockport, Wilmslow and Cheshire, supporting independence, dignity and wellbeing every day.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_009",
+          "text": "True Homecare provides compassionate elderly care at home across Stockport, Wilmslow and Cheshire, supporting independence, dignity and wellbeing every day.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/elderly-care/",
+          "pageTitle": "Elderly Care at Home",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_010",
+      "@type": "Service",
+      "name": "Disability Home Care in Stockport & Cheshire",
+      "description": "CQC-rated disability home care across Greater Manchester & Cheshire. Specialist support for MS, cerebral palsy and complex needs. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_010",
+          "text": "CQC-rated disability home care across Greater Manchester & Cheshire. Specialist support for MS, cerebral palsy and complex needs. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/disability-home-care/",
+          "pageTitle": "Disability Home Care in Stockport & Cheshire",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_011",
+      "@type": "Service",
+      "name": "After-Hospital Care at Home in Stockport",
+      "description": "CQC-rated after-hospital and post-discharge care across Greater Manchester & Cheshire. Safe home recovery and readmission prevention. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_011",
+          "text": "CQC-rated after-hospital and post-discharge care across Greater Manchester & Cheshire. Safe home recovery and readmission prevention. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/after-hospital-care/",
+          "pageTitle": "After-Hospital Care at Home in Stockport",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_012",
+      "@type": "Service",
+      "name": "Stroke Care at Home in Stockport & Cheshire",
+      "description": "CQC-rated stroke care and rehabilitation at home across Stockport, Wilmslow & Cheshire. Clinical support for mobility, speech and recovery. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_012",
+          "text": "CQC-rated stroke care and rehabilitation at home across Stockport, Wilmslow & Cheshire. Clinical support for mobility, speech and recovery. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/stroke-care/",
+          "pageTitle": "Stroke Care at Home in Stockport & Cheshire",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ],
+      "sameAs": "https://en.wikipedia.org/wiki/Stroke"
+    },
+    {
+      "entityId": "e_013",
+      "@type": "Service",
+      "name": "Reablement Services at Home in Stockport",
+      "description": "CQC-rated reablement and hospital-to-home support across Greater Manchester & Cheshire. Short-term recovery that rebuilds independence. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_013",
+          "text": "CQC-rated reablement and hospital-to-home support across Greater Manchester & Cheshire. Short-term recovery that rebuilds independence. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/reablement-services/",
+          "pageTitle": "Reablement Services at Home in Stockport",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_014",
+      "@type": "Service",
+      "name": "Private Care at Home",
+      "description": "Explore personalized home care solutions by True Homecare. Ensure comfort and independence at home for your loved ones.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_014",
+          "text": "Explore personalized home care solutions by True Homecare. Ensure comfort and independence at home for your loved ones.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/private-care/",
+          "pageTitle": "Private Care at Home",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_015",
+      "@type": "Service",
+      "name": "Physical Disability Support Services",
+      "description": "Tailored physical disability support services for independent living. True Homecare provides professional assistance to help you thrive in your own home.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_015",
+          "text": "Tailored physical disability support services for independent living. True Homecare provides professional assistance to help you thrive in your own home.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/physical-disability-support/",
+          "pageTitle": "Physical Disability Support Services",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_016",
+      "@type": "Service",
+      "name": "Personal Care At Home",
+      "description": "Discover True Homecare's at-home personal care services, designed to enhance independence and comfort. Tailor your care plan with us today!",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_016",
+          "text": "Discover True Homecare's at-home personal care services, designed to enhance independence and comfort. Tailor your care plan with us today!",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/personal-care/",
+          "pageTitle": "Personal Care At Home",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ],
+      "sameAs": "https://en.wikipedia.org/wiki/Personal_care"
+    },
+    {
+      "entityId": "e_017",
+      "@type": "Service",
+      "name": "Parkinson's Care at Home in Stockport",
+      "description": "CQC-rated Parkinson's care at home across Stockport, Wilmslow & Cheshire. Specialist neurological support with time-critical medication. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_017",
+          "text": "CQC-rated Parkinson's care at home across Stockport, Wilmslow & Cheshire. Specialist neurological support with time-critical medication. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/parkinsons-care/",
+          "pageTitle": "Parkinson's Care at Home in Stockport",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ],
+      "sameAs": "https://en.wikipedia.org/wiki/Parkinson's_disease"
+    },
+    {
+      "entityId": "e_018",
+      "@type": "Service",
+      "name": "Palliative Care at Home",
+      "description": "Experience the expert in-home palliative care focusing on comfort, dignity, and family support for improved quality of life.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_018",
+          "text": "Experience the expert in-home palliative care focusing on comfort, dignity, and family support for improved quality of life.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/palliative-care/",
+          "pageTitle": "Palliative Care at Home",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ],
+      "sameAs": "https://en.wikipedia.org/wiki/Palliative_care"
+    },
+    {
+      "entityId": "e_019",
+      "@type": "Service",
+      "name": "Overnight Care Services",
+      "description": "Ensure safety and comfort at night with True Homecare's expert overnight care. Professional, compassionate support for your loved ones across Stockport.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_019",
+          "text": "Ensure safety and comfort at night with True Homecare's expert overnight care. Professional, compassionate support for your loved ones across Stockport.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/overnight-care/",
+          "pageTitle": "Overnight Care Services",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_020",
+      "@type": "Service",
+      "name": "Long-Term Condition Support at Home",
+      "description": "CQC-rated long-term condition support at home across Stockport, Wilmslow & Cheshire. Clinical care for Parkinson's and chronic conditions. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_020",
+          "text": "CQC-rated long-term condition support at home across Stockport, Wilmslow & Cheshire. Clinical care for Parkinson's and chronic conditions. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/long-term-condition-support/",
+          "pageTitle": "Long-Term Condition Support at Home",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_021",
+      "@type": "Service",
+      "name": "Respite Care at Home in Stockport & Wilmslow",
+      "description": "CQC-rated respite care at home across Stockport, Wilmslow & Cheshire. Reliable short-term and 24-hour cover so family carers can rest. Call 0161 428 1989.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_021",
+          "text": "CQC-rated respite care at home across Stockport, Wilmslow & Cheshire. Reliable short-term and 24-hour cover so family carers can rest. Call 0161 428 1989.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/respite-care/",
+          "pageTitle": "Respite Care at Home in Stockport & Wilmslow",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ],
+      "sameAs": "https://en.wikipedia.org/wiki/Respite_care"
+    },
+    {
+      "entityId": "e_022",
+      "@type": "Service",
+      "name": "Short Break Care Services in Stockport",
+      "description": "Need a break? True Homecare offers flexible short break care in Stockport, from respite to overnight care. Trusted, personalised support for carers.",
+      "relations": [
+        {
+          "predicate": "PROVIDED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "RELATED_TO",
+          "targetId": "e_021",
+          "targetName": "Respite Care at Home in Stockport & Wilmslow",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_022",
+          "text": "Need a break? True Homecare offers flexible short break care in Stockport, from respite to overnight care. Trusted, personalised support for carers.",
+          "sourceUrl": "https://www.truehomecare.co.uk/services/short-breaks/",
+          "pageTitle": "Short Break Care Services in Stockport",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.95,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_023",
+      "@type": "Place",
+      "name": "Stockport",
+      "description": "Metropolitan borough in Greater Manchester, England, and the base of operations for True Homecare.",
+      "sameAs": "https://en.wikipedia.org/wiki/Stockport",
+      "relations": [
+        {
+          "predicate": "SERVED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_023",
+          "text": "True Homecare Stockport is your professional In-Home care and Live-in care service provider in Stockport , North West England. Experience top-notch care.",
+          "sourceUrl": "https://www.truehomecare.co.uk/locations/stockport/",
+          "pageTitle": "Home care & Live-in care in Stockport",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.9,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_024",
+      "@type": "Place",
+      "name": "Wilmslow",
+      "description": "Town in Cheshire East, England, within True Homecare’s service area.",
+      "sameAs": "https://en.wikipedia.org/wiki/Wilmslow",
+      "relations": [
+        {
+          "predicate": "SERVED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_024",
+          "text": "True Homecare Wilmslow is your professional In-Home care and Live-in care service provider in Wilmslow Cheshire, Cheshire East. Experience top-notch care.",
+          "sourceUrl": "https://www.truehomecare.co.uk/locations/cheshire/wilmslow/",
+          "pageTitle": "Home care & Live-in care in Wilmslow",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.9,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_025",
+      "@type": "Place",
+      "name": "Cheshire",
+      "description": "Ceremonial county in North West England; True Homecare serves the Cheshire East area.",
+      "sameAs": "https://en.wikipedia.org/wiki/Cheshire",
+      "relations": [
+        {
+          "predicate": "SERVED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_025",
+          "text": "True Homecare Cheshire is your professional In-Home care and Live-in care service provider in Cheshire Cheshire, Cheshire East. Experience top-notch care.",
+          "sourceUrl": "https://www.truehomecare.co.uk/locations/cheshire/",
+          "pageTitle": "Home care & Live-in care in Cheshire",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.9,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_026",
+      "@type": "Place",
+      "name": "Greater Manchester",
+      "description": "Metropolitan county in North West England covering Stockport and surrounding towns.",
+      "sameAs": "https://en.wikipedia.org/wiki/Greater_Manchester",
+      "relations": [
+        {
+          "predicate": "SERVED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_026",
+          "text": "True Homecare Greater Manchester provides professional in-home care and live-in care across Greater Manchester. Experience top-notch care at home.",
+          "sourceUrl": "https://www.truehomecare.co.uk/locations/greater-manchester/",
+          "pageTitle": "Home Care in Greater Manchester",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.9,
+          "contentType": "evidence"
+        }
+      ]
+    },
+    {
+      "entityId": "e_027",
+      "@type": "Place",
+      "name": "Cheadle",
+      "description": "Town in the Metropolitan Borough of Stockport served by True Homecare.",
+      "sameAs": "https://en.wikipedia.org/wiki/Cheadle,_Greater_Manchester",
+      "relations": [
+        {
+          "predicate": "SERVED_BY",
+          "targetId": "e_001",
+          "targetName": "True Homecare",
+          "confidence": "declared"
+        }
+      ],
+      "hasChunks": [
+        {
+          "chunkId": "c_027",
+          "text": "True Homecare Cheadle is your professional In-Home care and Live-in care service provider in Cheadle , Stockport. Experience top-notch care.",
+          "sourceUrl": "https://www.truehomecare.co.uk/locations/cheadle/",
+          "pageTitle": "Home care & Live-in care in Cheadle",
+          "publisher": "True Homecare",
+          "retrieved": "2026-08-28T05:14:08Z",
+          "relevanceScore": 0.9,
+          "contentType": "evidence"
+        }
+      ]
+    }
+  ]
+}
