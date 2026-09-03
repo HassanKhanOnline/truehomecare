@@ -1,11 +1,13 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
+// Sitemaps are generated as a Yoast-style segmented set (sitemap_index.xml +
+// per-type segment files) by scripts/generate-sitemaps.mjs, so the built-in
+// @astrojs/sitemap chunked generator is intentionally not used.
 export default defineConfig({
   site: 'https://www.truehomecare.co.uk',
-  integrations: [sitemap()],
+  integrations: [],
   prefetch: {
     prefetchAll: true,
   },
