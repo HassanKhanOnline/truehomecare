@@ -1,6 +1,7 @@
 ---
 // Homepage — mirrored from the live True Homecare theme (Understrap) for exact design fidelity.
 import body from '../mirror/home-body.html?raw';
+import SiteSchema from '../components/SiteSchema.astro';
 
 const css = [
   '/wp-content/cache/wpfc-minified/2ni3g6i5/1x9wk.css',
@@ -32,6 +33,7 @@ const css = [
       content="True Homecare provides compassionate, personalised in-home care across Stockport, Cheshire East and the North West. CQC registered. Call 0161 428 1989."
     />
     <link rel="canonical" href={new URL('/', Astro.site).href} />
+    <SiteSchema />
     <link rel="icon" href="/images/2024-04-cropped-truehomecare-logo-32x32.png" sizes="32x32" />
     <link rel="icon" href="/images/2024-04-cropped-truehomecare-logo-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="/images/2024-04-cropped-truehomecare-logo-180x180.png" />

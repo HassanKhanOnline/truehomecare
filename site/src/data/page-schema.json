@@ -1,0 +1,1831 @@
+{
+  "/blog/personal-care-assistant-vs-certified-caregiver/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/personal-care-assistant-vs-certified-caregiver/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/personal-care-assistant-vs-certified-caregiver/",
+      "headline": "Personal Care Assistant vs. Certified Caregiver: Which Is Right for You?",
+      "description": "Compare Personal Care Assistants and Certified Caregivers to find the best fit for your loved one's care needs.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-12-26",
+      "dateModified": "2024-12-26",
+      "image": "https://www.truehomecare.co.uk/images/2024-12-What-Does-a-Personal-Care-Assistant-Do.jpg"
+    }
+  ],
+  "/blog/dementia-care-stages-guide/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/dementia-care-stages-guide/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/dementia-care-stages-guide/",
+      "headline": "7 Stages of Dementia: A Step-by-Step Caregiver&#8217;s Guide",
+      "description": "Discover a caregiver's guide to the stages of dementia. Get practical tips to support your loved one through each stage effectively.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-08-23",
+      "dateModified": "2024-08-23",
+      "image": "https://www.truehomecare.co.uk/images/2024-09-Mild-Cognitive-Decline.jpg"
+    }
+  ],
+  "/blog/activities-for-dementia-patients/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/activities-for-dementia-patients/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/activities-for-dementia-patients/",
+      "headline": "11 Best Activities for Dementia Patients at Home",
+      "description": "Discover engaging activities for dementia patients at home with True Homecare. Enhance quality of life with personalized care and enriching experiences.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-05-15",
+      "dateModified": "2024-05-15",
+      "image": "https://www.truehomecare.co.uk/images/2024-05-image-3.jpeg"
+    }
+  ],
+  "/blog/parkinsons-disease-causes-symptoms/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/parkinsons-disease-causes-symptoms/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/parkinsons-disease-causes-symptoms/",
+      "headline": "What Causes Parkinson&#8217;s Disease? Symptoms & Genetic Factors",
+      "description": "Discover what causes Parkinson's disease, its early symptoms, genetic links, and how expert home care can significantly improve quality of life.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-10-01",
+      "dateModified": "2025-10-01",
+      "image": "https://www.truehomecare.co.uk/images/2025-04-AD_4nXcF855yzx7Xa0rwEgRoYFzbZ2wUxUiE0W3cwe7VDHt_iTjFLJyUXqKWuYUVGGIUba-BpQ9BjRIPNvDWczc0rvdhxbEE30G7TXa6ID31vk3c1oW76SXf8CaBXITW6_jWude7sfmw.jpg"
+    }
+  ],
+  "/blog/palliative-vs-hospice-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/palliative-vs-hospice-care/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/palliative-vs-hospice-care/",
+      "headline": "Palliative Care at Home vs Hospice: Key Differences & Benefits",
+      "description": "Discover the benefits and distinctions between palliative and hospice care to make informed decisions for your loved ones.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-06-15",
+      "dateModified": "2024-06-15",
+      "image": "https://www.truehomecare.co.uk/images/2024-06-image-1.jpeg"
+    }
+  ],
+  "/blog/vascular-dementia-vs-alzheimers/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/vascular-dementia-vs-alzheimers/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/vascular-dementia-vs-alzheimers/",
+      "headline": "Vascular Dementia Vs Alzheimer’s: Symptoms, Causes & Treatment",
+      "description": "Learn the differences between Vascular Dementia and Alzheimer’s. Discover their symptoms, causes, and treatment options for better disease management.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-07-20",
+      "dateModified": "2024-07-20",
+      "image": "https://www.truehomecare.co.uk/images/2024-07-image-1.jpeg"
+    }
+  ],
+  "/blog/healthcare-influencers/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/healthcare-influencers/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/healthcare-influencers/",
+      "headline": "Top 17 Healthcare Influencers in UK to Follow -True Homecare",
+      "description": "Discover the top UK healthcare influencers sharing expert advice on fitness, nutrition, and wellness. Stay updated on the latest health trends.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-10-25",
+      "dateModified": "2024-10-25",
+      "image": "https://www.truehomecare.co.uk/images/2024-10-image-9.jpeg"
+    }
+  ],
+  "/blog/stroke-causes-symptoms-and-prevention-tips/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/stroke-causes-symptoms-and-prevention-tips/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/stroke-causes-symptoms-and-prevention-tips/",
+      "headline": "What Are the Causes of Stroke? Key Risk Factors and Prevention Tips",
+      "description": "Discover the causes of strokes, symptoms, types, and prevention tips. Stay informed and explore care options for a healthier, safer life.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-12-12",
+      "dateModified": "2024-12-12",
+      "image": "https://www.truehomecare.co.uk/images/2024-12-Risk-Factors-for-Stroke.jpg"
+    }
+  ],
+  "/blog/personal-care-homes-vs-assisted-living/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/personal-care-homes-vs-assisted-living/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/personal-care-homes-vs-assisted-living/",
+      "headline": "Personal Care Homes vs. Assisted Living: Choosing the Best Option for You",
+      "description": "Explore the key differences between personal care homes and assisted living to make the best choice for your loved one's care and comfort.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-12-20",
+      "dateModified": "2024-12-20",
+      "image": "https://www.truehomecare.co.uk/images/2024-12-What-are-Personal-Care-Homes.jpg"
+    }
+  ],
+  "/blog/meal-plan-type-2-diabetes/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/meal-plan-type-2-diabetes/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/meal-plan-type-2-diabetes/",
+      "headline": "7-Day Meal Plan for Type 2 Diabetes: An Ultimate Guide",
+      "description": "Manage Type 2 diabetes with our meal plan. Balanced meals to regulate blood sugar, boost energy, and support your health journey.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-12-27",
+      "dateModified": "2024-12-27",
+      "image": "https://www.truehomecare.co.uk/images/2024-12-Why-is-Meal-Planning-Essential-for-Type-2-Diabetes.jpg"
+    }
+  ],
+  "/blog/snacks-for-seniors-with-diabetes/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/snacks-for-seniors-with-diabetes/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/snacks-for-seniors-with-diabetes/",
+      "headline": "13 Best Snacks for Seniors with Diabetes: Sweet & Savory Ideas",
+      "description": "Are you looking for diabetic-friendly snacks? Look at our list of sweet and savory snacks for managing blood sugar, which are perfect for seniors.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-01-15",
+      "dateModified": "2025-01-15",
+      "image": "https://www.truehomecare.co.uk/images/2025-01-AD_4nXcr9kuTkE-SfDcGglP7gxaed6ttuwxNbzt1-Ufv6D7R98LYd9SaLqwTqStuY6Rnxv0JHSStzCMJpxCqTyutpNs0XAevDDJAx1ajBQdVPIq3iTE_8ipJPBbXMkbQ0W4BIKowMJLM.jpg"
+    }
+  ],
+  "/blog/dementia-caregiver-tips/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/dementia-caregiver-tips/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/dementia-caregiver-tips/",
+      "headline": "How to Help Someone with Dementia: 13 Dementia Caregiver Tips",
+      "description": "Learn essential dementia caregiving tips to manage daily challenges, communicate effectively, and ensure safety.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-09-20",
+      "dateModified": "2024-09-20",
+      "image": "https://www.truehomecare.co.uk/images/2024-09-image-2.jpeg"
+    }
+  ],
+  "/blog/hobbies-for-seniors/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/hobbies-for-seniors/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/hobbies-for-seniors/",
+      "headline": "Top 10 Hobbies for Seniors to Stay Active and Happy",
+      "description": "Discover the top 10 hobbies for seniors that promote physical activity, mental stimulation, and social engagement, helping them stay active, happy, and healthy.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-03-21",
+      "dateModified": "2025-03-21",
+      "image": "https://www.truehomecare.co.uk/images/2025-03-Gardening.jpg"
+    }
+  ],
+  "/blog/respite-care-types-benefits-importance/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/respite-care-types-benefits-importance/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/respite-care-types-benefits-importance/",
+      "headline": "What Is Respite Care &#8211; Importance, Types & Benefits (A Family Guide)",
+      "description": "Learn about the importance of respite care, its types, and its benefits to caregivers, seniors, & families. Learn how to choose the right respite care service.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-04-01",
+      "dateModified": "2025-04-01",
+      "image": "https://www.truehomecare.co.uk/images/2025-04-AD_4nXc6-o3iLKyA2bQFYKECVwbQ6ufONycGDXywh8RXJbE0H_mMOGjl9SSRmp4PTQfKBK9CTR1i1_1K52EiGcommpBFDO4BIESWra55i8Ujw42fWSjFULs8vrgDJ9vDqTgyUktBLiLH.jpg"
+    }
+  ],
+  "/blog/hospice-end-of-life-stages-timeline/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/hospice-end-of-life-stages-timeline/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/hospice-end-of-life-stages-timeline/",
+      "headline": "Hospice End-of-Life Stages Timeline: Clinical Signs Explained",
+      "description": "Explore True Homecare’s guide to hospice end-of-life stages, providing compassionate, expert care at home for families navigating this emotional journey.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-05-29",
+      "dateModified": "2025-05-29",
+      "image": "https://www.truehomecare.co.uk/images/2026-07-Healthy-Blood-Pressure-by-Age-A-UK-Guide-for-Older-Adults.jpg"
+    }
+  ],
+  "/blog/what-is-physical-disability/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/what-is-physical-disability/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/what-is-physical-disability/",
+      "headline": "What Is a Physical Disability and How It Impacts Daily Life: Common Types of Physical Disabilities",
+      "description": "Explore the types, causes, and impact of physical disabilities, and learn about support services like domiciliary care programs for a better quality of life.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-06-15",
+      "dateModified": "2025-06-15",
+      "image": "https://www.truehomecare.co.uk/images/2025-07-AD_4nXfv5v8FbMHHB3GQLKy7QTjtBGGlu0Ysnw1J-tqda4Ic1dQECZrCWURpV0EOKjx4cI-N8kv-l3JOc8N3iVI0kb8zrAyOHP6i51AyGcB5Lk-69XDGutVjbsU-BBaqxsmjzVTumVg.jpg"
+    }
+  ],
+  "/blog/chair-exercises-for-seniors/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/chair-exercises-for-seniors/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/chair-exercises-for-seniors/",
+      "headline": "Best Chair Exercises for Seniors: Boost Strength and Flexibility",
+      "description": "Discover safe and effective chair exercises for seniors to boost strength, flexibility, and balance for all mobility levels.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-06-19",
+      "dateModified": "2025-06-19",
+      "image": "https://www.truehomecare.co.uk/images/2026-07-UTI-Symptoms-in-Elderly-People-Signs-Families-May-Notice-at-Home.jpg"
+    }
+  ],
+  "/blog/stroke-care-at-home/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/stroke-care-at-home/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/stroke-care-at-home/",
+      "headline": "Stroke Care at Home: Recognizing Symptoms and Supporting Ongoing Recovery",
+      "description": "Learn how to recognize stroke symptoms and support recovery at home with effective stroke care services and expert guidance for better recovery.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-06-30",
+      "dateModified": "2025-06-30",
+      "image": "https://www.truehomecare.co.uk/images/2026-07-Healthy-Blood-Pressure-by-Age-A-UK-Guide-for-Older-Adults.jpg"
+    }
+  ],
+  "/blog/how-to-find-caregiver-for-elderly-parents/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/how-to-find-caregiver-for-elderly-parents/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/how-to-find-caregiver-for-elderly-parents/",
+      "headline": "How to Find a Caregiver for Elderly Parents: What You Need to Know",
+      "description": "Discover how to find a caregiver for elderly parents, learn legal and safety steps, and see how True Homecare makes the process easier.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-10-08",
+      "dateModified": "2025-10-08",
+      "image": "https://www.truehomecare.co.uk/images/2025-10-What-are-the-steps-to-finding-the-right-caregiver.jpg"
+    }
+  ],
+  "/blog/diabetic-foot-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/diabetic-foot-care/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/diabetic-foot-care/",
+      "headline": "The Ultimate Guide to Daily Diabetic Foot Care: Tips for Healthy Feet",
+      "description": "Find out how Diabetes can cause foot issues. Daily checks and cleaning help prevent serious problems.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-10-08",
+      "dateModified": "2025-10-08",
+      "image": "https://www.truehomecare.co.uk/images/2025-10-Why-Footcare-Matters-in-Diabetes.jpg"
+    }
+  ],
+  "/blog/persuade-parents-to-get-homecare/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/persuade-parents-to-get-homecare/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/persuade-parents-to-get-homecare/",
+      "headline": "How to Persuade Aging Parents Who Refuse Help to Get Home Care Support",
+      "description": "Struggling to persuade your aging parents to accept home care? Learn effective strategies and support options from True Homecare to make the process easier.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-10-30",
+      "dateModified": "2025-10-30",
+      "image": "https://www.truehomecare.co.uk/images/2025-10-The-Emotional-Wall_-Why-Aging-Parents-Refuse-Help.jpg"
+    }
+  ],
+  "/blog/posture-exercises-for-seniors/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/posture-exercises-for-seniors/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/posture-exercises-for-seniors/",
+      "headline": "Top 5 simple Posture Exercises for Seniors to Do at Home",
+      "description": "Try these simple posture exercises for seniors to improve balance, strength, and flexibility from the comfort of home.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-10-30",
+      "dateModified": "2025-10-30",
+      "image": "https://www.truehomecare.co.uk/images/2025-10-Shoulder-Blade-Squeeze.jpg"
+    }
+  ],
+  "/blog/benefits-of-home-care-for-seniors/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/benefits-of-home-care-for-seniors/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/benefits-of-home-care-for-seniors/",
+      "headline": "Benefits of Home Care: Why In-Home Support Is Essential for Seniors",
+      "description": "Explore how home care promotes independence, personalized support, and emotional well-being, giving seniors a dignified, comfortable aging experience.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-10-05",
+      "dateModified": "2024-10-05",
+      "image": "https://www.truehomecare.co.uk/images/2024-10-image-1.jpeg"
+    }
+  ],
+  "/blog/home-care-vs-nursing-home/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/home-care-vs-nursing-home/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/home-care-vs-nursing-home/",
+      "headline": "Home Care vs Nursing Home: Which is the Best Option for Your Loved One?",
+      "description": "Explore the key differences between home care and nursing homes. Find out which option suits your loved one’s needs, from costs to care quality.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-10-15",
+      "dateModified": "2024-10-15",
+      "image": "https://www.truehomecare.co.uk/images/2024-10-image-3.jpeg"
+    }
+  ],
+  "/blog/senior-medication-management/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/senior-medication-management/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/senior-medication-management/",
+      "headline": "How to Handle Senior Medication Management: Caregiver Tips",
+      "description": "Learn how you can safely manage medication for seniors at home. Find out common mistakes and get support from True Homecare.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-10-15",
+      "dateModified": "2025-10-15",
+      "image": "https://www.truehomecare.co.uk/images/2025-10-Why-is-Medication-Management-for-Seniors-Important.jpg"
+    }
+  ],
+  "/blog/care-for-elderly-in-home/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/care-for-elderly-in-home/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/care-for-elderly-in-home/",
+      "headline": "Care for Elderly in Home: 10 Signs Your Elderly Parent Needs Help",
+      "description": "Recognize signs indicating your aging parent may need Care for Elderly in the Home. Discover the benefits of professional in-home care services for elderly.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2024-04-15",
+      "dateModified": "2024-04-15",
+      "image": "https://www.truehomecare.co.uk/images/2024-04-image-3.jpeg"
+    }
+  ],
+  "/blog/home-care-vs-care-home/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/home-care-vs-care-home/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/home-care-vs-care-home/",
+      "headline": "Home Care vs Care Home: Which is Better for Your Loved One?",
+      "description": "Explore the difference between home care and care homes to choose the best support for your loved one across Greater Manchester.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-12-22",
+      "dateModified": "2025-12-22",
+      "image": "https://www.truehomecare.co.uk/images/2025-12-What-is-Home-Care.jpg"
+    }
+  ],
+  "/blog/stages-of-palliative-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/stages-of-palliative-care/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/stages-of-palliative-care/",
+      "headline": "What Are the 5 Stages of Palliative Care? (UK Family Guide)",
+      "description": "Understand the stages of palliative care, when to start, and how home-based support works in the UK. Local help in Greater Manchester & Stockport.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-12-02",
+      "dateModified": "2025-12-02",
+      "image": "https://www.truehomecare.co.uk/images/2025-12-What-is-palliative-care.jpg"
+    }
+  ],
+  "/blog/parkinsons-diet-guide/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/parkinsons-diet-guide/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/parkinsons-diet-guide/",
+      "headline": "The Parkinson’s Diet: Foods That Help Manage Symptoms",
+      "description": "A practical Parkinson’s diet guide: protein + levodopa timing, constipation, swallowing tips, and how True Homecare supports clients and families.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-12-20",
+      "dateModified": "2025-12-20",
+      "image": "https://www.truehomecare.co.uk/images/2025-12-Why-nutrition-matters-with-Parkinsons.jpg"
+    }
+  ],
+  "/blog/can-dehydration-cause-utis-in-seniors/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/can-dehydration-cause-utis-in-seniors/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/can-dehydration-cause-utis-in-seniors/",
+      "headline": "Can Dehydration Cause UTIs? The Complete Guide to Hydration for Seniors",
+      "description": "Can dehydration cause UTIs? Learn symptoms, prevention and a simple hydration plan for seniors, plus home care support from True Homecare.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-12-10",
+      "dateModified": "2025-12-10",
+      "image": "https://www.truehomecare.co.uk/images/2025-12-The-link-between-UTIs-and-dehydration.jpg"
+    }
+  ],
+  "/blog/essential-gadgets-for-elderly-home-safety/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/essential-gadgets-for-elderly-home-safety/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/essential-gadgets-for-elderly-home-safety/",
+      "headline": "5 Essential Gadgets for the Elderly to Make Life Easier and Safer at Home",
+      "description": "Discover gadgets for the elderly that boost safety, independence, and wellbeing at home—plus how True Homecare can support clients and families.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2025-12-01",
+      "dateModified": "2025-12-01",
+      "image": "https://www.truehomecare.co.uk/images/2025-12-How-Gadgets-Enhance-Independence-for-the-Elderly.jpg"
+    }
+  ],
+  "/blog/prevent-dehydration-in-seniors-winter/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/prevent-dehydration-in-seniors-winter/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/prevent-dehydration-in-seniors-winter/",
+      "headline": "How to Prevent Dehydration in Seniors During the Winter",
+      "description": "Keep seniors hydrated in winter with practical tips and expert support from True Homecare. Serving Stockport & Greater Manchester.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-01-15",
+      "dateModified": "2026-01-15",
+      "image": "https://www.truehomecare.co.uk/images/2026-01-Why-Hydration-is-Important-for-Seniors-in-Winter.jpg"
+    }
+  ],
+  "/blog/lewy-body-dementia-care-support/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/lewy-body-dementia-care-support/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/lewy-body-dementia-care-support/",
+      "headline": "How to Provide Care and Support to Someone with Lewy Body Dementia",
+      "description": "Practical guidance for Lewy body dementia at home, plus family respite and peace of mind. Supporting Stockport & Greater Manchester families.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-01-01",
+      "dateModified": "2026-01-01",
+      "image": "https://www.truehomecare.co.uk/images/2026-01-Dementia-and-Lewy-body-explained.jpg"
+    }
+  ],
+  "/blog/sundowning-in-dementia-strategies/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/sundowning-in-dementia-strategies/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/sundowning-in-dementia-strategies/",
+      "headline": "Sundowning in Dementia: 5 Strategies for Calmer Evenings",
+      "description": "Discover strategies to manage sundowning in dementia and help your loved one enjoy calmer, more peaceful evenings.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-01-01",
+      "dateModified": "2026-01-01",
+      "image": "https://www.truehomecare.co.uk/images/2026-02-What-is-Sundowning-in-Dementia.jpg"
+    }
+  ],
+  "/blog/ageing-parent-refuses-help/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/ageing-parent-refuses-help/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/ageing-parent-refuses-help/",
+      "headline": "When an Elderly Parent Refuses Help but Clearly Needs It: What UK Families Can Do Next",
+      "description": "Dealing with elderly parents who refuse help uk? Learn practical next steps, legal options, and support available for families.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-03-03",
+      "dateModified": "2026-03-03",
+      "image": "https://www.truehomecare.co.uk/images/2026-03-When-Worry-Becomes-Urgent.jpg"
+    }
+  ],
+  "/blog/when-to-start-palliative-care-at-home/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/when-to-start-palliative-care-at-home/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/when-to-start-palliative-care-at-home/",
+      "headline": "When Should Someone Be Offered Palliative Care? Signs, Timing &#038; Next Steps",
+      "description": "Discover when someone should be offered palliative care, key signs to watch for, timing guidance, and what to expect at home.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-03-03",
+      "dateModified": "2026-03-03",
+      "image": "https://www.truehomecare.co.uk/images/2026-03-What-Does-Palliative-Care-Really-Mean.jpg"
+    }
+  ],
+  "/blog/medication-errors-at-home/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/medication-errors-at-home/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/medication-errors-at-home/",
+      "headline": "Medication Errors at Home: Questions Every Family Should Ask a Home Care Provider",
+      "description": "Learn how to prevent medication errors at home and the key questions families should ask a home care provider.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-03-03",
+      "dateModified": "2026-03-03",
+      "image": "https://www.truehomecare.co.uk/images/2026-03-Common-Medication-Error-Examples-Families-Miss.jpg"
+    }
+  ],
+  "/blog/delirium-vs-dementia/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/delirium-vs-dementia/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/delirium-vs-dementia/",
+      "headline": "Delirium vs Dementia: Key Differences and Getting the Right Help at Home",
+      "description": "Learn the difference between delirium and dementia, key symptoms, causes, and how the right support at home can help older adults recover safely",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-03-19",
+      "dateModified": "2026-03-19",
+      "image": "https://www.truehomecare.co.uk/images/2026-03-Symptoms-of-Delirium-in-the-Elderly.jpg"
+    }
+  ],
+  "/blog/loss-of-appetite-in-elderly-reasons/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/loss-of-appetite-in-elderly-reasons/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/loss-of-appetite-in-elderly-reasons/",
+      "headline": "8 Reasons for Loss of Appetite in Elderly",
+      "description": "Understand common causes of appetite decline in older adults and learn practical ways to support healthy eating habits.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-03-25",
+      "dateModified": "2026-03-25",
+      "image": "https://www.truehomecare.co.uk/images/2026-03-Digestive-Problems-and-Constipation.jpg"
+    }
+  ],
+  "/blog/unsafe-hospital-discharge-england/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/unsafe-hospital-discharge-england/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/unsafe-hospital-discharge-england/",
+      "headline": "Unsafe Hospital Discharge in the UK: A Family Guide to Arrange Safe Care at Home",
+      "description": "Learn how families in the UK can manage hospital discharge safely, understand NHS rules, and arrange proper home care for elderly patients.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-03-15",
+      "dateModified": "2026-03-15",
+      "image": "https://www.truehomecare.co.uk/images/2026-03-Understanding-Hospital-Discharge-in-the-UK.jpg"
+    }
+  ],
+  "/blog/mini-stroke-symptoms-in-elderly/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/mini-stroke-symptoms-in-elderly/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/mini-stroke-symptoms-in-elderly/",
+      "headline": "Mini Stroke Symptoms in the Elderly: What Carers Need to Watch For",
+      "description": "Learn mini stroke symptoms in the elderly, warning signs, causes, and recovery tips to support loved ones effectively.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-04-29",
+      "dateModified": "2026-04-29",
+      "image": "https://www.truehomecare.co.uk/images/2026-04-Causes-of-Mini-Strokes-in-Elderly.jpg"
+    }
+  ],
+  "/blog/healthy-weight-chart-older-women/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/healthy-weight-chart-older-women/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/healthy-weight-chart-older-women/",
+      "headline": "Healthy Weight Chart for Senior Females: A Complete Guide by Age and Height",
+      "description": "Explore a complete weight chart for senior females by age and height, with healthy ranges, tips, and guidance for maintaining ideal weight in later life.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-04-20",
+      "dateModified": "2026-04-20",
+      "image": "https://www.truehomecare.co.uk/images/2026-04-Interpreting-the-Senior-Female-Weight-Chart.jpg"
+    }
+  ],
+  "/blog/signs-of-dehydration-in-seniors/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/signs-of-dehydration-in-seniors/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/signs-of-dehydration-in-seniors/",
+      "headline": "Signs of Dehydration in Seniors: What Carers and Families Need to Watch For",
+      "description": "Learn signs, causes, and prevention of dehydration in seniors. Essential guide for carers to protect health and wellbeing.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-04-05",
+      "dateModified": "2026-04-05",
+      "image": "https://www.truehomecare.co.uk/images/2026-04-Common-Signs-and-Symptoms.jpg"
+    }
+  ],
+  "/blog/double-vision-in-older-adults/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/double-vision-in-older-adults/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/double-vision-in-older-adults/",
+      "headline": "Caring for Seniors With Double Vision at Home",
+      "description": "Learn the causes of double vision in elderly people, warning signs, and practical home care solutions for safer daily living.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-05-02",
+      "dateModified": "2026-05-02",
+      "image": "https://www.truehomecare.co.uk/images/2026-06-Understanding-Double-Vision-in-Seniors.jpg"
+    }
+  ],
+  "/blog/types-of-parkinsons-disease/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/types-of-parkinsons-disease/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/types-of-parkinsons-disease/",
+      "headline": "Types of Parkinson’s Disease: How They Differ and How to Provide the Best Care",
+      "description": "Explore Parkinson's disease types, symptoms, and care strategies with clinical insights and practical home support for better daily living.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-05-10",
+      "dateModified": "2026-05-10",
+      "image": "https://www.truehomecare.co.uk/images/2026-06-How-Neurologists-Classify-the-Disorder.jpg"
+    }
+  ],
+  "/blog/frontotemporal-dementia-stages/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/frontotemporal-dementia-stages/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/frontotemporal-dementia-stages/",
+      "headline": "Frontotemporal Dementia Progression: A Caregiver’s Guide to Each of the 7 Stages",
+      "description": "Understand the stages of frontotemporal dementia, including symptoms, brain changes, life expectancy, and caregiver support strategies for FTD progression.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-05-29",
+      "dateModified": "2026-05-29",
+      "image": "https://www.truehomecare.co.uk/images/2026-06-What-is-Frontotemporal-Dementia.jpg"
+    }
+  ],
+  "/blog/uti-symptoms-elderly-people/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/uti-symptoms-elderly-people/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/uti-symptoms-elderly-people/",
+      "headline": "UTI Symptoms in Elderly People: Signs Families May Notice at Home",
+      "description": "Learn how to spot the subtle and mental symptoms of a UTI in older family members at home. Discover care tips, prevention, and support services.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-06-02",
+      "dateModified": "2026-06-02",
+      "image": "https://www.truehomecare.co.uk/images/2026-07-What-is-a-UTI-and-Why-Does-It-Affect-Older-Adults-Differently.jpg"
+    }
+  ],
+  "/blog/fall-prevention-elderly-home-care-support/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/fall-prevention-elderly-home-care-support/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/fall-prevention-elderly-home-care-support/",
+      "headline": "Can Home Care Reduce the Risk of Falls in Older Adults?",
+      "description": "Learn how home care improves fall prevention in elderly adults by reducing risks, improving safety, and supporting independence at home.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-06-15",
+      "dateModified": "2026-06-15",
+      "image": "https://www.truehomecare.co.uk/images/2026-07-Understanding-the-Main-Risk-Factors.jpg"
+    }
+  ],
+  "/blog/healthy-blood-pressure-by-age-uk/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/blog/healthy-blood-pressure-by-age-uk/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/blog/healthy-blood-pressure-by-age-uk/",
+      "headline": "Healthy Blood Pressure by Age: A UK Guide for Older Adults",
+      "description": "Learn about normal blood pressure levels by age in the UK. Discover ideal readings, chart breakdowns, and how True Homecare supports your health at home.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-06-25",
+      "dateModified": "2026-06-25",
+      "image": "https://www.truehomecare.co.uk/images/2026-07-Understanding-Blood-Pressure-Basics-in-the-UK.jpg"
+    }
+  ],
+  "/services/post-operative-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/post-operative-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How soon should post-operative care begin after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Post-operative care can begin immediately after discharge from hospital or after a surgical procedure, depending on the client's needs. Planning support before surgery can help ensure a smoother transition home."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of support are included in post-operative care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Post-operative care may include help with medication reminders, mobility assistance, personal hygiene, meal preparation, transportation to follow-up appointments, household tasks, and monitoring recovery progress."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do you need post-operative care after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The length of post-operative care depends on the type of surgery, individual recovery speed, and level of support required. Some people may need assistance for a few days, while others may benefit from several weeks or longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can post-operative care be provided at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, many people recover more comfortably at home with the right support. Home-based post-operative care allows recovery in a familiar environment while receiving assistance with daily activities and recovery needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I expect during the first few days after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first days after surgery often involve managing pain, following medication instructions, resting, monitoring the surgical area, and gradually increasing movement as advised by healthcare professionals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I prevent complications after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Following medical advice, taking prescribed medications correctly, keeping wounds clean, attending follow-up appointments, maintaining good nutrition, and recognising warning signs early can help support a safer recovery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What warning signs should be monitored after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Signs that may require medical attention include increased pain, fever, swelling, redness around the surgical site, unusual discharge, difficulty breathing, or sudden changes in health. Always follow your surgeon's guidance about when to seek help."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can family members provide post-operative care alone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Family members often provide valuable support, but recovery can be physically and emotionally demanding. Professional post-operative care can provide additional assistance while allowing family members to focus on emotional support and companionship."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/end-of-life-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/end-of-life-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What Does End of Life Care Involve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "End of life care focuses on providing palliative support to manage pain and distressing symptoms. It involves a multidisciplinary approach to ensure physical comfort, emotional stability, and spiritual peace for the individual during advanced stages requiring palliative support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Palliative and End of Life Care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palliative care is a broad approach to managing life-limiting illnesses and can begin at diagnosis. End-of-life care is a specific phase of palliative care that focuses on the immediate needs of a person nearing the end of their life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if care needs increase suddenly overnight?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our care coordination team is reachable directly, and we can adjust visit frequency or move to live-in support at short notice as needs change, rather than requiring a lengthy reassessment process first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is end-of-life care only for cancer and other life-limiting health conditions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. We support families managing any life-limiting health condition, including heart failure, respiratory health condition, dementia, Parkinson's, and other neurological conditions, wherever comfort and dignity have become the priority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When to Start End-of-Life Care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Care should be initiated as soon as a life-limiting condition diagnosis is given or when symptoms become difficult to manage at home. Early planning ensures the client's wishes are respected and reduces the need for crisis-driven decisions."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/companionship/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/companionship/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What exactly are companionship services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Companionship services provide non-medical emotional and social support. This includes activities like conversation, and helping with light household tasks to prevent isolation and improve overall wellbeing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you match a carer to my relative's specific hobbies in Stockport or Wilmslow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We conduct an initial assessment to understand your relative's interests and personality. We then pair them with a professional companion from your local area who shares similar passions, ensuring a natural connection and genuine friendship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is companionship available in my specific UK city?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, True Homecare provides specialised local expertise across Wilmslow and Stockport, as well as the broader Cheshire and Greater Manchester regions. Please contact our Stockport and Wilmslow-based team at 01614281989 to discuss availability and local capacity in your specific town or city."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between companion care and personal care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Companion care focuses on emotional support and social engagement. Personal care involves hands-on physical assistance, such as bathing, dressing, and medication management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can companionship services begin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Services can often begin shortly after an initial assessment and care plan creation. Contact us today at 01614281989 to determine the fastest start date for your location."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/dementia-and-alzheimer-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/dementia-and-alzheimer-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can someone with dementia thrive at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes; staying in a familiar environment is often highly recommended by clinical experts as it reduces confusion and helps maintain memory-based daily routines, significantly boosting long-term mental health."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle “sundowning” or restlessness?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our carers are specifically trained to manage evening restlessness by providing calm, quiet activities, sensory engagement, and a structured routine designed to minimise anxiety and establish safety."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is caregiver consistency so vital for clients with dementia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For dementia, please note that one caregiver serves the client; over time, a new carer takes over, and they can't consistently monitor and diagnose the client's condition. A consistent face ensures subtle changes in cognitive health or behavioural variations are tracked accurately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you involve and support the wider family?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We believe family involvement is crucial to maintaining person-centred care. We keep you fully informed through regular reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does care scale with the progression of the health condition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide highly flexible, scalable support options. We can easily increase care hours, introduce waking nights or sleeping nights, or transition to comprehensive 24-hour support as the client's needs increase. All service rates are quoted in Great British Pounds (GBP). For details or to arrange a free visit, call our Stockport and Wilmslow team on 01614281989."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/domiciliary-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/domiciliary-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is domiciliary care exactly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Domiciliary care is professional health and social care provided in a client's own home. It involves tailored support ranging from basic companionship and domestic help to complex personal care and medication management, allowing individuals to live independently."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is eligible for this type of support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anyone requiring assistance to maintain their safety, mental health, and wellbeing at home is eligible. This typically includes seniors, individuals with progressive health conditions, or those recovering from hospital stays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does CQC inspection work for home care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Care Quality Commission (CQC) conducts regular inspections to ensure providers meet fundamental standards of safety and quality. They review care records, interview staff and clients, and monitor outcomes to maintain a registered rating. True Homecare is proud to hold a ‘Good’ rating."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I arrange a first assessment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To begin, contact us to schedule a home visit. Our specialists will evaluate physical and emotional needs, discuss preferences, and use this information to build a bespoke care plan. Contact our Stockport and Wilmslow team directly on 01614281989 to arrange a free assessment within 24 hours."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/learning-disability-support/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/learning-disability-support/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the focus of your learning disability support at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our support focuses on empowering adults to live independently in their own homes. This includes assistance with daily living skills, medication management, community access, and companionship services tailored to their specific interests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you support clients with co-occurring autism?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our caregivers undergo specialised training to provide structured routines, sensory management, and communication support, ensuring a calm, safe environment that reduces anxiety and promotes confidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your caregivers qualified to manage complex clinical needs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All of our staff hold relevant UK certifications, pass strict DBS checks, and receive advanced training. Our care coordinators work alongside Registered Nurses (RNs), district nurses, and specialists to manage complex health conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you integrate assistive technologies into home care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We implement smart tools like visual schedules, digital reminders, and voice-to-text software to bridge communication gaps, simplify daily tasks, and provide real-time peace of mind for the family."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I arrange an initial assessment in Stockport or Wilmslow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To begin building a bespoke care plan, contact our local team on 01614281989. We will arrange a free in-home consultation within 24 hours to review your physical, cognitive, and social requirements."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/live-in-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/live-in-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is live-in care and how does it differ from visiting care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Live-in care provides a caregiver who resides in the home, offering a continuous 24-hour support presence. Unlike domiciliary care, which consists of scheduled appointments for specific tasks, live-in care ensures constant support, companionship, and security for the client, while providing family members with the essential respite and peace of mind they deserve."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is it time to consider live-in care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consider live-in care when a client experiences increased confusion, wandering, or difficulty managing daily safety alone. These signs indicate a need for specialist, round-the-clock support. We also support Parkinson's clients and those needing palliative care to help them remain safely in their own home rather than moving to a residential setting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you ensure the caregiver is a good match for the client?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We use strict matching criteria, pairing caregivers—from our team of skilled professionals, care managers, care coordinators, and caregivers who are experts in palliative home care—based on professional qualifications, personality traits, and shared interests to ensure emotional compatibility and a trusting relationship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the role of the Care Manager in overseeing live-in care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your assigned Care Manager acts as the bridge between your family and the care team. They are responsible for regular site visits, auditing care delivery against CQC standards, and strictly adhering to the Ethical Framework by Stockport Council. They work alongside other healthcare professionals like district nurses, GPs, hospitals, and pharmacists to ensure medication adherence and provide transparent, real-time reporting on the client's wellbeing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the client's care needs suddenly increase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "True Homecare's live-in packages are highly scalable. Because our Care Managers conduct regular, proactive reviews of the care plan, we can quickly increase the level of support—such as adding waking nights, sleeping nights, or specialist clinical oversight—without the trauma of moving the client to a residential setting."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/disability-home-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/disability-home-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I access private disability care in my local area?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can begin by contacting the True Homecare team directly to arrange a professional home assessment. We evaluate your specific needs and local environment to create a private care plan that aligns with your personal goals and lifestyle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can your services be integrated with existing NHS or local authority support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our private care services are designed to complement existing public health provisions or direct payments, filling critical gaps in support to ensure you have comprehensive coverage for all daily living requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can care start after an initial enquiry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once the initial home assessment is complete and a compatible caregiver is matched to your specific clinical needs, we can typically implement your bespoke care plan within a few working days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide support for specific physical or cognitive disabilities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We support a wide range of long-term conditions, from mobility impairments, cerebral palsy, and stroke recovery to neurological conditions like Parkinson's, ensuring each client receives specialist care tailored to their diagnosis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you ensure the caregiver is a good fit for my needs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We use a matching process based on clinical skills, personality compatibility, and shared personal hobbies, ensuring your caregiver provides not only professional physical support but also a comfortable social connection."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/after-hospital-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/after-hospital-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is responsible for arranging care after a hospital discharge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While a hospital discharge coordinator or social worker helps identify immediate clinical needs before you leave the ward, arranging long-term private care packages remains the choice and responsibility of the patient and their family."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does post-hospital care last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The duration depends entirely on your personal recovery goals. It can range from a few weeks of intensive, short-term support to longer-term private home care oversight if chronic conditions require ongoing assistance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between reablement and long-term care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reablement is a short-term, goal-oriented service designed specifically to help you regain physical skills and self-care independence after an injury or medical event. Long-term care provides ongoing, permanent assistance with daily living tasks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you provide emergency post-hospital cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We coordinate directly with hospital discharge teams to fast-track assessments, ensuring a qualified, vetted care worker is ready to support you the moment you arrive home from the ward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you provide 24-hour care following a hospital stay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer fully scalable care structures. Depending on the complexity of your recovery, we can provide anything from a few hours of daily assistance to full 24-hour live-in care, sleeping nights, or waking nights for continuous safety monitoring."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/stroke-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/stroke-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can clients recover better at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, a familiar environment provides psychological comfort and advantages, often accelerating the recovery process while keeping the individual connected to their local community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What professional support is needed after a stroke?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Recovery requires multidisciplinary support. Our team regularly coordinates with speech or physical therapists to provide an integrated approach to rehabilitation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you manage mobility challenges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We utilise safe, approved transfer techniques and mobility aids to ensure movement is secure, helping clients regain strength and confidence within their own home. All mobility support is strictly monitored to prevent injury and promote independence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is live-in care recommended?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Continuous 24-hour support is recommended when safety triggers—such as high fall risks, the need for complex medication management, or the requirement for waking nights or sleeping nights—make visiting support insufficient. This level of care ensures constant safety and immediate emergency support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the home adapted for stroke recovery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As part of our initial assessment, our experienced care managers evaluate the living environment to identify and mitigate risks. While we do not perform structural construction, we advise on accessibility features—such as grab rails and ramps—to remove hazards and ensure a navigable environment. Contact us on 01614281989 to schedule your assessment."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/reablement-services/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/reablement-services/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is reablement and how does it differ from standard care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reablement is a short-term, goal-oriented service focused on restoring your physical ability to live independently after a medical event. Standard home care provides ongoing, long-term assistance with daily living tasks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I consider reablement services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consider reablement following a hospital stay, a fall, or a period of illness where the client needs intensive, short-term support to safely regain their confidence, physical mobility, and self-care skills."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you ensure safe manual handling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every True Homecare staff member undergoes rigorous, mandatory training in manual handling and the safe use of mobility aids. We strictly adhere to occupational therapy guidelines to ensure transfers and mobility exercises are conducted safely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the role of the Care Manager?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your assigned Care Manager acts as the clinical bridge between your family and the care team. They conduct regular home visits, adjust the recovery roadmap as milestones are met, and ensure all daily routines adhere to local safeguarding guidelines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the client's care needs increase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our care packages are highly scalable. Because our care managers conduct regular reviews, we can quickly transition a short-term reablement package into long-term visiting care, live-in care, or specialist support without the need to move the client to a residential facility."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/personal-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/personal-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What do we provide in personal care services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Truehomecare personal care encompasses essential support with daily living tasks. This includes hygiene assistance (bathing and toileting), mobility support to prevent falls, dressing, grooming, and medication prompts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I apply for or hire personal care assistance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The process begins with an initial consultation and a home needs analysis. We strictly adhere to the Ethical Framework by Stockport Council. Once a risk assessment is completed, we develop a bespoke care plan and match a qualified caregiver—from our team of skilled professionals, care managers, care coordinators, and caregivers who are experts in palliative home care—to your specific requirements. Contact True Homecare at 01614281989 to get started."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the costs associated with private personal care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing varies based on the frequency and intensity of the support required. All service rates are quoted in Great British Pounds (GBP). We provide transparent, detailed quotes during the consultation phase to help you budget effectively for the care your family requires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the dignity of the client maintained during hygiene tasks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We employ a person-centred approach, ensuring privacy is respected at all times. Our team undergoes rigorous training to provide discreet support that preserves the individual’s modesty and emotional wellbeing. We also ensure we liaise with GPs, pharmacists, and district nurses to maintain high clinical standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is eligible for these services in the UK?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Services are available to anyone requiring daily living support, including those needing End-of-Life Care, Alzheimer and Dementia Care, Stroke Care, Long-Term Condition Support, Respite Care, or Companionship. We assist the client and provide essential respite for their family members. Depending on a local authority financial assessment, some individuals may be eligible for government funding, while others opt for private payment."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/parkinsons-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/parkinsons-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can individuals manage Parkinson's better at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A familiar environment provides vital psychological comfort and structural consistency, which often helps manage motor fluctuations and anxiety associated with progressive health conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What professional support is needed for Parkinson's?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Managing the condition requires multidisciplinary coordination. We handle all communication with primary care networks and pharmacists directly to ensure seamless continuity. We work alongside other healthcare professionals like district nurses, GPs, hospitals, and pharmacists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle complex medication regimes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our staff undergo rigorous training to manage complex, time-critical medication schedules accurately, reducing the risk of motor fluctuations and ensuring consistent health maintenance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you provide 24-hour care for clients with dementia and Parkinson's?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer continuous 24-hour support, including options for both waking nights and sleeping nights. When managing complex, co-existing conditions, we prioritise caregiver continuity. By assigning a dedicated carer rather than constantly rotating staff, we ensure they can accurately monitor subtle health changes and behavioural trends over time. This approach guarantees a highly safe, stable, and comforting environment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you manage mobility and fall risks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "During our initial assessment, our care managers conduct a comprehensive home safety evaluation to identify environmental risks and recommend mobility adaptations (like grab rails) to foster long-term autonomy. Caregivers utilise safe, approved transfer techniques to prevent injury. Contact us on 01614281989 to arrange your assessment."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/long-term-condition-support/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/long-term-condition-support/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who qualifies for Long-Term Condition Support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anyone requiring ongoing assistance with daily living or clinical health needs due to a persistent health condition qualifies for our support. Our team comprises skilled professionals, care managers, care coordinators, and caregivers who are experts in palliative home care and are ready to assist you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does long-term care cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costs vary based on the specific level of need and the bespoke care package required, with rates quoted in Great British Pounds (GBP). However, home care is often a highly viable alternative to moving into a residential care home, allowing clients to maintain their independence in the comfort of their own home while providing family members with essential respite. For detailed pricing, contact our team on 01614281989."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What triggers the need for long-term support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Support is usually identified when a professional assessment determines a client needs assistance with daily activities or medical management. Our Care Managers conduct a free in-home assessment to identify these specific needs and ensure a safe, dignified environment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your care plans customisable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we create fully personalised care pathways for numerous health conditions. These are updated regularly to match specific clinical goals, mobility needs, and personal preferences, while strictly adhering to the Ethical Framework by Stockport Council."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work alongside local healthcare networks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We work alongside other healthcare professionals like district nurses, GPs, hospitals, and pharmacists to ensure comprehensive, high-standard care that prioritises clinical safety, emotional support, and wellbeing for the entire family."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/respite-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/respite-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who pays for respite care in the UK?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funding is typically managed via private payments or local authority support. Families can pay independently for full control over schedules, or those meeting specific local financial and health eligibility criteria may receive social care funding following a council needs assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can respite care be arranged?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While standard arrangements follow a brief consultation, we offer rapid respite deployment for urgent situations, prioritising expedited home assessments to place a qualified care worker in the home quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between respite and permanent home care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Respite care is a temporary, short-term arrangement designed to give primary family carers a scheduled break to rest and recharge. Permanent home care is a long-term solution for individuals requiring ongoing daily assistance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does respite care include dementia support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We provide specialist dementia-specific engagement, focusing on positive cognitive stimulation, behavioural validation techniques, and consistent routines that reduce confusion and anxiety."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long can a respite care period last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The duration is entirely built around your family's needs. It can range from a few visiting hours a week, overnight supervision, or consecutive weeks of live-in cover while you take a holiday."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/short-breaks/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/short-breaks/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What constitutes a short break in a home care context?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A short break is a temporary period of professional respite care provided in the client's own home. It allows primary family carers to take a necessary pause from their duties while ensuring the client continues to receive essential physical and emotional support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is a typical short break arrangement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Arrangements are fully flexible, ranging from a few days to several weeks. Whether you need a weekend off or a longer period for a holiday or medical recovery, we tailor the duration to your exact schedule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can True Homecare provide short breaks across the local region?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we provide professional short break services across Stockport, Wilmslow, and the wider Cheshire and Greater Manchester regions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the transition managed between family and professional carers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We manage the transition through a detailed initial assessment and a customised care plan. This ensures our carers understand the client's specific routines and preferences, creating a seamless handover that minimises anxiety."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What qualifications do the short break carers hold?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our carers are fully vetted, DBS-checked professionals who adhere strictly to CQC standards and the Stockport Council Ethical Framework, ensuring they possess the clinical and emotional skills required for high-quality respite care."
+          }
+        }
+      ]
+    }
+  ]
+}

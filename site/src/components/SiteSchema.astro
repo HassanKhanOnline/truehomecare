@@ -1,0 +1,66 @@
+---
+// Site-wide Organization / LocalBusiness + WebSite JSON-LD.
+// All values are real, sourced from the site (footer, about page, contact).
+// No street address is published anywhere on the site, so the address is
+// locality-level only (truthful, not fabricated).
+const ORIGIN = 'https://www.truehomecare.co.uk';
+
+const graph = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'LocalBusiness',
+      '@id': `${ORIGIN}/#organization`,
+      name: 'True Homecare',
+      legalName: 'True Homecare Limited',
+      url: ORIGIN,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${ORIGIN}/images/2025-08-truehomecare-logo-1.png`,
+      },
+      image: `${ORIGIN}/images/2025-08-truehomecare-logo-1.png`,
+      telephone: '+44 161 428 1989',
+      description:
+        "Family-run, CQC-registered domiciliary care provider delivering personalised in-home care across Stockport, Wilmslow, Cheshire East and Greater Manchester. Rated 'Good' by the Care Quality Commission.",
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Stockport',
+        addressRegion: 'Greater Manchester',
+        addressCountry: 'GB',
+      },
+      areaServed: [
+        { '@type': 'AdministrativeArea', name: 'Stockport' },
+        { '@type': 'AdministrativeArea', name: 'Wilmslow' },
+        { '@type': 'AdministrativeArea', name: 'Cheshire East' },
+        { '@type': 'AdministrativeArea', name: 'Greater Manchester' },
+      ],
+      identifier: {
+        '@type': 'PropertyValue',
+        propertyID: 'UK Companies House',
+        value: '7912253',
+      },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: '+44 161 428 1989',
+        contactType: 'customer service',
+        areaServed: 'GB',
+        availableLanguage: 'English',
+      },
+      sameAs: [
+        'https://www.facebook.com/Truehomecare/',
+        'https://www.linkedin.com/company/true-homecare-limited/',
+        'https://x.com/truehomecare',
+      ],
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${ORIGIN}/#website`,
+      url: ORIGIN,
+      name: 'True Homecare',
+      publisher: { '@id': `${ORIGIN}/#organization` },
+      inLanguage: 'en-GB',
+    },
+  ],
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(graph)} />

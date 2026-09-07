@@ -2,6 +2,8 @@
 // Catch-all route: renders every mirrored live page from the manifest.
 import manifest from '../data/mirror-manifest.json';
 import cssList from '../data/mirror-css.json';
+import pageSchema from '../data/page-schema.json';
+import SiteSchema from '../components/SiteSchema.astro';
 
 const bodies = import.meta.glob('../mirror/pages/*.html', {
   query: '?raw',
@@ -22,6 +24,7 @@ export function getStaticPaths() {
 const { page } = Astro.props as { page: { route: string; title: string; description: string; file: string } };
 const body = bodies['../mirror/pages/' + page.file];
 const canonical = new URL(page.route, Astro.site).href;
+const schemaNodes = (pageSchema as Record<string, any[]>)[page.route] || [];
 ---
 <!doctype html>
 <html lang="en-GB">
@@ -39,6 +42,8 @@ const canonical = new URL(page.route, Astro.site).href;
     <title>{page.title}</title>
     {page.description && <meta name="description" content={page.description} />}
     <link rel="canonical" href={canonical} />
+    <SiteSchema />
+    {schemaNodes.map((node) => <script type="application/ld+json" set:html={JSON.stringify(node)} />)}
     <link rel="icon" href="/images/2024-04-cropped-truehomecare-logo-32x32.png" sizes="32x32" />
     <link rel="icon" href="/images/2024-04-cropped-truehomecare-logo-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="/images/2024-04-cropped-truehomecare-logo-180x180.png" />
