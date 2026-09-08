@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "truehomecare",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeExecutable": "C:\\nvm4w\\nodejs\\node.exe",
+      "runtimeArgs": ["node_modules/astro/astro.js", "dev", "--port", "4325"],
       "port": 4325
     }
   ]
