@@ -1,0 +1,7 @@
+# 301 redirects: old root-level blog URLs -> new /blog/ URLs
+/loneliness-in-older-people/      /blog/loneliness-in-older-people/       301
+/loneliness-in-older-people       /blog/loneliness-in-older-people/       301
+/malnutrition-in-adults/          /blog/malnutrition-in-adults/           301
+/malnutrition-in-adults           /blog/malnutrition-in-adults/           301
+/female-bone-density-chart-by-age/  /blog/female-bone-density-chart-by-age/  301
+/female-bone-density-chart-by-age   /blog/female-bone-density-chart-by-age/  301

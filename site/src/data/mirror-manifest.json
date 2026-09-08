@@ -666,24 +666,24 @@
     "file": "locations__cheshire__wilmslow.html"
   },
   {
-    "route": "/loneliness-in-older-people/",
+    "route": "/blog/loneliness-in-older-people/",
     "title": "Loneliness in Older People: Companionship Support",
     "description": "Learn how companionship can support loneliness in older people through social connection, emotional support and meaningful activities at home.",
-    "file": "loneliness-in-older-people.html",
+    "file": "blog__loneliness-in-older-people.html",
     "type": "blog"
   },
   {
-    "route": "/malnutrition-in-adults/",
+    "route": "/blog/malnutrition-in-adults/",
     "title": "Malnutrition for Elderly: Signs to Watch",
     "description": "Learn signs of malnutrition for elderly people, what to look for at home, and when eating difficulties may need support.",
-    "file": "malnutrition-in-adults.html",
+    "file": "blog__malnutrition-in-adults.html",
     "type": "blog"
   },
   {
-    "route": "/female-bone-density-chart-by-age/",
+    "route": "/blog/female-bone-density-chart-by-age/",
     "title": "Female Bone Density Chart by Age: A Guide",
     "description": "Explore a female bone density chart by age, understand bone changes, osteoporosis risk, and practical ways to support healthy ageing.",
-    "file": "female-bone-density-chart-by-age.html",
+    "file": "blog__female-bone-density-chart-by-age.html",
     "type": "blog"
   }
 ]
