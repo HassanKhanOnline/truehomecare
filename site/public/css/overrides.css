@@ -250,3 +250,5 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
   .thc-article .thc-toc{padding:16px 18px}
   .thc-article table{display:block;overflow-x:auto;white-space:nowrap}
 }
+.thc-article figure.thc-fig{margin:0 0 24px}
+.thc-article .thc-fig img{display:block;width:100%;height:auto;border-radius:8px}
