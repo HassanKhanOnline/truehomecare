@@ -1827,5 +1827,68 @@
         }
       ]
     }
+  ],
+  "/loneliness-in-older-people/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/loneliness-in-older-people/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/loneliness-in-older-people/",
+      "headline": "Loneliness in Older People: How Companionship Improves Wellbeing",
+      "description": "Learn how companionship can support loneliness in older people through social connection, emotional support and meaningful activities at home.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-09-02",
+      "dateModified": "2026-09-02",
+      "image": "https://www.truehomecare.co.uk/images/2025-12-Saima.jpg"
+    }
+  ],
+  "/malnutrition-in-adults/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/malnutrition-in-adults/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/malnutrition-in-adults/",
+      "headline": "Malnutrition for Elderly People: 10 Signs Your Loved One May Need Support With Eating",
+      "description": "Learn signs of malnutrition for elderly people, what to look for at home, and when eating difficulties may need support.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-09-02",
+      "dateModified": "2026-09-02",
+      "image": "https://www.truehomecare.co.uk/images/2025-12-Saima.jpg"
+    }
+  ],
+  "/female-bone-density-chart-by-age/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://www.truehomecare.co.uk/female-bone-density-chart-by-age/#article",
+      "mainEntityOfPage": "https://www.truehomecare.co.uk/female-bone-density-chart-by-age/",
+      "headline": "Female Bone Density Chart by Age: Understanding Bone Changes, Osteoporosis Risk, and Healthy Ageing",
+      "description": "Explore a female bone density chart by age, understand bone changes, osteoporosis risk, and practical ways to support healthy ageing.",
+      "author": {
+        "@type": "Person",
+        "name": "Saima Adil Zafar",
+        "url": "https://www.truehomecare.co.uk/about-us-true-homecare/"
+      },
+      "publisher": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "datePublished": "2026-09-02",
+      "dateModified": "2026-09-02",
+      "image": "https://www.truehomecare.co.uk/images/2025-12-Saima.jpg"
+    }
   ]
 }

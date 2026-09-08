@@ -219,3 +219,34 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
   /* close button to the drawer's top-right */
   #main-nav .ba-mob-close { left: auto !important; right: 20px !important; }
 }
+
+/* ============================================================
+   New blog articles: TOC box, FAQ accordions, styled tables
+   Scoped to .thc-article so existing posts are untouched.
+   ============================================================ */
+.thc-article .thc-toc{background:#f4f7f5;border:1px solid #dbe5e0;border-left:4px solid #266751;border-radius:8px;padding:20px 24px;margin:0 0 28px}
+.thc-article .thc-toc h2{margin:0 0 12px;font-size:20px;color:#266751}
+.thc-article .thc-toc ol,.thc-article .thc-toc ul{margin:0;padding-left:22px}
+.thc-article .thc-toc li{margin:6px 0}
+.thc-article .thc-toc a{color:#266751;text-decoration:none}
+.thc-article .thc-toc a:hover{color:#d95719;text-decoration:underline}
+.thc-article .thc-faq{margin:12px 0 8px}
+.thc-article .thc-faq-item{border:1px solid #dbe5e0;border-radius:8px;margin:0 0 12px;background:#fff;overflow:hidden}
+.thc-article .thc-faq-item>summary{list-style:none;cursor:pointer;padding:16px 50px 16px 20px;font-weight:700;color:#1f2a27;position:relative}
+.thc-article .thc-faq-item>summary::-webkit-details-marker{display:none}
+.thc-article .thc-faq-item>summary::after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:24px;line-height:1;color:#d95719;font-weight:700}
+.thc-article .thc-faq-item[open]>summary::after{content:"\2013"}
+.thc-article .thc-faq-item>summary:hover{color:#266751}
+.thc-article .thc-faq-answer{padding:2px 20px 18px}
+.thc-article table{width:100%;border-collapse:collapse;margin:0 0 26px;font-size:15px}
+.thc-article th,.thc-article td{border:1px solid #dbe5e0;padding:11px 14px;text-align:left;vertical-align:top}
+.thc-article thead th{background:#266751;color:#fff}
+.thc-article tbody tr:nth-child(even){background:#f6f8f7}
+.thc-article h2{margin-top:34px}
+.thc-article h3{margin-top:24px}
+.thc-article ul,.thc-article ol{margin:0 0 20px;padding-left:22px}
+.thc-article li{margin:6px 0}
+@media (max-width:767.98px){
+  .thc-article .thc-toc{padding:16px 18px}
+  .thc-article table{display:block;overflow-x:auto;white-space:nowrap}
+}

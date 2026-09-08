@@ -54,7 +54,7 @@ for (const p of manifest) {
   const r = p.route;
   if (r.startsWith('/services/')) segments.service.push(entryUrl(p));
   else if (r.startsWith('/locations/')) segments.location.push(entryUrl(p));
-  else if (r.startsWith('/blog/') && r !== '/blog/') segments.post.push(entryUrl(p));
+  else if ((r.startsWith('/blog/') && r !== '/blog/') || p.type === 'blog') segments.post.push(entryUrl(p));
   else segments.page.push(entryUrl(p)); // standalone pages + /blog/ index
 }
 

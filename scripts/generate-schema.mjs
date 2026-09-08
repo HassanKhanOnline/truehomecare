@@ -100,8 +100,8 @@ for (const p of manifest) {
     }
   }
 
-  // Blog posts -> BlogPosting + Person
-  if (p.route.startsWith('/blog/') && p.route !== '/blog/') {
+  // Blog posts -> BlogPosting + Person (incl. root-level posts flagged type:blog)
+  if ((p.route.startsWith('/blog/') && p.route !== '/blog/') || p.type === 'blog') {
     const h1 = /<h1[^>]*>([\s\S]*?)<\/h1>/.exec(html);
     const authorBlock = /author-right-text"[^>]*>([\s\S]{0,200}?)<p class="date"/.exec(html);
     const dateText = /<p class="date">([^<]+)<\/p>/.exec(html);
