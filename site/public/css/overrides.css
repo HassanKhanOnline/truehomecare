@@ -390,3 +390,9 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
 /* The heading row carried margin-bottom:-155px, pulling the images up over the
    text. Reset it to a normal gap. */
 .block-image-gallery-slider-trf > .container > .row:first-child{margin-bottom:26px!important}
+
+/* Clean static carer-photo gallery (replaces the broken Slick slider) */
+.thc-carer-gallery{display:flex;flex-wrap:wrap;justify-content:center;gap:22px;margin:0}
+.thc-carer-img{flex:0 1 246px;max-width:246px;margin:0;padding:0}
+.thc-carer-img img{width:100%;height:auto;display:block;border-radius:10px}
+@media(max-width:767.98px){.thc-carer-gallery{gap:14px}.thc-carer-img{flex:0 1 46%;max-width:46%}}
