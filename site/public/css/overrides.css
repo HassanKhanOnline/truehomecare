@@ -301,3 +301,69 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
 @media(max-width:600px){.thc-newsletter-inner{padding:32px 24px}.thc-newsletter-form{flex-direction:column}.thc-newsletter-text h2{font-size:24px}}
 /* Redundant per-section "View All Blogs" buttons (all posts already shown) */
 .block-blog-posts-trf .load-post{display:none}
+
+/* ============================================================
+   Blog index — Raven-style (featured + filter bar + list)
+   ============================================================ */
+.thc-blog-featured{padding:40px 20px 8px}
+.thc-blog-featured .container{max-width:1140px}
+.thc-feat-card{display:grid;grid-template-columns:1.15fr 1fr;gap:0;background:#fff;border:1px solid #e6ece9;border-radius:16px;overflow:hidden;text-decoration:none;transition:box-shadow .2s,transform .2s}
+.thc-feat-card:hover{box-shadow:0 16px 40px rgba(20,40,32,.12);transform:translateY(-3px)}
+.thc-feat-img{background:#eef2f0}
+.thc-feat-img img{width:100%;height:100%;object-fit:cover;display:block;min-height:320px}
+.thc-feat-body{padding:36px 40px;display:flex;flex-direction:column;justify-content:center}
+.thc-feat-body h2{font-size:30px;line-height:1.18;color:#14201c;margin:12px 0 12px}
+.thc-feat-body p{color:#4a544f;font-size:16px;line-height:1.6;margin:0 0 18px}
+.thc-readlink{color:#d95719;font-weight:700;font-size:15px}
+.thc-feat-card:hover .thc-readlink{text-decoration:underline}
+
+/* meta row + tags */
+.thc-feat-meta,.thc-post-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:12.5px}
+.thc-badge{background:#d95719;color:#fff;font-weight:700;padding:3px 10px;border-radius:999px;letter-spacing:.02em;text-transform:uppercase;font-size:11px}
+.thc-cat{font-weight:700;padding:3px 10px;border-radius:999px;background:#e8f0ec;color:#266751}
+.thc-cat--dementia{background:#efe7fb;color:#6b3fbd}
+.thc-cat--nutrition{background:#e6f4ea;color:#237a43}
+.thc-cat--mobility{background:#e5eefc;color:#2a5db0}
+.thc-cat--conditions{background:#fdeee4;color:#c4501f}
+.thc-cat--homecare{background:#e8f0ec;color:#266751}
+.thc-date{color:#6c7a74}
+
+/* filter bar */
+.thc-blog-filter{padding:20px 20px 4px;position:sticky;top:0;z-index:20;background:#f6f8f7}
+.thc-blog-filter .container{max-width:1140px}
+.thc-filter-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;border-bottom:1px solid #e2e8e5;padding-bottom:14px}
+.thc-filter-cats{display:flex;flex-wrap:wrap;gap:8px}
+.thc-fpill{border:1px solid #dbe5e0;background:#fff;color:#3a4642;border-radius:999px;padding:7px 14px;font-size:13.5px;font-weight:600;cursor:pointer;transition:all .15s}
+.thc-fpill span{color:#9aa8a2;font-weight:600;margin-left:2px}
+.thc-fpill:hover{border-color:#266751;color:#266751}
+.thc-fpill.is-active{background:#266751;border-color:#266751;color:#fff}
+.thc-fpill.is-active span{color:#a7cbbb}
+.thc-filter-sort{display:flex;align-items:center;gap:8px;font-size:13.5px;color:#6c7a74}
+.thc-sort{border:1px solid #dbe5e0;border-radius:8px;padding:7px 10px;font-size:13.5px;background:#fff;color:#14201c;cursor:pointer}
+
+/* list */
+.thc-blog-list{padding:22px 20px 30px}
+.thc-blog-list .container{max-width:1140px}
+.thc-list{display:flex;flex-direction:column;gap:0}
+.thc-post{display:grid;grid-template-columns:300px 1fr;gap:26px;padding:26px 0;border-bottom:1px solid #e6ece9;text-decoration:none;align-items:center}
+.thc-post:hover .thc-post-body h3{color:#d95719}
+.thc-post-img{aspect-ratio:16/10;border-radius:12px;overflow:hidden;background:#eef2f0}
+.thc-post-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}
+.thc-post:hover .thc-post-img img{transform:scale(1.05)}
+.thc-post-body h3{font-size:21px;line-height:1.3;color:#14201c;margin:10px 0 8px;transition:color .15s}
+.thc-post-body p{color:#4a544f;font-size:15px;line-height:1.55;margin:0 0 10px}
+.thc-author{font-size:13px;color:#6c7a74;font-weight:600}
+.thc-noresults{text-align:center;color:#6c7a74;padding:40px 0}
+
+@media(max-width:900px){
+  .thc-feat-card{grid-template-columns:1fr}
+  .thc-feat-img img{min-height:220px}
+  .thc-feat-body{padding:26px 24px}
+  .thc-feat-body h2{font-size:24px}
+}
+@media(max-width:640px){
+  .thc-post{grid-template-columns:1fr;gap:14px}
+  .thc-post-img{aspect-ratio:16/9}
+  .thc-blog-filter{position:static}
+  .thc-filter-row{flex-direction:column;align-items:flex-start}
+}

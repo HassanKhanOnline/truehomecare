@@ -223,3 +223,47 @@
     }
   });
 })();
+
+/* Blog index (Raven-style) category filter + sort */
+(function () {
+  function initBlogFilter() {
+    var filter = document.querySelector('.thc-blog-filter');
+    var list = document.getElementById('thc-blog-list');
+    if (!filter || !list) return;
+    var pills = filter.querySelectorAll('.thc-fpill');
+    var sort = document.getElementById('thc-sort');
+    var noRes = document.querySelector('.thc-noresults');
+    var cards = Array.prototype.slice.call(list.querySelectorAll('.thc-post'));
+    var current = 'all';
+    function apply() {
+      var visible = 0;
+      cards.forEach(function (c) {
+        var show = current === 'all' || c.getAttribute('data-cat') === current;
+        c.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+      if (noRes) noRes.hidden = visible > 0;
+    }
+    pills.forEach(function (b) {
+      b.addEventListener('click', function () {
+        pills.forEach(function (x) { x.classList.remove('is-active'); });
+        b.classList.add('is-active');
+        current = b.getAttribute('data-cat');
+        apply();
+      });
+    });
+    if (sort) {
+      sort.addEventListener('change', function () {
+        var v = sort.value;
+        var sorted = cards.slice().sort(function (a, b) {
+          if (v === 'az') return a.getAttribute('data-title').localeCompare(b.getAttribute('data-title'));
+          var da = a.getAttribute('data-date'), db = b.getAttribute('data-date');
+          return v === 'oldest' ? (da < db ? -1 : da > db ? 1 : 0) : (da > db ? -1 : da < db ? 1 : 0);
+        });
+        sorted.forEach(function (c) { list.appendChild(c); });
+      });
+    }
+  }
+  if (document.readyState !== 'loading') initBlogFilter();
+  else document.addEventListener('DOMContentLoaded', initBlogFilter);
+})();
