@@ -372,3 +372,15 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
 .thc-contact-map{border-radius:12px;overflow:hidden;border:1px solid #e6ece9;box-shadow:0 6px 18px rgba(20,40,32,.06)}
 .thc-contact-map iframe{display:block;width:100%;height:400px;border:0}
 @media(max-width:767.98px){.thc-contact-map iframe{height:300px}}
+
+/* Location pages: "See the heart behind the care" gallery — clean static row.
+   (The Slick asNavFor slider overlapped the heading; rendered statically instead.) */
+.block-image-gallery-slider-trf .block-image-gallery-slider-thumb{display:none!important}
+.block-image-gallery-slider-trf .ba-section-desc{position:relative;z-index:2}
+.block-image-gallery-slider-trf .block-image-gallery-slider-content{display:flex!important;flex-wrap:wrap;justify-content:center;gap:22px;margin:0;position:relative;z-index:1}
+.block-image-gallery-slider-trf .block-image-gallery-slider-content .ba-gallery-wrap{flex:0 1 246px;width:auto;max-width:246px;margin:0!important;padding:0}
+.block-image-gallery-slider-trf .block-image-gallery-slider-content .ba-gallery-wrap img{width:100%;height:auto;max-width:100%;border-radius:10px}
+@media(max-width:767.98px){
+  .block-image-gallery-slider-trf .block-image-gallery-slider-content{gap:14px}
+  .block-image-gallery-slider-trf .block-image-gallery-slider-content .ba-gallery-wrap{flex:0 1 46%;max-width:46%}
+}

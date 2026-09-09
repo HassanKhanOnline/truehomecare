@@ -192,35 +192,10 @@
     //    main+thumbnail gallery (like live): the "content" slider shows one large image,
     //    the "thumb" slider shows four thumbnails, linked via asNavFor. jQuery +
     //    slick.min.js are loaded before this file.
-    if (window.jQuery && window.jQuery.fn && window.jQuery.fn.slick) {
-      var $content = window.jQuery('.block-image-gallery-slider-content');
-      var $thumb = window.jQuery('.block-image-gallery-slider-thumb');
-      if ($content.length && $thumb.length && !$content.hasClass('slick-initialized')) {
-        $content.slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: true,
-          dots: false,
-          infinite: false,
-          speed: 500,
-          asNavFor: '.block-image-gallery-slider-thumb'
-        });
-        $thumb.slick({
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          arrows: true,
-          dots: false,
-          infinite: false,
-          focusOnSelect: true,
-          asNavFor: '.block-image-gallery-slider-content',
-          responsive: [
-            { breakpoint: 992, settings: { slidesToShow: 4 } },
-            { breakpoint: 768, settings: { slidesToShow: 3 } },
-            { breakpoint: 480, settings: { slidesToShow: 2 } }
-          ]
-        });
-      }
-    }
+    //    The Slick asNavFor main+thumbnail setup, run on Bootstrap .row elements,
+    //    laid the slider ~155px up over the heading copy. It is a decorative
+    //    carer-photo gallery, so it is now rendered as a clean static row via CSS
+    //    (.block-image-gallery-slider-trf in overrides.css) instead of Slick.
   });
 })();
 
