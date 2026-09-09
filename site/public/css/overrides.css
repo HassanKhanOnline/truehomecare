@@ -387,3 +387,6 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
 /* The gallery section's .container was rendering as flex, laying the heading row
    and image row side-by-side/overlapping. Force normal vertical stacking. */
 .block-image-gallery-slider-trf > .container{display:block!important}
+/* The heading row carried margin-bottom:-155px, pulling the images up over the
+   text. Reset it to a normal gap. */
+.block-image-gallery-slider-trf > .container > .row:first-child{margin-bottom:26px!important}
