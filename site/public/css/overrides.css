@@ -374,7 +374,9 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
 @media(max-width:767.98px){.thc-contact-map iframe{height:300px}}
 
 /* Location gallery spacing: the "See the heart behind the care" heading row
-   carries margin-bottom:-155px, which pulls the image slider up over the intro
-   text. Replace it with a normal gap so text and images have clear top/bottom
-   spacing. (Only spacing changed — markup/slider untouched.) */
-section.block-image-gallery-slider-trf .container > .row:first-child { margin-bottom: 40px !important; }
+   carries margin-bottom:-155px (pulling the images up over the intro text), and
+   the container is align-items:end (floating the thumbnail strip to the bottom of
+   the tall main image, leaving a large gap under the paragraph). Give the heading
+   a small gap and top-align the images so they sit close under the intro text. */
+section.block-image-gallery-slider-trf .container > .row:first-child { margin-bottom: 22px !important; }
+section.block-image-gallery-slider-trf .container { align-items: flex-start !important; }
