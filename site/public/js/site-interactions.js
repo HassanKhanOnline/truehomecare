@@ -232,17 +232,29 @@
     if (!filter || !list) return;
     var pills = filter.querySelectorAll('.thc-fpill');
     var sort = document.getElementById('thc-sort');
+    var search = document.getElementById('thc-blog-search');
+    var featuredSec = document.querySelector('.thc-blog-featured');
     var noRes = document.querySelector('.thc-noresults');
     var cards = Array.prototype.slice.call(list.querySelectorAll('.thc-post'));
     var current = 'all';
+    var query = '';
     function apply() {
       var visible = 0;
       cards.forEach(function (c) {
-        var show = current === 'all' || c.getAttribute('data-cat') === current;
+        var matchCat = current === 'all' || c.getAttribute('data-cat') === current;
+        var matchQuery = !query || c.textContent.toLowerCase().indexOf(query) > -1;
+        var show = matchCat && matchQuery;
         c.style.display = show ? '' : 'none';
         if (show) visible++;
       });
+      if (featuredSec) featuredSec.style.display = query ? 'none' : '';
       if (noRes) noRes.hidden = visible > 0;
+    }
+    if (search) {
+      search.addEventListener('input', function () {
+        query = search.value.trim().toLowerCase();
+        apply();
+      });
     }
     pills.forEach(function (b) {
       b.addEventListener('click', function () {

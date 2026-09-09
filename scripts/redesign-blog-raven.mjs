@@ -66,6 +66,9 @@ const filterHtml = `<section class="thc-blog-filter">
 ${pill('all', 'All', posts.length, true)}
 ${CATS.filter((c) => counts[c.id]).map((c) => pill(c.id, c.label, counts[c.id], false)).join('\n')}
 </div>
+<div class="thc-blog-search">
+<input type="search" id="thc-blog-search" class="thc-blog-search-input" placeholder="Search articles…" aria-label="Search the blog" autocomplete="off">
+</div>
 <div class="thc-filter-sort">
 <label for="thc-sort">Sort</label>
 <select id="thc-sort" class="thc-sort"><option value="latest">Latest</option><option value="oldest">Oldest</option><option value="az">Title A–Z</option></select>

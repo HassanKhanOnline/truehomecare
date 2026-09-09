@@ -367,3 +367,11 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
   .thc-blog-filter{position:static}
   .thc-filter-row{flex-direction:column;align-items:flex-start}
 }
+
+/* Blog search box (in the filter bar) */
+.thc-filter-cats{margin-right:auto}
+.thc-blog-search{position:relative;display:flex;align-items:center}
+.thc-blog-search-input{border:1px solid #dbe5e0;border-radius:999px;padding:8px 16px;font-size:13.5px;min-width:210px;background:#fff;color:#14201c}
+.thc-blog-search-input::placeholder{color:#9aa8a2}
+.thc-blog-search-input:focus{outline:none;border-color:#266751;box-shadow:0 0 0 3px rgba(38,103,81,.14)}
+@media(max-width:640px){.thc-blog-search{width:100%}.thc-blog-search-input{width:100%;min-width:0}}
