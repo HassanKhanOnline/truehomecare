@@ -380,3 +380,51 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
    a small gap and top-align the images so they sit close under the intro text. */
 section.block-image-gallery-slider-trf .container > .row:first-child { margin-bottom: 22px !important; }
 section.block-image-gallery-slider-trf .container { align-items: flex-start !important; }
+
+/* ===== Location "See the heart behind the care" gallery — grid layout, uniform
+   thumbnails, moderate preview, arrows in their own row below the thumbnails ===== */
+section.block-image-gallery-slider-trf > .container{
+  display:grid !important;
+  grid-template-columns:1.05fr 1fr;
+  grid-template-areas:"head head" "left preview";
+  gap:8px 36px;
+  align-items:start;
+}
+section.block-image-gallery-slider-trf > .container > .row:first-child{ grid-area:head; margin:0 0 18px !important; }
+section.block-image-gallery-slider-trf .ba-section-desc{ text-align:left !important; }
+section.block-image-gallery-slider-trf .thc-gallery-left{ grid-area:left; min-width:0; }
+section.block-image-gallery-slider-trf > .container > .block-image-gallery-slider-content{ grid-area:preview; margin:0 !important; min-width:0; }
+
+/* Uniform LEFT thumbnails */
+section.block-image-gallery-slider-trf .block-image-gallery-slider-thumb{ height:auto !important; }
+section.block-image-gallery-slider-trf .block-image-gallery-slider-thumb .ba-gallery-wrap{ padding:0 6px !important; margin:0 !important; max-width:none !important; }
+section.block-image-gallery-slider-trf .block-image-gallery-slider-thumb .img-fluid,
+section.block-image-gallery-slider-trf .block-image-gallery-slider-thumb .slick-slide img{
+  width:100% !important; height:130px !important; object-fit:cover !important; max-width:100% !important; margin:0 !important; border-radius:8px; display:block; cursor:pointer;
+}
+
+/* Moderate RIGHT preview (bigger than thumbs, not oversized, contained) */
+section.block-image-gallery-slider-trf .block-image-gallery-slider-content{ overflow:hidden; border-radius:12px; }
+section.block-image-gallery-slider-trf .block-image-gallery-slider-content .ba-gallery-wrap{ padding:0 !important; margin:0 !important; max-width:none !important; }
+section.block-image-gallery-slider-trf .block-image-gallery-slider-content .img-fluid,
+section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide img{
+  width:100% !important; height:330px !important; object-fit:cover !important; max-width:100% !important; margin:0 !important; display:block;
+}
+
+/* Arrows: own row below the thumbnails, never over the images */
+section.block-image-gallery-slider-trf .thc-gallery-nav{ display:flex; gap:12px; justify-content:flex-start; margin-top:18px; }
+section.block-image-gallery-slider-trf .thc-gallery-nav .slick-arrow{
+  position:static !important; transform:none !important; width:40px; height:40px; border:1px solid #cdd8d3 !important;
+  border-radius:8px; background:#fff !important; color:#266751; font-size:0; cursor:pointer; transition:background .15s,border-color .15s;
+}
+section.block-image-gallery-slider-trf .thc-gallery-nav .slick-arrow:before{ font-size:20px; line-height:38px; color:#266751; opacity:1; }
+section.block-image-gallery-slider-trf .thc-gallery-nav .slick-prev:before{ content:"\2039"; }
+section.block-image-gallery-slider-trf .thc-gallery-nav .slick-next:before{ content:"\203A"; }
+section.block-image-gallery-slider-trf .thc-gallery-nav .slick-arrow:hover{ background:#266751 !important; border-color:#266751 !important; }
+section.block-image-gallery-slider-trf .thc-gallery-nav .slick-arrow:hover:before{ color:#fff; }
+section.block-image-gallery-slider-trf .thc-gallery-nav .slick-disabled{ opacity:.4; cursor:default; }
+
+@media(max-width:900px){
+  section.block-image-gallery-slider-trf > .container{ grid-template-columns:1fr; grid-template-areas:"head" "preview" "left"; }
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide img{ height:260px !important; }
+}

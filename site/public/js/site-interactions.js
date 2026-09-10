@@ -221,6 +221,30 @@
         });
       }
     }
+
+    // 7b) Gallery layout: wrap the thumbnail slider and move the preview slider's
+    //     prev/next arrows into their own row BELOW the thumbnails, so the arrows
+    //     get their own space and never overlap the images.
+    var galSec = document.querySelector('.block-image-gallery-slider-trf');
+    if (galSec && !galSec.querySelector('.thc-gallery-left')) {
+      var gContent = galSec.querySelector('.block-image-gallery-slider-content');
+      var gThumb = galSec.querySelector('.block-image-gallery-slider-thumb');
+      if (gContent && gThumb) {
+        var leftWrap = document.createElement('div');
+        leftWrap.className = 'thc-gallery-left';
+        gThumb.parentNode.insertBefore(leftWrap, gThumb);
+        leftWrap.appendChild(gThumb);
+        var gPrev = gContent.querySelector('.slick-prev');
+        var gNext = gContent.querySelector('.slick-next');
+        if (gPrev && gNext) {
+          var navWrap = document.createElement('div');
+          navWrap.className = 'thc-gallery-nav';
+          navWrap.appendChild(gPrev);
+          navWrap.appendChild(gNext);
+          leftWrap.appendChild(navWrap);
+        }
+      }
+    }
   });
 })();
 
