@@ -386,14 +386,14 @@ section.block-image-gallery-slider-trf .container { align-items: flex-start !imp
 section.block-image-gallery-slider-trf > .container{
   display:grid !important;
   grid-template-columns:1.05fr 1fr;
-  grid-template-areas:"head head" "left preview";
+  grid-template-areas:"head preview" "left preview";
   gap:8px 36px;
   align-items:start;
 }
 section.block-image-gallery-slider-trf > .container > .row:first-child{ grid-area:head; margin:0 0 6px !important; }
 section.block-image-gallery-slider-trf .ba-section-desc{ text-align:left !important; }
 section.block-image-gallery-slider-trf .thc-gallery-left{ grid-area:left; min-width:0; }
-section.block-image-gallery-slider-trf > .container > .block-image-gallery-slider-content{ grid-area:preview; margin:0 !important; min-width:0; }
+section.block-image-gallery-slider-trf > .container > .block-image-gallery-slider-content{ grid-area:preview; margin:0 !important; min-width:0; align-self:stretch; }
 
 /* Uniform LEFT thumbnails */
 section.block-image-gallery-slider-trf .block-image-gallery-slider-thumb{ height:auto !important; }
@@ -409,6 +409,21 @@ section.block-image-gallery-slider-trf .block-image-gallery-slider-content .ba-g
 section.block-image-gallery-slider-trf .block-image-gallery-slider-content .img-fluid,
 section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide img{
   width:100% !important; height:330px !important; object-fit:cover !important; max-width:100% !important; margin:0 !important; display:block;
+}
+/* On desktop, stretch the preview to the full height of the left column so its TOP
+   aligns with the heading and its BOTTOM with the arrows. Force height:100% down the
+   whole Slick chain so the image fills the stretched column. Mobile keeps the fixed
+   height set above / in the max-width:900px block. */
+@media(min-width:901px){
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content,
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slider,
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-list,
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-track,
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide,
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide > div,
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .ba-gallery-wrap{ height:100% !important; }
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .img-fluid,
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide img{ height:100% !important; }
 }
 
 /* Arrows: own row below the thumbnails, never over the images */
