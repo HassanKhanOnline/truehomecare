@@ -267,24 +267,3 @@
   if (document.readyState !== 'loading') initBlogFilter();
   else document.addEventListener('DOMContentLoaded', initBlogFilter);
 })();
-
-/* Location gallery: click a thumbnail to swap the main image */
-(function () {
-  function initThcGallery() {
-    document.querySelectorAll('.thc-gallery').forEach(function (g) {
-      var main = g.querySelector('.thc-gallery-main-img');
-      var thumbs = g.querySelectorAll('.thc-thumb');
-      if (!main || !thumbs.length) return;
-      thumbs.forEach(function (t) {
-        t.addEventListener('click', function () {
-          var full = t.getAttribute('data-full');
-          if (full) main.src = full;
-          thumbs.forEach(function (x) { x.classList.remove('is-active'); });
-          t.classList.add('is-active');
-        });
-      });
-    });
-  }
-  if (document.readyState !== 'loading') initThcGallery();
-  else document.addEventListener('DOMContentLoaded', initThcGallery);
-})();
