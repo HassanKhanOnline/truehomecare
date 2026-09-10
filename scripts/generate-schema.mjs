@@ -1,13 +1,16 @@
 /**
  * Generates per-page JSON-LD structured data from the mirror content and writes
  * it to site/src/data/page-schema.json as { route: [ ...ld+json objects ] }.
- * The Astro templates emit these into each page's <head>.
+ * The Astro template (src/pages/[...slug].astro) emits these into each page's
+ * <head>, in addition to the site-wide Organization/LocalBusiness/WebSite graph
+ * from src/components/SiteSchema.astro.
  *
- *   - Service pages -> FAQPage (from the on-page FAQ accordion)
- *   - Blog posts    -> BlogPosting + Person author (real date + author from markup)
+ *   - Location pages -> LocalBusiness (area-specific) + FAQPage (accordion FAQ)
+ *   - Service pages  -> Service + FAQPage (classic or accordion FAQ)
+ *   - Blog posts     -> BlogPosting (an Article subtype) + FAQPage (details FAQ)
+ *   - FAQs page       -> FAQPage
  *
- * Site-wide Organization/LocalBusiness/WebSite schema lives in
- * src/components/SiteSchema.astro (static, real NAP data), not here.
+ * All contact data is the real UK NAP. Phone: +44 161 428 1989.
  *
  * Run after content changes:  node scripts/generate-schema.mjs
  */
@@ -18,6 +21,8 @@ import { dirname, join } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORIGIN = 'https://www.truehomecare.co.uk';
+const PHONE = '+44 161 428 1989';
+const LOGO = `${ORIGIN}/images/2025-08-truehomecare-logo-1.png`;
 const pagesDir = join(root, 'site/src/mirror/pages');
 
 const manifest = JSON.parse(
@@ -56,8 +61,27 @@ const isoDate = (text) => {
   return `${m[3]}-${mm}-${String(m[1]).padStart(2, '0')}`;
 };
 
-// Extract FAQ Q&A pairs from a service page's dedicated FAQ accordion.
-function extractFaq(html) {
+const uniqQuestions = (pairs) => {
+  const seen = new Set();
+  const out = [];
+  for (const p of pairs) {
+    const key = p.name.toLowerCase();
+    if (p.name && p.acceptedAnswer.text && !seen.has(key)) {
+      seen.add(key);
+      out.push(p);
+    }
+  }
+  return out;
+};
+
+const mkQA = (q, a) => ({
+  '@type': 'Question',
+  name: q,
+  acceptedAnswer: { '@type': 'Answer', text: a },
+});
+
+// 1) Classic service FAQ: .faq-question <span>…</span> + .faq-answer
+function faqClassic(html) {
   const questions = [
     ...html.matchAll(/class="faq-question"[^>]*>\s*<span>([\s\S]*?)<\/span>/g),
   ].map((m) => decode(m[1]));
@@ -66,46 +90,117 @@ function extractFaq(html) {
   ].map((m) => decode(m[1]));
   const pairs = [];
   const n = Math.min(questions.length, answers.length);
-  for (let i = 0; i < n; i++) {
-    if (questions[i] && answers[i]) {
-      pairs.push({
-        '@type': 'Question',
-        name: questions[i],
-        acceptedAnswer: { '@type': 'Answer', text: answers[i] },
-      });
-    }
-  }
-  return pairs;
+  for (let i = 0; i < n; i++) pairs.push(mkQA(questions[i], answers[i]));
+  return uniqQuestions(pairs);
 }
 
+// 2) Bootstrap accordion FAQ (location pages + some service pages):
+//    <button class="accordion-button …>Q</button> … <div class="accordion-body">A</div>
+function faqAccordion(html) {
+  const questions = [
+    ...html.matchAll(/<button class="accordion-button[^>]*>([\s\S]*?)<\/button>/g),
+  ].map((m) => decode(m[1]));
+  const answers = [
+    ...html.matchAll(/<div class="accordion-body">([\s\S]*?)<\/div>/g),
+  ].map((m) => decode(m[1]));
+  const pairs = [];
+  const n = Math.min(questions.length, answers.length);
+  for (let i = 0; i < n; i++) pairs.push(mkQA(questions[i], answers[i]));
+  return uniqQuestions(pairs);
+}
+
+// 3) Blog <details> FAQ: .thc-faq-item > <summary>Q</summary> + .thc-faq-answer A
+function faqDetails(html) {
+  const items = [
+    ...html.matchAll(/<details[^>]*class="[^"]*thc-faq-item[^"]*"[^>]*>([\s\S]*?)<\/details>/g),
+  ];
+  const pairs = [];
+  for (const it of items) {
+    const block = it[1];
+    const q = /<summary[^>]*>([\s\S]*?)<\/summary>/.exec(block);
+    const a = /class="thc-faq-answer"[^>]*>([\s\S]*?)<\/div>/.exec(block);
+    if (q && a) pairs.push(mkQA(decode(q[1]), decode(a[1])));
+  }
+  return uniqQuestions(pairs);
+}
+
+const faqPageNode = (route, pairs) => ({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  '@id': `${ORIGIN}${route}#faq`,
+  mainEntity: pairs,
+});
+
+const BASE_ADDRESS = {
+  '@type': 'PostalAddress',
+  addressLocality: 'Stockport',
+  addressRegion: 'Greater Manchester',
+  addressCountry: 'GB',
+};
+const SERVICE_AREAS = ['Stockport', 'Wilmslow', 'Cheshire East', 'Greater Manchester'];
+
 const schema = {};
-let faqCount = 0;
-let postCount = 0;
+let localCount = 0, serviceCount = 0, faqCount = 0, postCount = 0;
 
 for (const p of manifest) {
   const html = readFileSync(join(pagesDir, p.file), 'utf8');
   const nodes = [];
 
-  // Service pages -> FAQPage
-  if (p.route.startsWith('/services/') && p.route !== '/services/') {
-    const faqs = extractFaq(html);
-    if (faqs.length) {
-      nodes.push({
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        '@id': `${ORIGIN}${p.route}#faq`,
-        mainEntity: faqs,
-      });
-      faqCount++;
-    }
+  const isLocation = p.route.startsWith('/locations/') && p.route !== '/locations/';
+  const isService = p.route.startsWith('/services/') && p.route !== '/services/';
+  const isBlog = (p.route.startsWith('/blog/') && p.route !== '/blog/') || p.type === 'blog';
+  const h1m = /<h1[^>]*>([\s\S]*?)<\/h1>/.exec(html);
+  const h1 = h1m ? decode(h1m[1]) : decode(p.title);
+
+  // -------- Location pages -> area-specific LocalBusiness --------
+  if (isLocation) {
+    const areaM = /data-location_name="([^"]+)"/.exec(html);
+    const area = areaM ? areaM[1].trim() : h1.replace(/^Home Care in\s*/i, '');
+    nodes.push({
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      '@id': `${ORIGIN}${p.route}#localbusiness`,
+      name: `True Homecare — ${area}`,
+      url: `${ORIGIN}${p.route}`,
+      telephone: PHONE,
+      image: LOGO,
+      logo: LOGO,
+      priceRange: '££',
+      description: decode(p.description),
+      address: BASE_ADDRESS,
+      areaServed: { '@type': 'Place', name: area },
+      parentOrganization: { '@id': `${ORIGIN}/#organization` },
+    });
+    localCount++;
+
+    const faqs = faqAccordion(html);
+    if (faqs.length) { nodes.push(faqPageNode(p.route, faqs)); faqCount++; }
   }
 
-  // Blog posts -> BlogPosting + Person (incl. root-level posts flagged type:blog)
-  if ((p.route.startsWith('/blog/') && p.route !== '/blog/') || p.type === 'blog') {
-    const h1 = /<h1[^>]*>([\s\S]*?)<\/h1>/.exec(html);
+  // -------- Service pages -> Service (+ FAQPage) --------
+  if (isService) {
+    nodes.push({
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      '@id': `${ORIGIN}${p.route}#service`,
+      name: h1,
+      serviceType: h1,
+      description: decode(p.description),
+      url: `${ORIGIN}${p.route}`,
+      provider: { '@id': `${ORIGIN}/#organization` },
+      areaServed: SERVICE_AREAS.map((a) => ({ '@type': 'Place', name: a })),
+    });
+    serviceCount++;
+
+    let faqs = faqClassic(html);
+    if (!faqs.length) faqs = faqAccordion(html);
+    if (faqs.length) { nodes.push(faqPageNode(p.route, faqs)); faqCount++; }
+  }
+
+  // -------- Blog posts -> BlogPosting (Article subtype) (+ FAQPage) --------
+  if (isBlog) {
     const authorBlock = /author-right-text"[^>]*>([\s\S]{0,200}?)<p class="date"/.exec(html);
     const dateText = /<p class="date">([^<]+)<\/p>/.exec(html);
-    const headline = h1 ? decode(h1[1]) : decode(p.title);
     const author = authorBlock ? decode(authorBlock[1]) : '';
     const published = dateText ? isoDate(dateText[1]) : null;
     const img = /<img[^>]+src="(\/images\/[^"]+)"/.exec(
@@ -117,7 +212,7 @@ for (const p of manifest) {
       '@type': 'BlogPosting',
       '@id': `${ORIGIN}${p.route}#article`,
       mainEntityOfPage: `${ORIGIN}${p.route}`,
-      headline,
+      headline: h1,
       description: decode(p.description),
       author: {
         '@type': 'Person',
@@ -133,6 +228,16 @@ for (const p of manifest) {
     if (img) post.image = ORIGIN + img[1];
     nodes.push(post);
     postCount++;
+
+    const faqs = faqDetails(html);
+    if (faqs.length) { nodes.push(faqPageNode(p.route, faqs)); faqCount++; }
+  }
+
+  // -------- Dedicated FAQs page -> FAQPage --------
+  if (!isLocation && !isService && !isBlog && /faqs?/i.test(p.route)) {
+    let faqs = faqClassic(html);
+    if (!faqs.length) faqs = faqAccordion(html);
+    if (faqs.length) { nodes.push(faqPageNode(p.route, faqs)); faqCount++; }
   }
 
   if (nodes.length) schema[p.route] = nodes;
@@ -144,4 +249,7 @@ writeFileSync(
   'utf8'
 );
 
-console.log(`Wrote page-schema.json: ${faqCount} FAQPage, ${postCount} BlogPosting (${Object.keys(schema).length} routes)`);
+console.log(
+  `Wrote page-schema.json: ${localCount} LocalBusiness, ${serviceCount} Service, ` +
+  `${postCount} BlogPosting, ${faqCount} FAQPage (${Object.keys(schema).length} routes)`
+);

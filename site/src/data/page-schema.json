@@ -1031,6 +1031,36 @@
   "/services/post-operative-care/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/post-operative-care/#service",
+      "name": "Post Operative Care at Home",
+      "serviceType": "Post Operative Care at Home",
+      "description": "True Homecare provides specialised post-operative care at home for a safe, comfortable recovery after surgery, with mobility support and medication management.",
+      "url": "https://www.truehomecare.co.uk/services/post-operative-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/post-operative-care/#faq",
       "mainEntity": [
@@ -1104,6 +1134,36 @@
   "/services/end-of-life-care/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/end-of-life-care/#service",
+      "name": "End of Life Care at Home",
+      "serviceType": "End of Life Care at Home",
+      "description": "True Homecare provides compassionate end-of-life care at home with personalised support, pain management and emotional care for dignity and comfort.",
+      "url": "https://www.truehomecare.co.uk/services/end-of-life-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/end-of-life-care/#faq",
       "mainEntity": [
@@ -1150,7 +1210,174 @@
       ]
     }
   ],
+  "/faqs/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/faqs/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is True Homecare Registered with the appropriate professional associations and bodies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, True Homecare is registered with The Care Quality Commission (CQC). We are proud of being on the Preferred Providers List of the Stockport Council."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the level of care to be provided assessed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once we’re in contact with a potential client, an initial assessment of all the needs of the client is made, including both medical and non-medical needs. We work with the client and their family to thoroughly understand the level of care needed and expected from our team. After this assessment, our Care Manager will arrange a visit to discuss your needs further and to talk to you about our services and how we can help you. After conducting a thorough needs assessment, including gathering information from all the people that play a part in our client’s life socially or medically, we select appropriate carers based on the needs of the client. We take pride in offering a completely customised, client-focused service so our clients receive everything they need."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do you mean by a customized, tailor-made care plan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We utilise clearly defined objectives in order to devise a unique, customised care package for each of our clients. We don’t believe in taking a cookie-cutter approach to care. You’re unique and your care should be too. In addition to providing care, we place a lot of emphasis on the safety of each of our clients. We work with you to develop a customised care plan that we all agree on. Our Care Plans are not fixed or inflexible, and everything can be adapted. We develop an open care plan that allows our clients to choose what they want to do, when and how they want to do it. We take on the daily responsibilities of providing care and ensuring that our clients remain safe and secure. We enable friends and families to spend quality time together enjoying the activities that they choose while we take care of the necessary daily duties and tasks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What training do carers receive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All of our care staff are professionally trained and have extensive backgrounds in providing care. As part of the True Homecare team, our carers receive additional, comprehensive in-house training to ensure that they meet the high standards that we set for all carers. In addition to this, all carers receive ‘on the job’ training to ensure the individual needs of our clients are attended to. Ongoing training and development, regular updates, and careful management by our experienced care manager ensure that we consistently exceed industry standards, including the Skills for Care recommendations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What quality monitoring/assurance systems are in place?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our Care Manager has a wealth of experience in monitoring the provision of care, and in ensuring that everything meets True Homecare’s rigorous standards. We make regular telephone contact with our carers, clients, and their representatives. We talk to our clients in confidence to ensure any concerns are raised and addressed. We cultivate a relationship that promotes trust between us and our clients and ensure they feel comfortable complaining if there is an issue. We also have an on-call support line for clients and carers, meaning that help and advice is available whenever it might be needed. We exceed the Care Quality Commission essential standards of quality and safety. We regularly conduct Quality Reviews with the clients to get their feedback and suggestions on the service they are receiving."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What tasks will my care worker carry out?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once a Care plan is agreed, this becomes the task lists for each day. We are continuously working on improving our service delivery, which means care plans are frequently updated to ensure we are providing the appropriate level of care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I don’t like my care package or want to make changes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Then you can make changes! Our experience has taught us that the needs of a client can change relatively frequently. This is why we review our care plans on a regular basis. We welcome any kind of feedback from the client or their family and are happy to incorporate it in the care plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my needs change?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We continuously reassess the care provided to ensure any change in level of care provided is accounted for and implemented as soon as possible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do I do if I need to change my call?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely no problem! Just call the office, ideally 24 hours in advance, or by midday on Friday for weekend calls and we shall do our best to meet your requirements. We endeavour to accommodate the individual needs of all our clients, and we appreciate that medical appointments and family visits require care calls to be rescheduled."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there anything that my care worker is not able to do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once we have established exactly what you want on each visit, we work to that list. We’ll write out a detailed care plan that will be maintained in your home file. The care plan will be tailored to your requirements, and it will be followed by the carers. We are not able to give injections or change sterile dressings. Also, we cannot carry out tasks which are likely to cause risk to either the client or to the carer. Tasks will be agreed with you in advance. Any changes to the care plan can be discussed with the Care Manager and added in as requested."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the carers trained to prepare meals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our carers are able to prepare meals. From basic microwaved food to three-course gourmet cuisines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I be dealing with the same carer each day?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Primarily yes, our clients are assigned a main carer. However, all our carers work in small teams and most work set evenings and every other weekend, so you will get to know the carers in that team. If you have only one call a week you will receive the same carer. In the event of your regular carer’s absence, you will always have a carer you have met before. All our carers are introduced to you by the care manager, care coordinator, or your regular carer, so you will always have a familiar face at your door. We very rarely have just one care worker assigned to a particular client. This allows for periods of time where your care worker may be away on holiday. However, we do try to keep the number of your care workers to an absolute minimum."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do I do if my carer is late?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your carer has not arrived within 10 minutes of your scheduled time, please call us on the office number and we will contact your carer and let you know when to expect them. We do ask our staff to call us if they are running late to enable us to notify our clients, but sometimes there is an emergency and they do not always have the chance to ring us."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I be sure that my care worker will stay the full period of the care visit and carry out all the tasks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We take a considered and comprehensive approach to ensuring that your care service is exactly what is required. After every visit, your carer will write the details of activities undertaken during the visit in the care plan notes (which is retained by the client). These care plan notes for each month are brought back to our office at the beginning of each new month, where they are checked. If you ever feel dissatisfied with the level of care you receive, you can get in touch with the care manager who can help address and resolve any issues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What about my personal security?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every member of the True Homecare team has been through a rigorous vetting procedure before they start working with us. In addition, all staff will always be in uniform and carry a personalised identification card which shows their name, photograph and signature."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What safeguards are in place?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "True Homecare is a preferred provider of the Stockport Council and Registered with the Care Quality Commission (CQC). These bodies set the minimum standards by which we operate, however in every case we seek to exceed these minimum standards by a significant margin. Both bodies have standards which set out how we should operate."
+          }
+        }
+      ]
+    }
+  ],
   "/services/companionship/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/companionship/#service",
+      "name": "Companionship Care At Home",
+      "serviceType": "Companionship Care At Home",
+      "description": "Professional companionship care across Stockport, Wilmslow & Cheshire. Person-centred emotional support to combat loneliness and keep loved ones active at home.",
+      "url": "https://www.truehomecare.co.uk/services/companionship/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1202,6 +1429,36 @@
   "/services/dementia-and-alzheimer-care/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/dementia-and-alzheimer-care/#service",
+      "name": "Dementia & Alzheimer's Care at Home",
+      "serviceType": "Dementia & Alzheimer's Care at Home",
+      "description": "CQC-rated dementia and Alzheimer's care at home across Stockport, Wilmslow & Cheshire. Specialist memory support, routine and safety. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/dementia-and-alzheimer-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/dementia-and-alzheimer-care/#faq",
       "mainEntity": [
@@ -1251,6 +1508,36 @@
   "/services/domiciliary-care/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/domiciliary-care/#service",
+      "name": "Domiciliary Care",
+      "serviceType": "Domiciliary Care",
+      "description": "CQC-rated domiciliary care across Stockport, Wilmslow & Cheshire. Personal care, medication, meals, mobility and companionship. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/domiciliary-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/domiciliary-care/#faq",
       "mainEntity": [
@@ -1290,6 +1577,36 @@
     }
   ],
   "/services/learning-disability-support/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/learning-disability-support/#service",
+      "name": "Learning Disability Support",
+      "serviceType": "Learning Disability Support",
+      "description": "CQC-rated learning disability support across Stockport, Wilmslow & Cheshire. Person-centred help with daily living and autism support. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/learning-disability-support/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1341,6 +1658,36 @@
   "/services/live-in-care/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/live-in-care/#service",
+      "name": "24 Hour Live-in Care",
+      "serviceType": "24 Hour Live-in Care",
+      "description": "Premium 24-hour live-in care across Stockport, Wilmslow & Cheshire. One-to-one CQC-rated support that keeps loved ones safe and independent. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/live-in-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/live-in-care/#faq",
       "mainEntity": [
@@ -1387,7 +1734,84 @@
       ]
     }
   ],
+  "/services/elderly-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/elderly-care/#service",
+      "name": "Private Elderly Care at Home",
+      "serviceType": "Private Elderly Care at Home",
+      "description": "True Homecare provides compassionate elderly care at home across Stockport, Wilmslow and Cheshire, supporting independence, dignity and wellbeing every day.",
+      "url": "https://www.truehomecare.co.uk/services/elderly-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/elderly-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the cost of elderly care at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costs vary based on the frequency of visits and the level of clinical support required. We offer flexible pricing, ranging from hourly visits for companionship to fixed weekly rates for 24-hour live-in care. We provide a transparent quote following your free initial assessment."
+          }
+        }
+      ]
+    }
+  ],
   "/services/disability-home-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/disability-home-care/#service",
+      "name": "Disability Homecare",
+      "serviceType": "Disability Homecare",
+      "description": "CQC-rated disability home care across Greater Manchester & Cheshire. Specialist support for MS, cerebral palsy and complex needs. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/disability-home-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1439,6 +1863,36 @@
   "/services/after-hospital-care/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/after-hospital-care/#service",
+      "name": "After-Hospital Care at Home",
+      "serviceType": "After-Hospital Care at Home",
+      "description": "CQC-rated after-hospital and post-discharge care across Greater Manchester & Cheshire. Safe home recovery and readmission prevention. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/after-hospital-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/after-hospital-care/#faq",
       "mainEntity": [
@@ -1486,6 +1940,36 @@
     }
   ],
   "/services/stroke-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/stroke-care/#service",
+      "name": "Stroke Care",
+      "serviceType": "Stroke Care",
+      "description": "CQC-rated stroke care and rehabilitation at home across Stockport, Wilmslow & Cheshire. Clinical support for mobility, speech and recovery. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/stroke-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1537,6 +2021,36 @@
   "/services/reablement-services/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/reablement-services/#service",
+      "name": "Reablement Services at Home",
+      "serviceType": "Reablement Services at Home",
+      "description": "CQC-rated reablement and hospital-to-home support across Greater Manchester & Cheshire. Short-term recovery that rebuilds independence. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/reablement-services/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/reablement-services/#faq",
       "mainEntity": [
@@ -1583,7 +2097,131 @@
       ]
     }
   ],
+  "/services/private-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/private-care/#service",
+      "name": "Private Care at Home",
+      "serviceType": "Private Care at Home",
+      "description": "Explore personalized home care solutions by True Homecare. Ensure comfort and independence at home for your loved ones.",
+      "url": "https://www.truehomecare.co.uk/services/private-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/private-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your care plans customizable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every client receives a personalized care plan tailored to their unique needs, preferences, and health conditions. We believe in flexible, client-centered care."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/physical-disability-support/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/physical-disability-support/#service",
+      "name": "Physical Disability Support",
+      "serviceType": "Physical Disability Support",
+      "description": "Tailored physical disability support services for independent living. True Homecare provides professional assistance to help you thrive in your own home.",
+      "url": "https://www.truehomecare.co.uk/services/physical-disability-support/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/physical-disability-support/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your care plans customizable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every client receives a personalized care plan tailored to their unique needs, preferences, and health conditions. We believe in flexible, client-centered care."
+          }
+        }
+      ]
+    }
+  ],
   "/services/personal-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/personal-care/#service",
+      "name": "Personal Care",
+      "serviceType": "Personal Care",
+      "description": "Discover True Homecare's at-home personal care services, designed to enhance independence and comfort. Tailor your care plan with us today!",
+      "url": "https://www.truehomecare.co.uk/services/personal-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1635,6 +2273,36 @@
   "/services/parkinsons-care/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/parkinsons-care/#service",
+      "name": "Parkinson's Care at Home",
+      "serviceType": "Parkinson's Care at Home",
+      "description": "CQC-rated Parkinson's care at home across Stockport, Wilmslow & Cheshire. Specialist neurological support with time-critical medication. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/parkinsons-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/parkinsons-care/#faq",
       "mainEntity": [
@@ -1681,7 +2349,139 @@
       ]
     }
   ],
+  "/services/palliative-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/palliative-care/#service",
+      "name": "Palliative Care at Home",
+      "serviceType": "Palliative Care at Home",
+      "description": "Experience the expert in-home palliative care focusing on comfort, dignity, and family support for improved quality of life.",
+      "url": "https://www.truehomecare.co.uk/services/palliative-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/palliative-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is Palliative Care Important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palliative care is a specialized approach that focuses on providing relief from the symptoms, pain, and stress often associated with serious illnesses. This service aims to improve the quality of life for our clients and their families by addressing and fulfilling their physical, emotional, and spiritual needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your care plans customizable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every client receives a personalized care plan tailored to their unique needs, preferences, and health conditions. We believe in flexible, client-centered care."
+          }
+        }
+      ]
+    }
+  ],
+  "/services/overnight-care/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/overnight-care/#service",
+      "name": "Overnight Care Services",
+      "serviceType": "Overnight Care Services",
+      "description": "Ensure safety and comfort at night with True Homecare's expert overnight care. Professional, compassionate support for your loved ones across Stockport.",
+      "url": "https://www.truehomecare.co.uk/services/overnight-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/services/overnight-care/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your care plans customizable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every client receives a personalized care plan tailored to their unique needs, preferences, and health conditions. We believe in flexible, client-centered care."
+          }
+        }
+      ]
+    }
+  ],
   "/services/long-term-condition-support/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/long-term-condition-support/#service",
+      "name": "Long-Term Care at Home",
+      "serviceType": "Long-Term Care at Home",
+      "description": "CQC-rated long-term condition support at home across Stockport, Wilmslow & Cheshire. Clinical care for Parkinson's and chronic conditions. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/long-term-condition-support/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1733,6 +2533,36 @@
   "/services/respite-care/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/respite-care/#service",
+      "name": "Respite Care at Home",
+      "serviceType": "Respite Care at Home",
+      "description": "CQC-rated respite care at home across Stockport, Wilmslow & Cheshire. Reliable short-term and 24-hour cover so family carers can rest. Call 0161 428 1989.",
+      "url": "https://www.truehomecare.co.uk/services/respite-care/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/respite-care/#faq",
       "mainEntity": [
@@ -1782,6 +2612,36 @@
   "/services/short-breaks/": [
     {
       "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.truehomecare.co.uk/services/short-breaks/#service",
+      "name": "Short Break Care at Home",
+      "serviceType": "Short Break Care at Home",
+      "description": "Need a break? True Homecare offers flexible short break care in Stockport, from respite to overnight care. Trusted, personalised support for carers.",
+      "url": "https://www.truehomecare.co.uk/services/short-breaks/",
+      "provider": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Stockport"
+        },
+        {
+          "@type": "Place",
+          "name": "Wilmslow"
+        },
+        {
+          "@type": "Place",
+          "name": "Cheshire East"
+        },
+        {
+          "@type": "Place",
+          "name": "Greater Manchester"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": "https://www.truehomecare.co.uk/services/short-breaks/#faq",
       "mainEntity": [
@@ -1828,6 +2688,1306 @@
       ]
     }
   ],
+  "/locations/stockport/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/stockport/#localbusiness",
+      "name": "True Homecare — Stockport",
+      "url": "https://www.truehomecare.co.uk/locations/stockport/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Stockport is your professional In-Home care and Live-in care service provider in Stockport , North West England. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Stockport"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/stockport/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/bramhall/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/bramhall/#localbusiness",
+      "name": "True Homecare — Bramhall",
+      "url": "https://www.truehomecare.co.uk/locations/bramhall/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Bramhall is your professional In-Home care and Live-in care service provider in Bramhall , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Bramhall"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/bramhall/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/cheadle/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/cheadle/#localbusiness",
+      "name": "True Homecare — Cheadle",
+      "url": "https://www.truehomecare.co.uk/locations/cheadle/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Cheadle is your professional In-Home care and Live-in care service provider in Cheadle , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Cheadle"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/cheadle/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/gatley/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/gatley/#localbusiness",
+      "name": "True Homecare — Gatley",
+      "url": "https://www.truehomecare.co.uk/locations/gatley/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Gatley is your professional In-Home care and Live-in care service provider in Gatley , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Gatley"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/gatley/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/heald-green/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/heald-green/#localbusiness",
+      "name": "True Homecare — Heald Green",
+      "url": "https://www.truehomecare.co.uk/locations/heald-green/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Heald Green is your professional In-Home care and Live-in care service provider in Heald Green , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Heald Green"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/heald-green/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/cheadle-hulme/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/cheadle-hulme/#localbusiness",
+      "name": "True Homecare — Cheadle Hulme",
+      "url": "https://www.truehomecare.co.uk/locations/cheadle-hulme/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Cheadle Hulme is your professional In-Home care and Live-in care service provider in Cheadle Hulme , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Cheadle Hulme"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/cheadle-hulme/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/heaton-moor/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/heaton-moor/#localbusiness",
+      "name": "True Homecare — Heaton Moor",
+      "url": "https://www.truehomecare.co.uk/locations/heaton-moor/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Heaton Moor is your professional In-Home care and Live-in care service provider in Heaton Moor , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Heaton Moor"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/heaton-moor/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/hazel-grove/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/hazel-grove/#localbusiness",
+      "name": "True Homecare — Hazel Grove",
+      "url": "https://www.truehomecare.co.uk/locations/hazel-grove/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Hazel Grove is your professional In-Home care and Live-in care service provider in Hazel Grove , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Hazel Grove"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/hazel-grove/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/reddish/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/reddish/#localbusiness",
+      "name": "True Homecare — Reddish",
+      "url": "https://www.truehomecare.co.uk/locations/reddish/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Reddish is your professional In-Home care and Live-in care service provider in Reddish , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Reddish"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/reddish/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/marple/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/marple/#localbusiness",
+      "name": "True Homecare — Marple",
+      "url": "https://www.truehomecare.co.uk/locations/marple/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Marple is your professional In-Home care and Live-in care service provider in Marple , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Marple"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/marple/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/romiley/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/romiley/#localbusiness",
+      "name": "True Homecare — Romiley",
+      "url": "https://www.truehomecare.co.uk/locations/romiley/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Romiley is your professional In-Home care and Live-in care service provider in Romiley , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Romiley"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/romiley/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/edgeley/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/edgeley/#localbusiness",
+      "name": "True Homecare — Edgeley",
+      "url": "https://www.truehomecare.co.uk/locations/edgeley/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Edgeley is your professional In-Home care and Live-in care service provider in Edgeley , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Edgeley"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/edgeley/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/brinnington/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/brinnington/#localbusiness",
+      "name": "True Homecare — Brinnington",
+      "url": "https://www.truehomecare.co.uk/locations/brinnington/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Brinnington is your professional In-Home care and Live-in care service provider in Brinnington , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Brinnington"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/brinnington/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/cale-green/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/cale-green/#localbusiness",
+      "name": "True Homecare — Cale Green",
+      "url": "https://www.truehomecare.co.uk/locations/cale-green/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Cale Green is your professional In-Home care and Live-in care service provider in Cale Green , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Cale Green"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/cale-green/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/cheadle-heath/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/cheadle-heath/#localbusiness",
+      "name": "True Homecare — Cheadle Heath",
+      "url": "https://www.truehomecare.co.uk/locations/cheadle-heath/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Cheadle Heath is your professional In-Home care and Live-in care service provider in Cheadle Heath , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Cheadle Heath"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/cheadle-heath/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/davenport/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/davenport/#localbusiness",
+      "name": "True Homecare — Davenport",
+      "url": "https://www.truehomecare.co.uk/locations/davenport/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Davenport is your professional In-Home care and Live-in care service provider in Davenport , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Davenport"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/davenport/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/greater-cheshire-east/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/greater-cheshire-east/#localbusiness",
+      "name": "True Homecare — Greater Cheshire East",
+      "url": "https://www.truehomecare.co.uk/locations/greater-cheshire-east/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Greater Cheshire East provides professional in-home care and live-in care across Greater Cheshire East. Experience top-notch care at home.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Greater Cheshire East"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/greater-cheshire-east/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/heaton-mersey/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/heaton-mersey/#localbusiness",
+      "name": "True Homecare — Heaton Mersey",
+      "url": "https://www.truehomecare.co.uk/locations/heaton-mersey/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Heaton Mersey is your professional In-Home care and Live-in care service provider in Heaton Mersey , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Heaton Mersey"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/heaton-mersey/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/heaton-norris/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/heaton-norris/#localbusiness",
+      "name": "True Homecare — Heaton Norris",
+      "url": "https://www.truehomecare.co.uk/locations/heaton-norris/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Heaton Norris is your professional In-Home care and Live-in care service provider in Heaton Norris , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Heaton Norris"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/heaton-norris/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/offerton/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/offerton/#localbusiness",
+      "name": "True Homecare — Offerton",
+      "url": "https://www.truehomecare.co.uk/locations/offerton/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Offerton is your professional In-Home care and Live-in care service provider in Offerton , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Offerton"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/offerton/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/greater-manchester/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/greater-manchester/#localbusiness",
+      "name": "True Homecare — Greater Manchester",
+      "url": "https://www.truehomecare.co.uk/locations/greater-manchester/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Greater Manchester provides professional in-home care and live-in care across Greater Manchester. Experience top-notch care at home.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Greater Manchester"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/greater-manchester/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/adswood/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/adswood/#localbusiness",
+      "name": "True Homecare — Adswood",
+      "url": "https://www.truehomecare.co.uk/locations/adswood/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Adswood is your professional In-Home care and Live-in care service provider in Adswood , Stockport. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Adswood"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/adswood/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/cheshire/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/cheshire/#localbusiness",
+      "name": "True Homecare — Cheshire",
+      "url": "https://www.truehomecare.co.uk/locations/cheshire/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Cheshire is your professional In-Home care and Live-in care service provider in Cheshire Cheshire, Cheshire East. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Cheshire"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/cheshire/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/cheshire/macclesfield/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/cheshire/macclesfield/#localbusiness",
+      "name": "True Homecare — Macclesfield",
+      "url": "https://www.truehomecare.co.uk/locations/cheshire/macclesfield/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Macclesfield provides professional in-home care and live-in care across Macclesfield, Cheshire East. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Macclesfield"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/cheshire/macclesfield/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/cheshire/poynton/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/cheshire/poynton/#localbusiness",
+      "name": "True Homecare — Poynton",
+      "url": "https://www.truehomecare.co.uk/locations/cheshire/poynton/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Poynton is your professional In-Home care and Live-in care service provider in Poynton Cheshire, Cheshire East. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Poynton"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/cheshire/poynton/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
+  "/locations/cheshire/wilmslow/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.truehomecare.co.uk/locations/cheshire/wilmslow/#localbusiness",
+      "name": "True Homecare — Wilmslow",
+      "url": "https://www.truehomecare.co.uk/locations/cheshire/wilmslow/",
+      "telephone": "+44 161 428 1989",
+      "image": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "logo": "https://www.truehomecare.co.uk/images/2025-08-truehomecare-logo-1.png",
+      "priceRange": "££",
+      "description": "True Homecare Wilmslow is your professional In-Home care and Live-in care service provider in Wilmslow Cheshire, Cheshire East. Experience top-notch care.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "addressCountry": "GB"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Wilmslow"
+      },
+      "parentOrganization": {
+        "@id": "https://www.truehomecare.co.uk/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/locations/cheshire/wilmslow/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your carers trained and DBS-checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every member of our team is fully trained, insured, and enhanced DBS-checked. We only choose carers who share our values of respect, reliability, and genuine compassion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I choose the type of care and how often it’s provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Every care plan is tailored to your needs — whether it’s a few hours of help each week, daily support, or round-the-clock care. You stay in control, and we’re here to adapt as your needs change."
+          }
+        }
+      ]
+    }
+  ],
   "/blog/loneliness-in-older-people/": [
     {
       "@context": "https://schema.org",
@@ -1847,6 +4007,53 @@
       "datePublished": "2026-09-02",
       "dateModified": "2026-09-02",
       "image": "https://www.truehomecare.co.uk/images/blog-loneliness-1.jpg"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/blog/loneliness-in-older-people/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is loneliness in older people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Loneliness in older people is a feeling of lacking meaningful social connection. It is different from simply spending time alone because some people are comfortable with solitude. Others may feel lonely despite regularly seeing family or friends. Companionship can provide regular conversation and social interaction based on the person's preferences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are common signs of elderly loneliness?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common signs can include withdrawal from activities, reduced conversation and losing interest in hobbies. These changes can have other causes, so families should avoid making assumptions. Talking to the person can help identify what has changed. Their answers can then guide the type of support they may need."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can a companion for elderly clients help?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A companion can provide conversation, emotional support and assistance with social activities. Depending on the client's preferences, this may include walks, shopping, visiting friends, watching films or attending appointments. The client remains involved in choosing how they spend their time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is social isolation in elderly people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Social isolation generally means having limited contact with other people. Loneliness describes how a person feels about their social connections. Someone can experience social isolation without feeling lonely, while another person can feel lonely despite having regular contact with others. Support should therefore focus on meaningful relationships and activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can companionship be combined with home care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, companionship can be provided alongside wider home care services. A client may receive companionship with personal care, domiciliary care, dementia support, stroke care, long-term condition support or respite. The arrangement should reflect the person's individual needs and agreed care plan."
+          }
+        }
+      ]
     }
   ],
   "/blog/malnutrition-in-adults/": [
@@ -1868,6 +4075,61 @@
       "datePublished": "2026-09-02",
       "dateModified": "2026-09-02",
       "image": "https://www.truehomecare.co.uk/images/blog-malnutrition-1.jpg"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/blog/malnutrition-in-adults/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are adult malnutrition symptoms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adult malnutrition symptoms can include unintentional weight loss, reduced appetite, weakness, tiredness and a reduced interest in food or drink. Some people may also experience poor concentration, frequent illness or slow recovery. These symptoms can have different causes, so they should not automatically be attributed to malnutrition. Speak to a GP if you are concerned about changes in eating or weight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does malnutrition for elderly people look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malnutrition for elderly people may appear as gradual weight loss, reduced appetite, weakness or persistent tiredness. A person may also leave meals unfinished, struggle to prepare food or have difficulty eating. Someone does not necessarily have to look underweight to have poor nutritional intake. Changes should be considered alongside the person's normal eating and daily routine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is most at risk of malnutrition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "People may have a higher risk when they have poor appetite, difficulty shopping or preparing food, chewing or swallowing problems, reduced mobility or cognitive changes. Social isolation and low mood can also affect regular eating. Long-term health conditions may create additional difficulties around food and daily routines. A healthcare professional can assess individual risk and recommend appropriate support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can someone be malnourished at a healthy weight?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, someone can have poor nutritional intake without appearing underweight. Body weight alone does not provide a complete picture of nutritional status. A person may not be receiving enough energy or important nutrients despite having a healthy or higher body weight. Unintentional weight changes and other symptoms should therefore be considered together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are malnutrition signs that families should watch for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Important malnutrition signs include unexplained weight loss, reduced appetite, weakness and tiredness. Families may also notice changes in eating ability, poor concentration, slow recovery or a loss of interest in food. One sign does not necessarily confirm malnutrition. If several changes appear together, discussing them with a GP is sensible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can families support someone with eating difficulties?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Families can make mealtimes comfortable, observe changes in eating patterns and seek professional advice when concerns continue. They should avoid assuming that poor appetite is simply part of getting older. If practical tasks have become difficult, home care may provide assistance with meal preparation and everyday routines. This can also give family members respite while the client remains at home."
+          }
+        }
+      ]
     }
   ],
   "/blog/female-bone-density-chart-by-age/": [
@@ -1889,6 +4151,69 @@
       "datePublished": "2026-09-02",
       "dateModified": "2026-09-02",
       "image": "https://www.truehomecare.co.uk/images/blog-bone-density-1.jpg"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.truehomecare.co.uk/blog/female-bone-density-chart-by-age/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a normal bone density for a woman by age?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single bone density value that is normal for every woman in a particular age group. Bone density changes naturally throughout life and is influenced by genetics, hormones, lifestyle and health conditions. DXA results are interpreted using established scoring systems rather than a simple age-based number. If you have concerns about your result, discuss it with your GP or healthcare professional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can osteoporosis occur before the age of 65?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, osteoporosis can occur before 65, although the risk generally increases with age. Factors such as early menopause, previous fragility fractures, low body weight, family history, certain medicines and some health conditions can increase risk. Women under 65 with significant risk factors may therefore require individual assessment. Age alone should not be used to rule osteoporosis in or out."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I increase bone mass naturally?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can support bone health through adequate nutrition, weight-bearing activity, resistance exercise, healthy body weight and sensible lifestyle choices. Calcium and vitamin D are important for normal bone health, while physical activity supports both bones and muscles. Avoiding smoking and limiting excessive alcohol can also reduce preventable risks. Your approach should be adapted to your health and mobility needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I check my bone density at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no home method that can replace a clinical DXA assessment. Home scales may estimate body composition, but their bone-related readings should not be treated as a diagnosis of osteoporosis. Online calculators can help identify possible risk factors but cannot measure bone mineral density. If you are concerned about your bones, speak with your GP or another healthcare professional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can home care help someone living with osteoporosis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, home care can support clients who need help maintaining safe and independent routines. Support may include personal care, mobility assistance, meal preparation, companionship and help with daily activities. Family members can also receive respite while the client receives professional support. True Homecare can tailor care around individual needs and provide emotional support as well as practical assistance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Osteoporosis Prevalent in the Under 65s?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, osteoporosis can affect women under 65, although the risk generally increases with age. Factors such as early menopause, family history, low body weight, previous fractures, certain medicines and some health conditions can increase the risk. If you have one or more risk factors, speak with your GP about whether a bone health assessment is appropriate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can You Check Bone Density at Home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is currently no reliable home method that can replace a clinical bone density assessment. Smart scales and online calculators may provide general estimates, but they cannot diagnose osteoporosis. A DXA scan is used to measure bone mineral density when assessment is recommended. If you are concerned about your bone health or receive an unusual reading from a home device, discuss it with your GP."
+          }
+        }
+      ]
     }
   ]
 }
