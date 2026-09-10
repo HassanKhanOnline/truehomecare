@@ -391,6 +391,3 @@ section.block-image-gallery-slider-trf .container { align-items: flex-start !imp
 .thc-thumb.is-active{border-color:#266751}
 .thc-thumb:hover{border-color:#7fae9b}
 @media(max-width:767.98px){.thc-gallery-main img{height:280px}.thc-gallery-thumbs{gap:8px}}
-/* This section's .container defaults to display:flex (theme), which collapses the
-   gallery. Force it to block so heading + gallery stack full width. */
-section.block-image-gallery-slider-trf > .container{display:block !important}
