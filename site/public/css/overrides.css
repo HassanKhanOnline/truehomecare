@@ -432,3 +432,8 @@ section.block-image-gallery-slider-trf .thc-gallery-nav .slick-disabled{ opacity
 /* Fit the preview column snugly and align the heading with the gallery grid. */
 section.block-image-gallery-slider-trf > .container{ grid-template-columns:1fr 420px; }
 section.block-image-gallery-slider-trf > .container > .row:first-child > [class*="col-"]{ padding-left:0 !important; }
+/* The thumbnail slider row itself was collapsing to its content width; force it
+   to fill the left column so Slick's setPosition computes full-width slides. */
+section.block-image-gallery-slider-trf .thc-gallery-left{ width:100% !important; }
+section.block-image-gallery-slider-trf .thc-gallery-left > .block-image-gallery-slider-thumb{ width:100% !important; max-width:100% !important; display:block !important; }
+section.block-image-gallery-slider-trf .thc-gallery-left .slick-list{ width:100% !important; }
