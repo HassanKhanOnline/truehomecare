@@ -404,20 +404,22 @@ section.block-image-gallery-slider-trf .block-image-gallery-slider-thumb .slick-
 }
 
 /* Moderate RIGHT preview (bigger than thumbs, not oversized, contained) */
-section.block-image-gallery-slider-trf .block-image-gallery-slider-content{ overflow:hidden; border-radius:12px; }
+section.block-image-gallery-slider-trf .block-image-gallery-slider-content{ overflow:hidden; border-radius:12px; position:relative; }
 section.block-image-gallery-slider-trf .block-image-gallery-slider-content .ba-gallery-wrap{ padding:0 !important; margin:0 !important; max-width:none !important; }
 section.block-image-gallery-slider-trf .block-image-gallery-slider-content .img-fluid,
 section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide img{
   width:100% !important; height:330px !important; object-fit:cover !important; max-width:100% !important; margin:0 !important; display:block;
 }
-/* On desktop, stretch the preview to the full height of the left column so its TOP
-   aligns with the heading and its BOTTOM with the arrows. Force height:100% down the
-   whole Slick chain so the image fills the stretched column. Mobile keeps the fixed
-   height set above / in the max-width:900px block. */
+/* On desktop, the preview cell (which spans the head+left rows) is stretched by the
+   grid to the full left-column height, so its TOP aligns with the heading and its
+   BOTTOM with the arrows. The Slick list is taken out of flow (absolute, inset:0) so
+   its own intrinsic height does NOT inflate the grid rows — the cell height is driven
+   purely by the left column, and the image simply fills it. Mobile (<=900px) keeps
+   the in-flow fixed height set above / in the max-width:900px block. */
 @media(min-width:901px){
-  section.block-image-gallery-slider-trf .block-image-gallery-slider-content,
-  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slider,
-  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-list,
+  section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-list{
+    position:absolute !important; inset:0 !important; width:100% !important; height:100% !important;
+  }
   section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-track,
   section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide,
   section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide > div,
