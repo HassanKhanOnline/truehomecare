@@ -452,6 +452,9 @@ section.block-image-gallery-slider-trf .thc-gallery-nav .slick-disabled{ opacity
 @media(max-width:900px){
   section.block-image-gallery-slider-trf > .container{ grid-template-columns:1fr; grid-template-areas:"colleft" "preview"; }
   section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide img{ height:260px !important; }
+  /* The theme hides the thumbnail strip on phones and the preview is swipeable, so
+     the moved prev/next arrows would sit orphaned above the image — hide them here. */
+  section.block-image-gallery-slider-trf .thc-gallery-nav{ display:none !important; }
 }
 
 /* Fit the preview column snugly and align the heading with the gallery grid.
