@@ -436,4 +436,10 @@ section.block-image-gallery-slider-trf > .container > .row:first-child > [class*
    to fill the left column so Slick's setPosition computes full-width slides. */
 section.block-image-gallery-slider-trf .thc-gallery-left{ width:100% !important; }
 section.block-image-gallery-slider-trf .thc-gallery-left > .block-image-gallery-slider-thumb{ width:100% !important; max-width:100% !important; display:block !important; }
+/* The theme gives the thumb row a -155px BOTTOM margin (left over from the old
+   overlapping-slider design), plus asymmetric side margins. That negative margin
+   pulled the nav row up on top of the thumbnails and collapsed the left column's
+   height. Neutralise the margins so the thumbnails contribute their full height and
+   the nav row sits cleanly below them. */
+section.block-image-gallery-slider-trf .thc-gallery-left > .block-image-gallery-slider-thumb{ margin:0 !important; }
 section.block-image-gallery-slider-trf .thc-gallery-left .slick-list{ width:100% !important; }
