@@ -380,3 +380,14 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
    a small gap and top-align the images so they sit close under the intro text. */
 section.block-image-gallery-slider-trf .container > .row:first-child { margin-bottom: 22px !important; }
 section.block-image-gallery-slider-trf .container { align-items: flex-start !important; }
+
+/* Location gallery: uniform main image with a thumbnail row below (click to swap). */
+.thc-gallery{max-width:860px;margin:26px auto 0}
+.thc-gallery-main{border-radius:14px;overflow:hidden;background:#eef2f0}
+.thc-gallery-main img{width:100%;height:440px;object-fit:cover;display:block}
+.thc-gallery-thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px}
+.thc-thumb{border:2px solid transparent;border-radius:10px;overflow:hidden;padding:0;cursor:pointer;background:none;aspect-ratio:4/3;line-height:0}
+.thc-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thc-thumb.is-active{border-color:#266751}
+.thc-thumb:hover{border-color:#7fae9b}
+@media(max-width:767.98px){.thc-gallery-main img{height:280px}.thc-gallery-thumbs{gap:8px}}
