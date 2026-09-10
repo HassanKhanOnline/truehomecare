@@ -233,17 +233,30 @@
       }
     }
 
-    // 7b) Gallery layout: wrap the thumbnail slider and move the preview slider's
-    //     prev/next arrows into their own row BELOW the thumbnails, so the arrows
-    //     get their own space and never overlap the images.
+    // 7b) Gallery layout: build a single LEFT column holding the heading, the
+    //     thumbnail slider and (below it) the preview slider's prev/next arrows,
+    //     leaving the big preview image as the RIGHT column. This lets the preview
+    //     top align with the heading top. The preview's height is then synced to the
+    //     left column in JS (Slick's percentage-height chain won't resolve reliably).
     var galSec = document.querySelector('.block-image-gallery-slider-trf');
-    if (galSec && !galSec.querySelector('.thc-gallery-left')) {
+    if (galSec && !galSec.querySelector('.thc-gallery-col')) {
+      var gContainer = galSec.querySelector('.container');
       var gContent = galSec.querySelector('.block-image-gallery-slider-content');
       var gThumb = galSec.querySelector('.block-image-gallery-slider-thumb');
-      if (gContent && gThumb) {
+      if (gContainer && gContent && gThumb) {
+        // Heading row = the first container > .row that isn't a slider row.
+        var gHead = null;
+        var rows = gContainer.querySelectorAll(':scope > .row');
+        for (var ri = 0; ri < rows.length; ri++) {
+          if (rows[ri] !== gThumb && rows[ri] !== gContent) { gHead = rows[ri]; break; }
+        }
+        var col = document.createElement('div');
+        col.className = 'thc-gallery-col';
         var leftWrap = document.createElement('div');
         leftWrap.className = 'thc-gallery-left';
-        gThumb.parentNode.insertBefore(leftWrap, gThumb);
+        gContainer.insertBefore(col, gContainer.firstChild);
+        if (gHead) col.appendChild(gHead);   // heading + intro paragraph
+        col.appendChild(leftWrap);            // thumbnails …
         leftWrap.appendChild(gThumb);
         var gPrev = gContent.querySelector('.slick-prev');
         var gNext = gContent.querySelector('.slick-next');
@@ -252,8 +265,25 @@
           navWrap.className = 'thc-gallery-nav';
           navWrap.appendChild(gPrev);
           navWrap.appendChild(gNext);
-          leftWrap.appendChild(navWrap);
+          leftWrap.appendChild(navWrap);      // … then arrows below them
         }
+        // Match the preview's height to the left column (desktop only) so its top
+        // lines up with the heading and its bottom with the arrows.
+        var syncPreviewHeight = function () {
+          if (window.innerWidth < 901) {
+            gContent.style.height = '';
+          } else {
+            var h = Math.round(col.getBoundingClientRect().height);
+            if (h) gContent.style.height = h + 'px';
+          }
+          if (window.jQuery) { try { window.jQuery(gContent).slick('setPosition'); } catch (e) {} }
+        };
+        if (window.jQuery) window.jQuery('.block-image-gallery-slider-trf img').on('load', syncPreviewHeight);
+        window.addEventListener('load', syncPreviewHeight);
+        window.addEventListener('resize', syncPreviewHeight);
+        setTimeout(syncPreviewHeight, 400);
+        setTimeout(syncPreviewHeight, 1200);
+        setTimeout(syncPreviewHeight, 2600);
       }
     }
   });

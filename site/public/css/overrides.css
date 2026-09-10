@@ -386,13 +386,15 @@ section.block-image-gallery-slider-trf .container { align-items: flex-start !imp
 section.block-image-gallery-slider-trf > .container{
   display:grid !important;
   grid-template-columns:1.05fr 1fr;
-  grid-template-areas:"head preview" "left preview";
+  grid-template-areas:"colleft preview";
   gap:8px 36px;
-  align-items:start;
+  align-items:stretch;
 }
-section.block-image-gallery-slider-trf > .container > .row:first-child{ grid-area:head; margin:0 0 6px !important; }
+/* Left column wraps the heading, the thumbnail strip and the arrows. */
+section.block-image-gallery-slider-trf .thc-gallery-col{ grid-area:colleft; min-width:0; }
+section.block-image-gallery-slider-trf .thc-gallery-col > .row:first-child{ margin:0 0 6px !important; }
 section.block-image-gallery-slider-trf .ba-section-desc{ text-align:left !important; }
-section.block-image-gallery-slider-trf .thc-gallery-left{ grid-area:left; min-width:0; }
+section.block-image-gallery-slider-trf .thc-gallery-left{ min-width:0; }
 section.block-image-gallery-slider-trf > .container > .block-image-gallery-slider-content{ grid-area:preview; margin:0 !important; min-width:0; align-self:stretch; }
 
 /* Uniform LEFT thumbnails */
@@ -442,13 +444,13 @@ section.block-image-gallery-slider-trf .thc-gallery-nav .slick-arrow:hover:befor
 section.block-image-gallery-slider-trf .thc-gallery-nav .slick-disabled{ opacity:.4; cursor:default; }
 
 @media(max-width:900px){
-  section.block-image-gallery-slider-trf > .container{ grid-template-columns:1fr; grid-template-areas:"head" "preview" "left"; }
+  section.block-image-gallery-slider-trf > .container{ grid-template-columns:1fr; grid-template-areas:"colleft" "preview"; }
   section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide img{ height:260px !important; }
 }
 
 /* Fit the preview column snugly and align the heading with the gallery grid. */
 section.block-image-gallery-slider-trf > .container{ grid-template-columns:1fr 420px; }
-section.block-image-gallery-slider-trf > .container > .row:first-child > [class*="col-"]{ padding-left:0 !important; }
+section.block-image-gallery-slider-trf .thc-gallery-col > .row:first-child > [class*="col-"]{ padding-left:0 !important; }
 /* The thumbnail slider row itself was collapsing to its content width; force it
    to fill the left column so Slick's setPosition computes full-width slides. */
 section.block-image-gallery-slider-trf .thc-gallery-left{ width:100% !important; }
