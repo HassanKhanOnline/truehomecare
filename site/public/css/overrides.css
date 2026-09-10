@@ -454,8 +454,12 @@ section.block-image-gallery-slider-trf .thc-gallery-nav .slick-disabled{ opacity
   section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide img{ height:260px !important; }
 }
 
-/* Fit the preview column snugly and align the heading with the gallery grid. */
-section.block-image-gallery-slider-trf > .container{ grid-template-columns:1fr 420px; }
+/* Fit the preview column snugly and align the heading with the gallery grid.
+   Desktop-only: on mobile the container is a single column (set in the
+   max-width:900px block above); this 2-column override must not reach it. */
+@media(min-width:901px){
+  section.block-image-gallery-slider-trf > .container{ grid-template-columns:1fr 420px; }
+}
 section.block-image-gallery-slider-trf .thc-gallery-col > .row:first-child > [class*="col-"]{ padding-left:0 !important; }
 /* The thumbnail slider row itself was collapsing to its content width; force it
    to fill the left column so Slick's setPosition computes full-width slides. */
