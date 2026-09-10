@@ -429,11 +429,6 @@ section.block-image-gallery-slider-trf .thc-gallery-nav .slick-disabled{ opacity
   section.block-image-gallery-slider-trf .block-image-gallery-slider-content .slick-slide img{ height:260px !important; }
 }
 
-/* Force the thumbnail Slick track to a uniform 4-across flex row — Slick
-   miscalculates slide widths (~23px) because images lazy-load after init. */
-section.block-image-gallery-slider-trf .block-image-gallery-slider-thumb .slick-list{ width:100% !important; }
-section.block-image-gallery-slider-trf .block-image-gallery-slider-thumb .slick-track{ width:100% !important; min-width:100% !important; display:flex !important; transform:none !important; }
-section.block-image-gallery-slider-trf .block-image-gallery-slider-thumb .slick-slide{ width:25% !important; flex:0 0 25% !important; float:none !important; height:auto !important; }
 /* Fit the preview column snugly and align the heading with the gallery grid. */
 section.block-image-gallery-slider-trf > .container{ grid-template-columns:1fr 420px; }
 section.block-image-gallery-slider-trf > .container > .row:first-child > [class*="col-"]{ padding-left:0 !important; }

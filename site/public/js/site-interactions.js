@@ -219,6 +219,17 @@
             { breakpoint: 480, settings: { slidesToShow: 2 } }
           ]
         });
+        // Slick measures slide widths at init — before the (below-the-fold) images
+        // have loaded — so the track collapses to a few px. Recompute once the
+        // images load, on window load, and via a couple of fallback timers.
+        var refreshSlick = function () {
+          try { $content.slick('setPosition'); $thumb.slick('setPosition'); } catch (e) {}
+        };
+        window.jQuery('.block-image-gallery-slider-trf img').on('load', refreshSlick);
+        window.addEventListener('load', refreshSlick);
+        setTimeout(refreshSlick, 300);
+        setTimeout(refreshSlick, 1000);
+        setTimeout(refreshSlick, 2500);
       }
     }
 
