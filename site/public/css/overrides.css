@@ -392,7 +392,13 @@ section.block-image-gallery-slider-trf > .container{
 }
 /* Left column wraps the heading, the thumbnail strip and the arrows. */
 section.block-image-gallery-slider-trf .thc-gallery-col{ grid-area:colleft; min-width:0; }
-section.block-image-gallery-slider-trf .thc-gallery-col > .row:first-child{ margin:0 0 6px !important; }
+/* The theme forces the heading row to flex-basis/max-width calc(100% - 415px)
+   (~245px), which makes the title wrap into a very tall narrow block. Override to
+   full width so the heading fits on ~2 lines and the left column stays compact. */
+section.block-image-gallery-slider-trf .thc-gallery-col > .row:first-child{
+  margin:0 0 6px !important; flex:1 1 100% !important; max-width:100% !important; width:100% !important;
+}
+section.block-image-gallery-slider-trf .thc-gallery-col > .row:first-child > [class*="col-"]{ flex:1 1 100% !important; max-width:100% !important; }
 section.block-image-gallery-slider-trf .ba-section-desc{ text-align:left !important; }
 section.block-image-gallery-slider-trf .thc-gallery-left{ min-width:0; }
 section.block-image-gallery-slider-trf > .container > .block-image-gallery-slider-content{ grid-area:preview; margin:0 !important; min-width:0; align-self:stretch; }
