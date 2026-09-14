@@ -1,0 +1,39 @@
+---
+// Fallback "Thank you" page. The assessment form now shows its confirmation
+// inline (via forms.techvando.org form.js) and does NOT redirect here, so this
+// page is unlinked — it exists only so the historical /thank-you/ URL resolves
+// (bookmarks / old external links) instead of 404-ing. noindex: it should not
+// appear in search or the sitemap.
+const canonical = new URL('/thank-you/', Astro.site).href;
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, follow" />
+    <title>Thank You | True Homecare</title>
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/images/2024-04-cropped-truehomecare-logo-32x32.png" sizes="32x32" />
+    <style>
+      body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #14201c; background: #f0f0ef; }
+      .ty-wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+      .ty-card { background: #fff; border: 1px solid #e6ece9; border-radius: 16px; max-width: 560px; width: 100%; padding: 48px 40px; text-align: center; box-shadow: 0 12px 32px rgba(20, 40, 32, .08); }
+      .ty-card img { width: 220px; max-width: 70%; height: auto; margin: 0 auto 24px; display: block; }
+      .ty-card h1 { font-size: 28px; line-height: 1.2; margin: 0 0 12px; color: #266751; }
+      .ty-card p { font-size: 16px; line-height: 1.6; margin: 0 0 28px; color: #333; }
+      .ty-btn { display: inline-block; background: #266751; color: #fff; text-decoration: none; font-weight: 700; padding: 13px 26px; border-radius: 8px; transition: background .2s ease; }
+      .ty-btn:hover, .ty-btn:focus { background: #1d5340; }
+    </style>
+  </head>
+  <body>
+    <main class="ty-wrap">
+      <div class="ty-card">
+        <img src="/images/2025-08-truehomecare-logo-1.png" alt="True Homecare" />
+        <h1>Thank you</h1>
+        <p>We've received your details and will call you within one working day. If you need to speak to us sooner, call <a href="tel:01614281989">0161 428 1989</a>.</p>
+        <a class="ty-btn" href="/">Back to home</a>
+      </div>
+    </main>
+  </body>
+</html>

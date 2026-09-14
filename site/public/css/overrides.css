@@ -197,6 +197,13 @@ section.block-image-gallery-slider-trf .container .row.slider.block-image-galler
 .home .tv-assessment-form__sms a { color: #266751; text-decoration: underline; font-weight: 700; }
 .home .tv-assessment-form__submit { width: 100%; background: #266751; color: #fff; border: 0; border-radius: 0; padding: 13px 21px; font-size: 16px; font-weight: 700; cursor: pointer; margin-top: 6px; transition: 0.25s ease; }
 .home .tv-assessment-form__submit:hover, .home .tv-assessment-form__submit:focus { background: #1d5340; color: #fff; }
+/* Submit status message (set by forms.techvando.org form.js). Empty/hidden until
+   submit; success/error colours reuse the theme's Bootstrap tokens (--bs-success
+   #198754 / --bs-danger #dc3545) already defined on :root. */
+.tv-assessment-form__status { margin-top: 1rem; }
+.tv-assessment-form__status:empty { display: none; }
+.tv-assessment-form__status[data-cf-status="error"]   { color: var(--bs-danger); }
+.tv-assessment-form__status[data-cf-status="success"] { color: var(--bs-success); }
 
 /* ===== Mobile menu: hamburger on the right, drawer slides from the right ===== */
 @media (max-width: 767.98px) {
